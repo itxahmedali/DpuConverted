@@ -4168,7 +4168,7 @@ footer .ball {
     min-height: 100px;
   }
   .nine-section.img-div {
-    height: 100vh !important;
+    height: auto !important;
     padding: 0;
   }
   .contact-heading h1 {
@@ -4493,6 +4493,7 @@ footer .ball {
 .ball-section-content{
   margin: 0 15px;
 }
+
 }
 @media only screen and (max-width: 375px) {
   .contact-heading h1 {
