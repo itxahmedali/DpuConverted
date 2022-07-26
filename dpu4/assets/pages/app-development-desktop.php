@@ -95,13 +95,16 @@
               <div
                 class="col-lg-12 d-flex justify-content-center align-items-center"
               >
-                <button
+              <a href="javascript:void(0);">
+              <button type="button"
                   class="get-started wow bounceInUp"
                   data-wow-delay="0.5s"
                   data-wow-duration="1.5s"
                 >
                   BOOK A FREE CONSULTANCY
                 </button>
+              </a>
+               
               </div>
             </div>
           </div>
