@@ -1323,7 +1323,7 @@ text-align: center;
 }
 .services-faqs .h-1 {
   font-size: 2rem;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0) !important;
   font-family: "SFUIText-Bold";
   font-weight: 600;
   z-index: 100;
