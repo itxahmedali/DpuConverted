@@ -171,8 +171,11 @@ body {
   z-index: 1;
   font-size: 2rem;
   color: #fff;
-  font-family: SF-Reg;
+  font-family: SF-Reg !important;
   width: 50%;
+}
+.ecommercefourthSection p{
+  text-align: left !important;
 }
 .fourthSection .row:first-child p span,
 .ecommercefourthSection .row:first-child p span {
