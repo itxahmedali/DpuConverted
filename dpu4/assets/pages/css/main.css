@@ -3043,7 +3043,7 @@ footer .ball {
   font-family: "SFUIText-Regular";
   font-weight: 600;
   z-index: 100;
-  width:50%;
+  width:50% !important;
 }
 .banner::after{
   content: '';

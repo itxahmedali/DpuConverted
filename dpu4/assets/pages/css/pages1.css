@@ -259,6 +259,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 2rem;
+  width: auto !important;
 }
 .fiftSection .row .col-sm-4 .cstmHoverCard1:hover,
 .fiftSection .row .col-md-7 .cstmHoverCard1:hover,
@@ -405,11 +406,15 @@ body {
 }
 /* ecommerce page */
 .eccomercePage .banner {
-  background: url(../../images/ai2assets/1x/ecommercebanner1.png);
+  background-size: cover !important;
+  background: url(../../images/ai2assets/1x/ecommercebanner1.png) !important;
 }
 .eccomercePage .banner::after {
   background: url(../../images/1x/businessHeader2.png);
   opacity: 0.9;
+}
+.eccomercePage .banner::before{
+  content: unset !important;
 }
 .eccomercePage .banner p,
 .contentWritePage .banner p {
@@ -1533,7 +1538,8 @@ body {
 .fourthSection .cstmCard,
 .ecommercefourthSection .cstmCard {
   width: 30%;
-  background: linear-gradient(to right, #ffffff1c, #ffffffba);
+  background: linear-gradient(to right, #ffffff1c, #ffffffba) !important;
+  border: none !important;
   padding: 4rem 2rem;
   margin: 10px;
   min-height: 480px;
@@ -1704,7 +1710,7 @@ body {
   font-family: "SFUIText-Bold";
   font-weight: 600;
   z-index: 100;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
 }
 .aboutus-range-slider{
   background-color: #000;
@@ -1805,8 +1811,8 @@ body {
 }
 .h-5 {
   /* background-color: rgb(29, 67, 235); */
-  font-size: 1rem;
-  color: rgb(255, 255, 255);
+  font-size: 1rem !important;
+  color: rgb(255, 255, 255) !important;
   font-family: "SFUIText-Bold";
 }
 .range-name-about{
@@ -2207,6 +2213,7 @@ body {
 .contentWritePage .ecommercefourthSection .cstmCard {
   min-height: 450px;
   background: linear-gradient(to right, #ffffff1a, #ffffff6b);
+  border: none !important;
 }
 .contentWritePage
   .ecommercefiftSection

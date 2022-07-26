@@ -1818,12 +1818,12 @@ body {
   background: url('../../images/ai2assets/1x/businessHeader3.png') !important;
 }
 
-.cntctPg .contactUsPage .banner::before {
+.cntctPg .contactUsPage .banner::after {
   background: url(../../images/ai2assets/1x/businessHeader1.png) !important;
 }
 
-.cntctPg .contactUsPage .banner::after {
-  background: #000000bd;
+.cntctPg .contactUsPage .banner::before {
+  background: #000000bd !important;
 }
 
 .cntctPg .contactUsPage .banner h1 span {
