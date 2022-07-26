@@ -590,12 +590,14 @@ body {
 
 
 /* <!-- =============== WEB-APP BANNER ================================== --> */
-.web-app-banner1 {
+.web-app-banner1.banner {
   background-image: url("../../../assets/images/1x/bg-web1.png");
 }
-
-.web-app-banner1 h1 {
-  width: 70%;
+.web-app-banner1.banner::after{
+  content: unset !important;
+}
+.web-app-banner1.banner h1 {
+  width: 70% !important;
 }
 
 /* <!-- =============== Web App for Company ================================== --> */
@@ -1904,7 +1906,8 @@ body {
 .flutterPage .choose-flutter .h-5,
 .flutterPage .dpu-flutter .h-1,
 .flutterPage .dpu-flutter .h-5,
-.idea-sec .h-1{
+.idea-sec .h-1,
+.web-app-service .h-1{
   color: #000 !important;
 }
 .flutterPage .choose-flutter .h-5,
@@ -1913,6 +1916,16 @@ body {
 }
 .choose-native .h-5{
   font-size: 1.8rem !important;
+}
+.web-app-faqs .faqSection .accordion-item{
+  box-shadow: unset !important;
+}
+.web-app-faqs .accordion-header .button-strong{
+  padding: 10px !important;
+  margin: 0;
+}
+.web-app-faqs .accordion-button:not(.collapsed){
+  background-color: #d6d7d8 !important;
 }
 /*======================= Media Queries  =====================*/
 /* ================= Min Media Queries============================= */
