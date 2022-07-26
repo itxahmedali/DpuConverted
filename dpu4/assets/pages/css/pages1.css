@@ -1148,6 +1148,10 @@ body {
   .nine-section {
     padding: 0;
   }
+  .crm-software-comp .mvp-col-1 .triangle-1 img{
+    object-fit: contain !important;
+    object-position: center !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   .fourrem {
