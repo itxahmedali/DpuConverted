@@ -1819,7 +1819,9 @@ text-align: center;
 .aaa{
   z-index: 2;
 }
-
+.businessTreading .cstmCard p{
+  text-align: left;
+}
 /*  */
 
 /* animation */
