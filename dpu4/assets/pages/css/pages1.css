@@ -2375,8 +2375,11 @@ body {
   background: url(../../images/ai2assets/1x/react-dev-banner-2.png);
 }
 .react-dev .secondSection .fourrem {
-  color: #fff;
+  color: #fff !important;
   width: 80%;
+}
+.contentWritePage .fourthSection .row:first-child p{
+  padding-top: unset !important;
 }
 .contentWritePage.react-dev .secondSection p:nth-child(3) {
   font-family: SFUIText-Bold;

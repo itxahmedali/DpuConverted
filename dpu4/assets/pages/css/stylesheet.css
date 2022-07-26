@@ -873,7 +873,7 @@ body {
 
 .faqSection .col-lg-12 p:first-child,
 .react-dev .secondSection .fourrem {
-  font-family: SFUIText-Bold;
+  font-family: SFUIText-Bold !important;
   color: #000;
   text-align: center;
   font-size: 3rem;

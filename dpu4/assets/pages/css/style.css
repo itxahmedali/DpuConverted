@@ -1010,7 +1010,9 @@ body {
   width: 50%;
   text-align: center;
 }
-
+.solutions .head-1{
+  color: #000 !important;
+}
 .bold-head1 {
   font-family: "SFUIText-Bold";
   font-size: 2.5rem;
