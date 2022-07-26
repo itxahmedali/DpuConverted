@@ -1,0 +1,70 @@
+.text-effect {
+    overflow: hidden;
+    position: relative;
+    filter: contrast(110%) brightness(243%);
+    width: 370px;
+    margin: 0 auto;
+}
+.neon {
+    position: relative;
+    background: white;
+    color: transparent;
+    margin: 0 auto;
+}
+.neon::before, .neon::after {
+    content: attr(data-text);
+    color: white;
+    filter: blur(0.02em);
+    position: absolute;
+    top: 5px;
+    left: 0;
+    pointer-events: none;
+
+}
+.neon::after {
+    mix-blend-mode: difference;
+    
+}
+.gradient, .spotlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+.gradient {
+    background: linear-gradient(45deg, #ffffff, #ffffff, #ffffff);
+    mix-blend-mode: multiply;
+}
+.spotlight {
+    animation: light 5s infinite linear;
+    background: radial-gradient(circle, #d40707, #003ee9, #00000000 25%) 0 0 / 25% 25%, radial-gradient(circle, #d40707, rgb(0, 72, 228) 100%) 70% 63% / 5.5% 20.5%;
+    top: -100%;
+    left: -100%;
+    mix-blend-mode: color-dodge;
+}
+@keyframes light {
+    100% {
+        transform: translate3d(50%, 50%, 0);
+   }
+}
+.neon {
+    font: 700 329px 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+.neon:focus {
+    outline: none;
+    border: 1px dotted white;
+}
+/* body {
+    background: black;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+} */

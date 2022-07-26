@@ -1,0 +1,2777 @@
+body {
+  overflow: auto;
+}
+
+.navigation {
+  z-index: 100000;
+}
+
+/* =====  *All  ===== */
+.contact-btn button {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 0px;
+  border: 2px solid black;
+  font-family: "SF-Reg";
+  padding: 8px 48px;
+}
+
+.h-1 {
+  font-size: 3rem;
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  color: #000;
+}
+
+.para-2 {
+  font-family: "SFUIText-Regular";
+  color: #ffffff;
+  z-index: 30;
+  font-size: 1.3rem;
+}
+
+.p-1 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "SFUIText-Regular";
+  z-index: 100;
+}
+
+.h-5 {
+  /* background-color: rgb(29, 67, 235); */
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0);
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+}
+
+.free-consult-btn button {
+  border: 2px solid rgb(54 54 54 / 81%);
+  color: #000000;
+  border-radius: 0px;
+  font-family: "SF-Reg";
+  padding: 8px 48px;
+}
+
+@font-face {
+  font-family: SFUIText-Bold;
+  src: url("../../../assets/fonts/sf-ui-display-fonts/SFUIText-Bold.ttf");
+}
+
+@font-face {
+  font-family: SFUIText-Regular;
+  src: url("../../../assets/fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
+}
+
+@font-face {
+  font-family: Piersob;
+  src: url("../../../assets/fonts/piersob/piersob.ttf");
+}
+
+@font-face {
+  font-family: SF-Black;
+  src: url("../../../assets/fonts/sfu_i/SF-UI-Display-Black.ttf");
+}
+
+@font-face {
+  font-family: SF-Reg;
+  src: url("../../../assets/fonts/sfu_i/SF-UI-Display-Regular.ttf");
+}
+
+@font-face {
+  font-family: SF-Bold;
+  src: url("../../../assets/fonts/sfu_i/sfuidisplay-bold.ttf");
+}
+
+@font-face {
+  font-family: SFUIText-Light;
+  src: url("../../../assets/fonts/sf-ui-display-fonts/SFUIText-Light.ttf");
+}
+
+/* business trading page */
+
+/* banner */
+.banner {
+  background: url("../../images/1x/bg-1.png");
+}
+
+.banner::after {
+  content: unset;
+}
+
+.banner::before {
+  background: url(../../images/1x/businessHeader2.png);
+  opacity: 0.8;
+}
+
+.banner h5 {
+  color: #fff;
+  font-family: "SF-Reg";
+  z-index: 30;
+  top: 20%;
+  right: 70px;
+}
+
+/* <!-- =============== BANNER 2 ================================== --> */
+.banner2 {
+  height: 100vh;
+  background-position: left;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background: url("../../../assets/images/1x/bg2.png");
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: rgb(0, 0.1, 0);
+  opacity: 0.5;
+}
+
+.banner2 .h-1 {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  width: 71%;
+}
+
+.banner2 .h-5 {
+  /* background-color: rgb(29, 67, 235); */
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: left;
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  width: 50%;
+}
+
+.banner2 .p-1 {
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: left;
+  font-family: "SFUIText-Regular";
+  z-index: 100;
+  width: 50%;
+}
+
+/* <!-- =============== Why Choose Flutter ================================== --> */
+.choose-flutter {
+  background-color: #ffffff;
+  min-height: 1377px;
+  width: 100%;
+}
+
+.choose-flutter .h-1 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  width: 50%;
+}
+
+.choose-flutter .p-1 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "SFUIText-Regular";
+  z-index: 100;
+  width: 90%;
+}
+
+.choose-flutter .para-2 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  text-align: left;
+  font-family: "SFUIText-Regular";
+  z-index: 100;
+  width: 50%;
+}
+
+.choose-flutter .h-5 {
+  font-size: 1.5rem;
+  /* padding-left: 10px; */
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  width: 50%;
+}
+
+.contact-btn1 {
+  width: 78%;
+}
+
+.choose-flutter .h-3 {
+  font-size: 2rem;
+  padding-left: 23px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  width: 56%;
+}
+
+/* <!-- =============== FLUTTER-SERVICES ================================== --> */
+.flutter-services {
+  background-color: #15161b;
+  width: 100%;
+  height: 500px;
+}
+
+.pract-laws {
+  /* background-color: aqua; */
+  width: 70%;
+}
+
+.pract-laws .card {
+  margin-top: 23px;
+  background: rgb(45, 45, 45);
+  background: linear-gradient(31deg,
+      rgba(45, 45, 45, 1) 29%,
+      rgba(134, 134, 134, 0.9668242296918768) 67%,
+      rgba(149, 149, 149, 1) 85%);
+  width: 223px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.pract-laws .card:hover {
+  background-image: url("../../../assets/images/ai2assets/1x/businessHeader1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.pract-laws-heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "SF-Bold";
+}
+
+.pract-laws .card .pract-law-img {
+  /* background-color: blue; */
+  width: 89px;
+  height: 112px;
+  margin-top: 0px;
+  /* padding: 42px 9px 0px 9px; */
+  margin: 0 auto;
+}
+
+.pract-law-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* <!-- =============== DPU for Flutter ================================== --> */
+.dpu-flutter {
+  background-color: #ffffff;
+  min-height: 1440px;
+  width: 100%;
+}
+
+.dpu-flutter .h-1 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  width: 100%;
+}
+
+.dpu-flutter .h-5 {
+  font-size: 1.5rem;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  width: 100%;
+}
+
+.dpu-flutter .p-1 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "SFUIText-Regular";
+  z-index: 100;
+  width: 80%;
+}
+
+.get-app button {
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 0px;
+  border: 2px solid black;
+  font-family: "SF-Reg";
+  padding: 8px 48px;
+}
+
+.get-app button:hover {
+  color: #ffffff;
+}
+
+/* .grey-div {
+  background-color: #d6d7d8;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.grey-div:hover {
+  background-image: url("../../../assets/images/ai2assets/1x/businessHeader1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grey-div .p-1 {
+  font-family: "SFUIText-Regular";
+  font-weight: 600;
+} */
+.dpu-flutter .col-lg-12 p:first-child,
+.dpu-flutter .col-lg-12 p:first-child :nth-child(2),
+.react-dev .secondSection .fourrem {
+  font-family: "SFUIText-Regular";
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.dpu-flutter .button-strong {
+  font-weight: 600;
+}
+
+.dpu-flutter .accordion-item:hover {
+  border-radius: 20px;
+  background-color: #d6d7d8;
+}
+
+.dpu-flutter .accordion-button:hover,
+.dpu-flutter .accordion-button:active {
+  font-family: unset;
+  color: unset;
+  font-size: 1rem;
+  background-color: #d6d7d8;
+  /* -webkit-background-clip: unset; */
+  -webkit-text-fill-color: unset;
+  border-radius: 20px 20px 0px 0px !important;
+}
+
+.dpu-flutter .accordion-button,
+.dpu-flutter .accordion-item {
+  background-color: #d6d7d8;
+  color: #000;
+  border: 0 !important;
+  border-radius: 20px 20px 20px 20px !important;
+}
+
+.dpu-flutter .accordion-button::after {
+  width: 0%;
+}
+
+.dpu-flutter .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.dpu-flutter .accordion-body {
+  font-family: "SFUIText-Light";
+  background-color: #d6d7d8;
+  border-radius: 0px 0px 20px 20px !important;
+}
+
+.dpu-flutter .accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #d6d7d8;
+  /* box-shadow: none; */
+}
+
+.dpu-flutter .accordion-item {
+  border: none;
+  border-radius: 20px;
+}
+
+/* ================= BANNER NATIVE =============== */
+.banner-native {
+  background-image: url("../../images/1x/bg-native.png");
+  background-position: center;
+}
+
+.banner-native::after {
+  content: unset;
+}
+
+.banner::before {
+  background: url(../../images/1x/businessHeader2.png);
+  opacity: 0.8;
+  background-position: center;
+}
+
+.banner-native h1 {
+  width: 61%;
+}
+
+.banner-native h5 {
+  top: 17%;
+}
+
+/* <!-- =============== OFFER NATIVE ================================== --> */
+
+.offer-native {
+  background-color: #e6e7e8;
+  width: 100%;
+  min-height: 300px;
+}
+
+.offer-native .h-1 {
+  width: 80%;
+  color: #000000;
+}
+
+/* <!-- =============== BANNER 3 ================================== --> */
+.banner3 {
+  background: url("../../../assets/images/1x/bg-native2.png");
+  height: 546px;
+}
+
+.banner3::after {
+  content: "";
+}
+
+.banner3::before {
+  opacity: 0.5;
+}
+
+.banner3 .h-1 {
+  color: #ffffff;
+}
+
+.banner3 .h-5 {
+  z-index: 30;
+  color: white;
+}
+
+.banner3 .p-1 {
+  color: white;
+  z-index: 30;
+}
+
+/* ================= CHOOSE NATIVE APP =============== */
+.choose-native {
+  width: 100%;
+  min-height: 700px;
+  background-color: #ffffff;
+}
+
+.choose-native .container-box {
+  width: 100vw;
+}
+
+.choose-native .container-box {
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.choose-native .container-box .box-1,
+.choose-native .container-box .box-2 {
+  width: 50%;
+}
+
+.choose-native .container-box .box-1 {
+  transform: translateY(30%);
+}
+
+.choose-native .container-box .box-2 {
+  background-image: url(../../../assets/images/1x/mobiles.png);
+  width: 732px;
+  height: 680px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.choose-native .h-5 {
+  z-index: 30;
+  color: rgb(0, 0, 0);
+  width: 70%;
+}
+
+.choose-native .para-2 {
+  font-size: 1.3rem;
+  z-index: 30;
+  color: rgb(0, 0, 0);
+  width: 70%;
+}
+
+/* <!-- =============== WHY GO FOR NATIVE MOBILE ================================== --> */
+.native-mobile {
+  background-color: #15161b;
+  width: 100%;
+  min-height: 600px;
+}
+
+.native-mobile h1 {
+  color: #ffffff;
+  width: 50%;
+}
+
+.native-mobile .pract-laws {
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.native-mobile .pract-laws .card {
+  width: 328px;
+}
+
+.native-mobile .pract-laws .card:hover {
+  background-image: url("../../../assets/images/ai2assets/1x/businessHeader1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.native-mobile .pract-laws-heading {
+  text-align: left;
+  font-family: "SFUIText-Bold";
+  letter-spacing: 2px;
+  font-size: 1.21rem;
+}
+
+.native-mobile .pract-laws .card .pract-law-img {
+  margin: 0 0;
+}
+
+.native-mobile .pract-laws .card .pract-law-img.smartphone-img {
+  margin: 0 -15px;
+}
+
+.native-mobile .para-2 {
+  padding: 0rem !important;
+  font-size: 1rem;
+}
+
+.res-screen-img {
+  width: 727px;
+  height: 397px;
+}
+
+.res-screen-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* <!-- =============== APP IDEA SEC ================================== --> */
+.idea-sec {
+  background-color: #ffffff;
+}
+
+.idea-sec .h-1 {
+  color: #000;
+}
+
+/* <!-- =============== WEB-APP BANNER ================================== --> */
+.web-app-banner1 {
+  background-image: url("../../../assets/images/1x/bg-web1.png");
+}
+
+.web-app-banner1 h1 {
+  width: 70%;
+}
+
+/* <!-- =============== Web App for Company ================================== --> */
+
+.web-app-comp {
+  background-image: url("../../../assets/images/1x/bg-web-app2.png");
+  width: 100%;
+  min-height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+
+.web-app-comp .h-1 {
+  color: #ffffff;
+  width: 80%;
+}
+
+.web-app-comp .p-1 {
+  color: #ffffff;
+  width: 80%;
+}
+
+.web-app-comp .web-contact-btn button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+/* <!-- =============== WEB APP SERVICE ================================== --> */
+.web-app-service {
+  background-color: #ffffff;
+}
+
+.web-app-service .h-1 {
+  width: 70%;
+}
+
+.web-app-service .p-1 {
+  width: 73%;
+}
+
+/* <!-- =============== Unparalleled Web ================================== --> */
+.unpara-web {
+  background-image: url("../../../assets/images/1x/bg-web-app2.png");
+  width: 100%;
+  min-height: 665px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.unpara-web .h-1 {
+  color: #ffffff;
+  text-align: left;
+}
+
+.unpara-web .p-1 {
+  color: #ffffff;
+  text-align: left;
+}
+
+.unpara-img1 {
+  width: 909px;
+  height: 571px;
+  float: right;
+}
+
+.unpara-img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* <!-- =============== STEVEN ================================== --> */
+.steven {
+  background-color: #000;
+  min-height: 670px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.steven::after {
+  width: 62%;
+  height: 141%;
+  border-radius: 142% 0 0 133%;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -1%;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 213% 0% 0% 238%;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/images/1x/cameraman.png);
+}
+
+.box2 .content-2 .p-1 {
+  color: #ffffff;
+  letter-spacing: 8px;
+  text-align: center;
+  left: 22%;
+  top: 110px;
+  font-size: 1.5rem;
+  font-family: "SF-Reg";
+}
+
+.box2 .content-2 .ph2 {
+  text-align: center;
+  left: 25%;
+  top: 141px;
+  font-size: 3.5rem;
+  font-family: "SFUIText-Regular";
+}
+
+.box2 .content-2 .ph3 {
+  text-align: center;
+  left: 22%;
+  top: 457%;
+  transform: translateY(-50%);
+  font-size: 14.5rem;
+  font-family: "SFUIText-Bold";
+}
+
+.box2 .content-2 .ph4 {
+  letter-spacing: 8px;
+  left: 22%;
+  top: 603%;
+  font-size: 1.5rem;
+}
+
+/* <!-- =============== Development Process  ================================== --> */
+.webdev-process {
+  background-image: url("../../../assets/images/1x/webapp-bg-3.png");
+  width: 100%;
+  height: 100vh;
+  padding: 3rem 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.webdev-process .text1 {
+  width: 20%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.webdev-process .h-5 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.webdev-process .row .col-lg-6:first-child .tab-black:first-child {
+  transform: translateX(-50%);
+}
+
+.webdev-process .row .col-lg-6:last-child .tab-black:first-child {
+  transform: translateX(50%);
+}
+
+.webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+  transform: translateX(-25%);
+}
+
+.webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+  transform: translateX(25%);
+}
+
+.tab-black {
+  width: 300px;
+  height: 125px;
+  background: url(../../images/1x/tab-blck.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tab-black p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: auto;
+  position: relative;
+  font-family: "SFUIText-Bold";
+}
+
+.tab-black p:first-child::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 50px;
+  width: 1px;
+  height: 70px;
+  background: #fff;
+}
+
+.tab-black img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tab-content {
+  top: 42px;
+  text-align: center;
+  left: 35px;
+  width: 235px;
+}
+
+.vertical {
+  border-left: 2px solid white;
+  height: 50px;
+  position: absolute;
+  left: 14%;
+  top: -8px;
+}
+
+.tab-black .text2 {
+  font-size: 1rem;
+  width: 170px;
+}
+
+/* <!-- =============== Technolgoies  ================================== --> */
+.technologies {
+  background-color: #ffffff;
+  min-height: 300px;
+  width: 100%;
+}
+
+.technologies .pract-laws {
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.technologies .pract-laws .card {
+  background: transparent;
+  width: 215px;
+  margin-top: 23px;
+  border-radius: 0px;
+  cursor: pointer;
+  border: 0px;
+  margin: 0 auto;
+}
+
+.technologies .pract-laws .card:hover {
+  background-image: url("../../../assets/images/ai2assets/1x/businessHeader1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.technologies .pract-laws .card .pract-law-img {
+  /* background-color: blue; */
+  width: 179px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.technologies .pract-law-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* <!-- ================= WHY GO FOR NATIVE Mobile App ======================== --> */
+
+.go-for-native {
+  background-color: #15161b;
+  min-height: 600px;
+  width: 100%;
+}
+
+.go-for-native h1 {
+  color: #ffffff;
+  width: 50%;
+  font-family: "SF-Bold";
+}
+
+.go-for-native .pract-laws {
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.go-for-native .pract-laws .card {
+  width: 328px;
+}
+
+.pract-laws .para-2 {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.go-for-native .pract-laws .card:hover {
+  background-image: url("../../../assets/images/ai2assets/1x/businessHeader1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.go-for-native .pract-laws-heading {
+  text-align: left;
+  font-family: "SFUIText-Bold";
+  letter-spacing: 2px;
+  font-size: 1.21rem;
+}
+
+.go-for-native .pract-laws .card .pract-law-img {
+  margin: 0 0;
+}
+
+.go-for-native .pract-laws .card .pract-law-img.smartphone-img {
+  margin: 0 -15px;
+}
+
+/* <!-- ================= WEB Development FAQS ======================== --> */
+.web-app-faqs {
+  background: #ffffff;
+  min-height: 500px;
+}
+
+.web-app-faqs h1 {
+  color: #000000;
+  width: 40%;
+  font-family: "SF-Bold";
+}
+
+.faqSection .col-lg-12 p:first-child,
+.faqSection .col-lg-12 p:first-child :nth-child(2),
+.react-dev .secondSection .fourrem {
+  font-family: "SFUIText-Regular";
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.faqSection .accordion-button:hover,
+.faqSection .accordion-button:active {
+  font-family: unset;
+  color: unset;
+  font-size: 1rem;
+  background: unset;
+  /* -webkit-background-clip: unset; */
+  -webkit-text-fill-color: unset;
+}
+
+/* .faqSection .accordion-item {
+  border: 0 !important;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+  -webkit-box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+} */
+.web-app-faqs .faqSection .accordion-button,
+.web-app-faqs .faqSection .accordion-item {
+  background-color: #d6d7d8;
+  color: #000;
+  border: 0 !important;
+  border-radius: 20px !important;
+}
+
+.web-app-faqs .faqSection .accordion-button::after {
+  width: 0%;
+}
+
+.faqSection .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.faqSection .accordion-button:not(.collapsed) {
+  color: #000000;
+  /* background-color: #ffffff;
+  box-shadow: none; */
+}
+
+.faqSection .accordion-body {
+  font-family: "SFUIText-Light";
+  color: #231f20;
+}
+
+/* ************************* MVP-DEVELOPMENT PAGE ************************** */
+/* ===================================================================== */
+.mvp-banner1 {
+  background-image: url("../../../assets/images/1x/mvp-dev-banner1.png");
+}
+
+.mvp-banner1::before {
+  opacity: 0.5;
+}
+
+.para-3 {
+  font-family: "SFUIText-Light";
+  color: white;
+  z-index: 100;
+  font-size: 2rem;
+}
+
+.head-1 {
+  z-index: 100;
+  color: white;
+  font-family: "SFUIText-Light";
+  font-size: 2.5rem;
+  width: 50%;
+  text-align: center;
+}
+
+.bold-head1 {
+  font-family: "SFUIText-Bold";
+  font-size: 2.5rem;
+}
+
+/* <!-- =============== MVP FEEDBACK FROM CUSTOMER  ================================== --> */
+.mvp-feedback {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 600px;
+}
+
+.mvp-feedback .h-1 {
+  font-size: 2.5rem;
+  padding-left: 90px;
+}
+
+.mvp-feedback .para-2 {
+  color: #414042;
+  font-size: 1.2rem;
+  padding-left: 93px;
+}
+
+.mvp-container {
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.mvp-feedback .mvp-col-1 {
+  width: 50%;
+  float: left;
+}
+
+.mvp-feedback .mvp-col-2 {
+  width: 50%;
+  background-image: url("../../../assets/images/1x/ball1.png");
+  /* height: 660px; */
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  float: right;
+}
+
+.mvp-feedback .ball1 {
+  background-color: #414042;
+}
+
+/* <!-- =============== MVP Softwere Development  ================================== --> */
+
+.mvp-software-dev {
+  background-image: url("../../../assets/images/1x/businessHeader2.png");
+  width: 100%;
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mvp-software-dev .mvp-col-1 {
+  width: 100%;
+}
+
+.mvp-col-1 .wrap1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mvp-software-dev .mvp-col-1 .triangle-1 {
+  width: 30%;
+}
+
+.mvp-software-dev .mvp-col-1 .triangle-1 img {
+  width: 100%;
+  object-fit: contain;
+  object-position: right;
+}
+
+.mvp-software-dev .mvp-col-1 .div {
+  z-index: 100;
+  width: 70%;
+}
+
+.mvp-software-dev .h-1 {
+  color: white;
+  font-size: 2.3rem;
+}
+
+.mvp-software-dev .para-2 {
+  color: white;
+  font-size: 1.4rem;
+  font-family: "SFUIText-Light";
+}
+
+.mvp-bullets ul {
+  list-style-image: url("../../../assets/images/1x/dart-bullet.png");
+}
+
+.mvp-bullets ul li .para1 {
+  font-family: "SFUIText-Light";
+  font-size: 1.4rem;
+  color: white;
+}
+
+.mvp-bullets .mvp-btn button {
+  font-family: "SF-Bold";
+  border: 2px solid;
+  padding: 16px 21px;
+}
+
+/* <!-- =============== MVP Development Company ================================== --> */
+.mvp-dev-comp {
+  background-color: white;
+  width: 100%;
+  min-height: 500px;
+}
+
+.mvp-dev-comp .h-1 {
+  font-size: 2.3rem;
+}
+
+.mvp-dev-comp .para-2 {
+  color: #000;
+  font-size: 2rem;
+}
+
+.mvp-dev-comp .pract-laws .card {
+  margin-top: 23px;
+  width: 293px;
+  border-radius: 0px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid grey;
+}
+
+.mvp-dev-comp .pract-laws .card:hover {
+  background-image: url("../../../assets/images/1x/businessHeader2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.mvp-dev-comp .pract-laws-heading {
+  color: #414042;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "SF-Bold";
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.mvp-dev-comp .card .card-text:hover .pract-laws-heading,
+.mvp-dev-comp .card .card-text:hover .para-2 {
+  color: white;
+}
+
+.mvp-dev-comp .card .para-2 {
+  font-size: 1.2rem;
+  color: #414042;
+}
+
+/* <!-- =============== MVP Development Process ================================== --> */
+.mvp-dev-process {
+  background-image: url("../../../assets/images/1x/mvp-banner2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+}
+
+.mvp-dev-process::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: rgb(22 20 20 / 86%);
+  opacity: 1.5;
+}
+
+.mvp-dev-process .h-1 {
+  color: white;
+}
+
+.mvp-dev-process .para-2 {
+  font-size: 2rem;
+}
+
+.mvp-dev-cards {
+  width: 70%;
+}
+
+.mvp-dev-cards .card {
+  width: 284px;
+  /* background-color: transparent; */
+  background: rgb(45, 45, 45);
+  background: linear-gradient(31deg,
+      rgba(45, 45, 45, 1) 29%,
+      rgba(134, 134, 134, 0.9668242296918768) 67%,
+      rgba(149, 149, 149, 1) 85%);
+}
+
+.mvp-dev-cards .card .card-img-top1 {
+  width: 75px;
+  height: 75px;
+  top: -40px;
+  transform: translateX(133%);
+}
+
+.mvp-dev-cards .card .card-img-top1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.card-img-top1 .h-1 {
+  right: 0;
+  left: 0;
+  top: 14px;
+  font-size: 2rem;
+}
+
+.mvp-dev-cards .h-5 {
+  color: white;
+  font-size: 1rem;
+  width: 60%;
+}
+
+/* <!-- =============== CRM DEV PAGE ================================== --> */
+/* ****************************************************************** */
+.crm-banner1 {
+  background-image: url("../../images/1x/crm-banner1.png");
+}
+
+/* <!-- =============== Custom CRM Development Company  ================================== --> */
+.crm-buss .mvp-col-2 {
+  background-image: url("../../images/1x/crm-ring.png");
+  width: 34%;
+  height: 443px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.crm-buss .h-1 {
+  padding-left: 0px;
+  width: 700px;
+}
+
+.crm-buss .para-2 {
+  padding-left: 0px;
+}
+
+/* <!-- =============== Custom CRM Development Company  ================================== --> */
+.crm-software-comp {
+  min-height: 800px;
+}
+
+.crm-software-comp .mvp-col-1 .triangle-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 15s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+.crm-software-comp .mvp-col-1 .triangle-1 {
+  width: 50%;
+  height: 530px;
+}
+
+.crm-software-comp .head-1 {
+  width: 90%;
+  text-align: left;
+}
+
+/* <!-- =============== CRM DEVLOPMENT SERVICES  ================================== --> */
+
+.crm-dev-serv .h-1 {
+  font-size: 2.5rem;
+  width: 100%;
+}
+
+.crm-dev-serv .h-1,
+.crm-dev-serv .para-2 {
+  color: #231f20;
+}
+
+.crm-dev-serv .mvp-col-2 {
+  width: 50%;
+  background-image: url("../../images/1x/seepi.png");
+  height: 431px;
+}
+
+.why-choose-crm .head-1 {
+  color: #000;
+}
+
+.why-choose-crm .bold-head1 {
+  color: #000;
+}
+
+.crm-dev-serv .head-1 {
+  width: 60%;
+  padding-left: 0px;
+}
+
+.crm-dev-serv .para-2 {
+  width: 90%;
+  padding-left: 0px;
+}
+
+.crm-dev-serv .card .h-5 {
+  width: 100%;
+}
+
+.crm-dev-process .card-body {
+  height: 130px;
+}
+
+.crm-dev-process .card .h-5 {
+  width: 100%;
+  transform: translateY(36px);
+}
+
+.crm-dev-process .card:hover {
+  background-image: url("../../images/1x/businessHeader2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+.uplift-buss {
+  background-color: #ffffff;
+  min-height: 500px;
+}
+
+.uplift-buss .head-1 {
+  color: #000;
+  font-family: "SFUIText-Light";
+}
+
+.uplift-buss .para-2 {
+  color: #414042;
+  font-family: "SF-Reg";
+}
+
+.let-talk button {
+  font-family: "SF-Bold";
+  color: #231f20;
+  border: 2px solid #231f20;
+  border-radius: 0px;
+  padding: 14px 56px;
+  font-size: 1.1rem;
+}
+
+/* ===================== SEO AGENCY  PAGE ============================= */
+/* **************************************************************** */
+.seo-agency-banner {
+  background-image: url("../../images/1x/seo-banner1.png");
+}
+
+.seo-agency-banner .head-1 {
+  width: 40%;
+}
+
+/* <!-- =============== SEO AGENCY COMPANY  ================================== --> */
+.seo-agency-comp {
+  min-height: 400px;
+}
+
+.seo-agency-comp .head-1 {
+  color: #000;
+  width: 100%;
+  text-align: left;
+}
+
+.seo-agency-comp .para-2 {
+  padding-left: 0px;
+}
+
+.seo-agency-comp.mvp-feedback .mvp-col-2 {
+  background-image: unset;
+}
+
+.seo-agency-comp .mvp-col-2 .ball1 {
+  background-image: url("../../images/1x/seo-img.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/* <!-- =================== SEO BUSINESS =================== --> */
+
+.buss-one {
+  background-image: url("../../../assets/images/1x/seo-banner2.png");
+  min-height: 604px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.buss-one::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 170px;
+  width: 100%;
+  height: 720px;
+  z-index: 1;
+  background-image: url("../../images/1x/one.png");
+  background-repeat: no-repeat;
+}
+
+.buss-one::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: rgb(0, 0.1, 0);
+  opacity: 0.5;
+}
+
+.numb-one {
+  width: 400px;
+  height: 400px;
+  z-index: 100;
+}
+
+.numb-one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buss-one .head-1 {
+  width: 27%;
+  top: 10%;
+  font-size: 3.2rem;
+  text-align: left;
+}
+
+.buss-one .bold-head1 {
+  font-size: 3.5rem;
+  text-align: left;
+}
+
+.buss-one .free-consult button:hover {
+  z-index: 300;
+  color: white;
+}
+
+.buss-one .free-consult {
+  padding: 0px;
+  transform: translateX(51%);
+  z-index: 300;
+}
+
+.buss-one .free-consult button {
+  z-index: 300;
+}
+
+/* <!-- =================== DPU EXPERT SEO  =================== --> */
+.dpu-expert-seo {
+  background-color: #ffffff;
+  min-height: 600px;
+  width: 100%;
+}
+
+.dpu-expert-seo .para-2 {
+  color: #414042;
+}
+
+/* <!-- =================== SEO solutions  =================== --> */
+.seo-solutions {
+  background-image: url("../../images/1x/grey-bg.png");
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.seo-solutions .mvp-feedback {
+  background: unset;
+}
+
+.seo-solutions .mvp-feedback .mvp-col-2 {
+  background-image: unset;
+}
+
+.seo-solutions .mvp-col-2 .ball1 {
+  background-image: url("../../images/1x/blocks1.png");
+  height: 440px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+}
+
+.seo-solutions .mvp-bullets ul li .para1 {
+  color: #808285;
+}
+
+.seo-solutions .mvp-bullets ul {
+  list-style-image: url("../../../assets/images/1x/dart-black.png");
+}
+
+/* <!-- =================== SEO issues =================== --> */
+.seo-issues {
+  background-image: url("../../images/1x/seo-bg3.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 600px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.seo-issues::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgb(0, 0.1, 0);
+  opacity: 0.5;
+}
+
+.seo-issues .head-1 {
+  z-index: 10;
+}
+
+.seo-issues .btn1-white button {
+  font-family: "SF-Bold";
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  padding: 14px 76px;
+  font-size: 1.1rem;
+  z-index: 100;
+}
+
+/* <!-- =================== SEO services =================== --> */
+.seo-services {
+  background-color: #ffffff;
+  min-height: 600px;
+}
+
+.seo-services .subhead1 {
+  width: 100%;
+}
+
+.seo-services .para-2 {
+  color: #414042;
+}
+
+/* <!-- =================== SEO FAQs  =================== --> */
+.seo-faqs {
+  background-color: #ffffff;
+  min-height: 600px;
+}
+
+.seo-faqs .subhead1 {
+  color: #000;
+}
+
+.seo-faqs .seo-faqs-accord .accordion-item {
+  box-shadow: 5px 0px 5px 5px #0000000d;
+}
+
+.seo-faqs .seo-faqs-accord .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+  font-family: "SF-Bold";
+}
+
+.seo-faqs .seo-faqs-accord .accordion-button.accordion-button {
+  color: #000;
+  font-family: "SF-Bold";
+}
+
+.seo-faqs .seo-faqs-accord .accordion-button:hover,
+.accordion-button:active {
+  font-family: "SF-Bold";
+  color: #231f20;
+  font-size: 1rem;
+  background: white;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+  cursor: pointer;
+}
+
+/* <!-- =================== SEO PLAN  =================== --> */
+.seo-plan {
+  background-color: #000000;
+  min-height: 600px;
+}
+
+.seo-plan .card {
+  position: relative;
+  transition: 0.5s all ease-in-out;
+  width: 367px;
+}
+
+.seo-plan .card:hover {
+  transform: translateY(-10px);
+  transition: 0.5s all ease-in-out;
+  background-image: unset;
+  background-color: #1a1a1a;
+}
+
+.seo-plan .card::after {
+  content: "";
+  background: url("../../images/1x/slider-round-btn.png");
+  top: 10px;
+  left: 65%;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: cover;
+  filter: blur(7px);
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+
+.seo-plan .card .pract-laws-heading {
+  text-align: left;
+  min-height: 32px;
+}
+
+.seo-plan .head-1 {
+  font-size: 3rem;
+  width: 61%;
+  text-align: left;
+}
+
+.seo-plan .bold-head1 {
+  font-size: 3rem;
+}
+
+.seo-plan .pract-laws {
+  width: 100%;
+}
+
+/* <!-- ================================== PORTFOLIO PAGE =============================== --> */
+/* *************************************************** */
+.portfolio-banner1 {
+  background-image: url("../../images/1x/portfolio-bg1.png");
+}
+
+.portfolio-gallery {
+  background-color: #000;
+  min-height: 900px;
+}
+
+.portfolio-gallery .gallery_product {
+  margin-right: 5px;
+}
+
+.portfolio-gallery .para-2 {
+  width: 70%;
+}
+
+.filter-gallery .gallery_product {
+  width: 345px;
+}
+
+/* <!-- ================================== TESTIMONIALS PAGE =============================== --> */
+/* *************************************************** */
+.testimonial-banner1 {
+  background-image: url('../../images/1x/testimonials-banner1.png');
+}
+
+/* <!-- =============== testimonial-gallery ================================== --> */
+.testimonial-gallery {
+  background-color: #000;
+  min-height: 900px;
+}
+
+.testimonial-gallery .row .card {
+  background: transparent;
+}
+
+/* <!-- ========================= BLOGS ================================== --> */
+/* *********************************************************************** */
+.blogs-banner1 {
+  background-image: url('../../images/1x/blogs-banner1.png');
+}
+
+.blogs-banner1 .para-2 {
+  text-align: center;
+}
+
+/* <!-- =============== BLOGS GALLERY ================================== --> */
+.album {
+  background-color: #000;
+}
+
+.album .blog-img1 {
+  width: 96%;
+  height: 233px;
+  margin: 0 auto;
+}
+
+.album .card {
+  /* box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px; */
+  border-radius: 0px;
+  min-height: 700px;
+  background-image: url('../../images/1x/blog-card-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.album .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.album .cat {
+  min-height: 47px;
+}
+
+.album .card-title .h-5 {
+  color: #ffffff;
+  min-height: 100px;
+}
+
+.album .card-text.para-2 {
+  font-size: 1rem;
+}
+
+.album .card .card-footer {
+  padding: 0px;
+}
+
+.album .card .card-footer .read-more-btn {
+  background-color: #000;
+  border: 1px solid white;
+}
+
+.album .card .card-footer .read-more-btn button {
+  border-radius: 0px;
+  color: #ffffff;
+  font-family: "SF-Bold";
+}
+
+.album .card .card-footer .read-more-btn button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.bg-Black .blogs-inner.banner {
+  background: url('../../images/1x/blog1.png');
+}
+
+.bg-Black {
+  background-color: #000
+}
+
+.bg-Black p {
+  color: #fff;
+}
+
+/* ===================== CONTACT US =========================== */
+/* ************************************************************ */
+.cntctPg .contactUsPage .banner {
+  background: url('./assets/images/1x/ContactBg.png');
+}
+
+.cntctPg .contactUsPage .banner::before {
+  content: unset;
+}
+
+.cntctPg .contactUsPage .banner::after {
+  background: #000000bd;
+}
+
+.cntctPg .contactUsPage .banner h1 span {
+  font-family: SF-Black;
+}
+
+.cntctPg .contactUsPage .banner h1 {
+  width: 80%;
+}
+
+.cntctPg .nine-section .footer-link a {
+  color: #fff;
+}
+
+.cntctPg .nine-section .footer-link a:hover,
+.footer-services a:hover {
+  background: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+  color: unset;
+  font-weight: unset;
+  font-style: unset;
+}
+
+.cntctPg .nine-section .p-2 {
+  color: #fff
+}
+
+.cntctPg .nine-section .col-lg-6 {
+  min-height: 575px;
+}
+
+.cntctPg .contactDet {
+  border: 1px solid #fff;
+  padding: 3rem 1rem;
+  min-height: 450px;
+  margin-top: 5px;
+}
+
+.cntctPg .contactDet .padLeft {
+  padding: 10px 0 0 0 !important;
+}
+
+.cntctPg .nine-section .contact-form textarea {
+  min-height: 100px;
+}
+
+.cntctPg .nine-section .contact-heading h1 {
+  font-size: 55px;
+  margin: 2rem 0;
+}
+
+.cntctPg .cntctPg .nine-section.img-div {
+  height: unset !important;
+}
+
+/*======================= Media Queries  =====================*/
+/* ================= Min Media Queries============================= */
+@media only screen and (min-width: 1600px) {
+  .banner2 {
+    height: 100%;
+  }
+
+  .choose-native .container-box .box-1 {
+    transform: translateY(20%);
+  }
+
+  .mvp-software-dev .mvp-col-1 .div {
+    padding-top: 100px;
+  }
+
+  .buss-one::before {
+    left: 310px;
+  }
+
+  .seo-solutions .mvp-col-2 .ball1 {
+    height: 500px;
+  }
+}
+
+/*======================= Media Queries  =====================*/
+/* ================= Min Media Queries============================= */
+@media only screen and (min-width: 1600px) {
+  .banner2 {
+    height: 100%;
+  }
+
+  .choose-native .container-box .box-1 {
+    transform: translateY(20%);
+  }
+
+  .mvp-software-dev .mvp-col-1 .div {
+    padding-top: 100px;
+  }
+
+  .buss-one::before {
+    left: 310px;
+  }
+
+  .seo-solutions .mvp-col-2 .ball1 {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .pract-laws {
+    /* background-color: aqua; */
+    width: 50%;
+  }
+
+  .web-app-banner1 h1 {
+    width: 50%;
+  }
+
+  .buss-one::before {
+    left: 509px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .banner2 {
+    height: 80vh;
+  }
+
+  .pract-laws {
+    /* background-color: aqua; */
+    width: 40%;
+  }
+
+  .banner2 .h-1 {
+    font-size: 3.5rem;
+    width: 100%;
+  }
+
+  .banner2 .h-5 {
+    /* background-color: rgb(29, 67, 235); */
+    font-size: 3rem;
+    width: 80%;
+  }
+
+  .banner2 .p-1 {
+    font-size: 2rem;
+    width: 60%;
+  }
+
+  .banner h5 {
+    right: 637px;
+  }
+
+  .choose-native .box-content1 {
+    /* background-color: bisque; */
+    width: 638px;
+    position: absolute;
+    right: 0px;
+  }
+
+  .choose-native .container-box .box-2 {
+    width: 515px;
+    height: 520px;
+  }
+
+  .web-app-banner1 h1 {
+    width: 39%;
+  }
+
+  .webdev-process .text1 {
+    width: 10%;
+    top: 37%;
+  }
+
+  .webdev-process .h-5 {
+    font-size: 3.7rem;
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:first-child {
+    transform: translateX(20%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:first-child {
+    transform: translateX(-10%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+    transform: translateX(35%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+    transform: translateX(-25%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(3) {
+    transform: translateX(50%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(3) {
+    transform: translateX(-40%);
+  }
+
+  .buss-one::before {
+    left: 812px;
+  }
+
+  .contact-btn1 {
+    width: 80%;
+  }
+}
+
+/* ===================  Max Media Queries ======================== */
+
+@media only screen and (max-width: 1366px) {
+  .banner-native h1 {
+    width: 65%;
+  }
+
+  .banner2 {
+    height: 100%;
+  }
+
+  .choose-native .container-box .box-1 {
+    transform: translateY(20%);
+  }
+
+  .offer-native .h-1 {
+    width: 95%;
+  }
+
+  .choose-native .para-2 {
+    width: 70%;
+    min-height: 670px;
+  }
+
+  .choose-native .h-5 {
+    width: 70%;
+  }
+
+  .mvp-software-dev .mvp-col-1 .div {
+    padding-top: 40px;
+  }
+
+  .buss-one .head-1 {
+    width: 30%;
+  }
+
+  .seo-solutions .mvp-col-2 .ball1 {
+    height: 419px;
+  }
+
+  .seo-plan .card {
+    width: 320px;
+  }
+
+  .contact-btn1 {
+    width: 83%;
+  }
+
+  .res-screen-img {
+    width: 679px;
+}
+}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1024px) {
+  .choose-native .container-box .box-1 {
+    transform: translateY(12%);
+  }
+
+  .unpara-img1 {
+    width: 666px;
+    height: 401px;
+  }
+
+  .box2 .content-2 .ph3 {
+    font-size: 10rem;
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:first-child {
+    transform: translate(-20%, -109%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+    transform: translate(-23%, -110%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(3) {
+    transform: translate(-10%, -110%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:first-child {
+    transform: translate(11%, -106%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+    transform: translate(24%, -106%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(3) {
+    transform: translate(13%, -106%);
+  }
+
+  .webdev-process .text1 {
+    top: 42%;
+  }
+
+  .seo-agency-banner .head-1 {
+    width: 60%;
+  }
+
+  .mvp-feedback .mvp-col-1 {
+    width: 100%;
+  }
+
+  .mvp-feedback .mvp-col-2 {
+    width: 85%;
+  }
+
+  .buss-one::before {
+    left: 64px;
+  }
+
+  .buss-one .head-1 {
+    width: 50%;
+  }
+
+  .seo-plan .head-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .seo-solutions .mvp-col-2 .ball1 {
+    height: 522px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .seo-issues .bold-head1 {
+    font-size: 2rem;
+  }
+
+  .seo-issues .head-1 {
+    font-size: 2rem;
+  }
+
+  .filter-gallery .gallery_product {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .uplift-buss .let-talk {
+    margin-bottom: 3rem;
+  }
+
+  .contact-btn1 {
+    width: 90%;
+}
+
+.choose-flutter .h-3 {
+  width: 50%;
+  padding-left: 0px;
+}
+}
+
+@media only screen and (max-width: 820px) {
+  .banner-native h1 {
+    width: 80%;
+    font-size: 3rem;
+  }
+
+  .flutter-services {
+    height: 100%;
+  }
+
+  .offer-native .h-1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .offer-native {
+    min-height: 230px;
+  }
+
+  .choose-native .container-box {
+    flex-direction: column;
+  }
+
+  .choose-native .container-box .box-1,
+  .choose-native .container-box .box-2 {
+    width: 100%;
+  }
+
+  .choose-native .container-box .box-1 {
+    transform: translateY(0%);
+  }
+
+  .choose-native .h-5 {
+    width: 100%;
+  }
+
+  .choose-native .para-2 {
+    width: 100%;
+  }
+
+  .box2 .content-2 .p-1 {
+    left: 6%;
+    top: 153px;
+    font-size: 1.5rem;
+  }
+
+  .box2 .content-2 .ph2 {
+    left: 11%;
+    top: 184px;
+    font-size: 3.5rem;
+  }
+
+  .box2 .content-2 .ph3 {
+    left: 6%;
+    top: 474%;
+    font-size: 8.5rem;
+  }
+
+  .box2 .content-2 .ph4 {
+    left: 8%;
+    top: 553%;
+    font-size: 1.5rem;
+  }
+
+  .tab-black {
+    width: 234px;
+    height: 96px;
+  }
+
+  .tab-black p {
+    font-size: 1rem;
+  }
+
+  .tab-black .text2 {
+    font-size: 0.8rem;
+  }
+
+  .tab-black p:first-child::after {
+    left: 33px;
+    height: 54px;
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:first-child {
+    transform: translate(-80%, 150%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+    transform: translate(-109%, 150%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(3) {
+    transform: translate(-101%, 160%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:first-child {
+    transform: translate(103%, -136%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+    transform: translate(113%, -409%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(3) {
+    transform: translate(104%, -671%);
+  }
+
+  .mvp-feedback .mvp-col-1 {
+    width: 100%;
+  }
+
+  .mvp-feedback .h-1 {
+    padding-left: 0px;
+  }
+
+  .mvp-feedback .para-2 {
+    padding-left: 0px;
+  }
+
+  .mvp-feedback .mvp-col-2 {
+    width: 100%;
+  }
+
+  .buss-one .head-1 {
+    left: 50%;
+  }
+
+  .buss-one .head-1 {
+    font-size: 3rem;
+  }
+
+  .buss-one .bold-head1 {
+    font-size: 3rem;
+  }
+
+  .dpu-expert-seo .head-1 {
+    width: 100%;
+  }
+
+  .seo-issues .bold-head1 {
+    font-size: 2rem;
+  }
+
+  .seo-issues .head-1 {
+    font-size: 2rem;
+  }
+
+  .seo-plan .head-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mvp-col-1 .wrap1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .crm-software-comp .mvp-col-1 .triangle-1 {
+    width: 100%;
+    height: 700px;
+  }
+
+  .mvp-software-dev .mvp-col-1 .div {
+    width: 100%;
+  }
+
+  .crm-dev-serv .mvp-col-2 {
+    height: 498px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 2rem;
+    width: 80%;
+  }
+
+  .tab-black .text2 {
+    font-size: 0.8rem;
+  }
+
+  .webdev-process .text1 {
+    top: 40%;
+  }
+
+  .webdev-process .h-5 {
+    font-size: 2.2rem;
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+    transform: translate(-102%, 150%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:first-child {
+    transform: translate(92%, -62%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+    transform: translate(106%, -333%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(3) {
+    transform: translate(109%, -599%);
+  }
+
+  .cntctPg .nine-section .col-lg-6 {
+    min-height: unset;
+  }
+
+  .cntctPg .contactDet {
+    min-height: unset;
+    margin: 5px 0 2rem 0;
+  }
+
+  .cntctPg .nine-section .main-transparnet {
+    margin-bottom: 0.5rem !important;
+  }
+  .album .card {
+    /* width: 50%; */
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .banner h1 {
+    width: 95%;
+  }
+
+  .web-app-banner1 h5 {
+    margin: 0 auto;
+    right: 28%;
+  }
+
+  .banner2 {
+    height: 100%;
+  }
+
+  .banner2 .h-1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .banner2 .h-5 {
+    /* background-color: rgb(29, 67, 235); */
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .banner2 .p-1 {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .flutter-services {
+    height: 100%;
+  }
+
+  .choose-flutter .h-1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .choose-flutter .h-5 {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+
+  .choose-flutter .para-2 {
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  .choose-flutter .h-3 {
+    font-size: 1.6rem;
+    width: 80%;
+  }
+
+  .dpu-flutter .h-1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .dpu-flutter .p-1 {
+    width: 100%;
+  }
+
+  .res-screen-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .native-mobile h1 {
+    width: 100%;
+  }
+
+  .idea-sec .h-1 {
+    font-size: 2.5rem;
+  }
+
+  .unpara-img1 {
+    width: 396px;
+    height: 239px;
+  }
+
+  .box2 .content-2 .ph1 {
+    left: 6%;
+    font-size: 1rem;
+    top: 203px;
+  }
+
+  .box2 .content-2 .ph2 {
+    top: 227px;
+    font-size: 2.5rem;
+  }
+
+  .box2 .content-2 .ph3 {
+    top: 481%;
+    font-size: 4.7rem;
+  }
+
+  .webdev-process {
+    height: 340px;
+  }
+
+  .webdev-process .text1 {
+    top: 40%;
+  }
+
+  .webdev-process .h-5 {
+    font-size: 1rem;
+  }
+
+  .tab-black {
+    width: 120px;
+    height: 95px;
+  }
+
+  .tab-black p {
+    font-size: 0.6rem;
+    top: -23px;
+  }
+
+  .tab-black p:first-child::after {
+    top: -6px;
+    left: 22px;
+    height: 26px;
+  }
+
+  .tab-black .text2 {
+    font-size: 0.5rem;
+    width: 74px;
+  }
+
+  .tab-black .text3 {
+    font-size: 0.4rem;
+    width: 74px;
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:first-child {
+    transform: translateX(-108%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+    transform: translate(-111%, -69%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(3) {
+    transform: translate(-91%, -140%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:first-child {
+    transform: translate(83%, -271%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+    transform: translate(111%, -471%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(3) {
+    transform: translate(101%, -670%);
+  }
+
+  .mvp-feedback .mvp-col-2 {
+    height: 401px;
+  }
+
+  .mvp-col-1 .wrap1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mvp-software-dev .mvp-col-1 .triangle-1 {
+    width: 100%;
+  }
+
+  .mvp-dev-cards .card .card-img-top1 {
+    transform: translateX(100%);
+  }
+
+  .mvp-feedback .mvp-col-2 {
+    height: 391px;
+  }
+
+  .crm-buss .h-1 {
+    width: 100%;
+  }
+
+  .crm-software-comp .mvp-col-1 .triangle-1 {
+    height: 437px;
+  }
+
+  .crm-software-comp .mvp-col-1 .triangle-1 {
+    width: 100%;
+    height: 437px;
+  }
+
+  .crm-dev-serv .head-1 {
+    width: 100%;
+  }
+
+  .head-1 {
+    width: 100%;
+  }
+
+  .seo-agency-comp .mvp-col-2 .ball1 {
+    background-size: contain;
+  }
+
+  .buss-one::before {
+    width: 50%;
+    height: 80%;
+    background-size: contain;
+    left: 15px;
+  }
+
+  .buss-one .head-1 {
+    width: 40%;
+    font-size: 2.2rem;
+    left: 54%;
+  }
+
+  .buss-one .bold-head1 {
+    font-size: 2.3rem;
+  }
+
+  .buss-one .free-consult {
+    transform: translateX(18%);
+    margin-top: 50px;
+  }
+
+  .buss-one .free-consult .get-started {
+    padding: 10px 11px;
+  }
+
+  .seo-issues .head-1 {
+    font-size: 2rem;
+  }
+
+  .seo-issues .bold-head1 {
+    font-size: 2rem;
+  }
+
+  .seo-plan .card {
+    width: 100%;
+  }
+  .testimonial-gallery .video-box-width {
+    max-height: 450px;
+}
+.testimonial-gallery .overlay .text {
+  bottom: 40px;
+}
+.testimonial-gallery .play-font {
+  top: 47%;
+}
+}
+
+@media only screen and (max-width: 390px) {
+  .web-app-service .h-1 {
+    width: 100%;
+  }
+
+  .web-app-comp .h-1 {
+    width: 100%;
+  }
+
+  .box2 .content-2 .ph1 {
+    left: 6%;
+    font-size: 0.9rem;
+    top: 205px;
+  }
+
+  .web-app-banner1 h1 {
+    width: 92%;
+  }
+
+  .video-box-width {
+    max-height: 465px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .webdev-process .row .col-lg-6:first-child .tab-black:first-child {
+    transform: translateX(-90%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+    transform: translate(-99%, -69%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(3) {
+    transform: translate(87%, -670%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+    transform: translate(97%, -471%);
+  }
+
+  .seo-issues .head-1 {
+    font-size: 1.8rem;
+  }
+
+  .seo-issues .bold-head1 {
+    font-size: 1.8rem;
+  }
+
+  .crm-software-comp .mvp-col-1 .triangle-1 {
+    height: 377px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .box2 .content-2 .ph1 {
+    left: 4%;
+    font-size: 0.8rem;
+    top: 253px;
+  }
+
+  .box2 .content-2 .ph2 {
+    top: 277px;
+    font-size: 2rem;
+  }
+
+  .box2 .content-2 .ph3 {
+    top: 511%;
+    font-size: 3.5rem;
+  }
+
+  .box2 .content-2 .ph4 {
+    /* left: 8%; */
+    font-size: 1rem;
+  }
+
+  .web-app-service .h-1 {
+    width: 100%;
+  }
+
+  .web-app-comp .h-1 {
+    width: 100%;
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:first-child {
+    transform: translateX(-86%);
+  }
+
+  .webdev-process .row .col-lg-6:first-child .tab-black:nth-child(2) {
+    transform: translate(-95%, -69%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(3) {
+    transform: translate(86%, -670%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:nth-child(2) {
+    transform: translate(97%, -471%);
+  }
+
+  .webdev-process .row .col-lg-6:last-child .tab-black:first-child {
+    transform: translate(97%, -271%);
+  }
+
+  .mvp-feedback .mvp-col-2 {
+    height: 335px;
+  }
+
+  .crm-software-comp .mvp-col-1 .triangle-1 {
+    height: 391px;
+  }
+
+  .buss-one .head-1 {
+    width: 50%;
+    font-size: 2rem;
+    left: 51%;
+  }
+
+  .buss-one::before {
+    width: 45%;
+    height: 100%;
+    left: 12px;
+  }
+}

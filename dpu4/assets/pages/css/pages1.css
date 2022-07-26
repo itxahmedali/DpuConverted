@@ -1,0 +1,2838 @@
+body {
+  overflow: auto;
+}
+.navigation {
+  z-index: 100000;
+}
+@font-face {
+  font-family: gilroy-light;
+  src: url("assets/fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
+}
+
+@font-face {
+  font-family: SFUIText-Bold;
+  src: url("assets/fonts/sf-ui-display-fonts/SFUIText-Bold.ttf");
+}
+
+@font-face {
+  font-family: SFUIText-Regular;
+  src: url("assets/fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
+}
+@font-face {
+  font-family: Piersob;
+  src: url("./assets/fonts/piersob/piersob.ttf");
+}
+
+@font-face {
+  font-family: SF-Black;
+  src: url("./assets/fonts/sfu_i/SF-UI-Display-Black.ttf");
+}
+
+@font-face {
+  font-family: SF-Reg;
+  src: url("./assets/fonts/sfu_i/SF-UI-Display-Regular.ttf");
+}
+
+@font-face {
+  font-family: SF-Bold;
+  src: url("./assets/fonts/sfu_i/sfuidisplay-bold.ttf");
+}
+
+/* business trading page */
+/* banner */
+.secondbanner.banner {
+  background: url(../../images/ai2assets/1x/secondsectionbanner.png);
+}
+.secondbanner.banner::after {
+  content: unset;
+}
+.secondbanner.banner::before {
+  content: unset;
+}
+.secondbanner p:first-child {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  font-family: "SF-Bold";
+  z-index: 100;
+  width: 60%;
+}
+.secondbanner p:last-child {
+  color: #fff;
+  text-align: center;
+  width: 60%;
+}
+/* third section */
+.thirdSection {
+  padding: 3rem 0;
+}
+.thirdSection .col-lg-6:first-child p,
+.thirdSection .col-lg-6:first-child button {
+  margin-left: 6rem;
+}
+.thirdSection .col-lg-6:first-child p:first-child {
+  font-size: 3rem;
+  color: #000;
+  font-family: "SF-Bold";
+}
+.thirdSection .col-lg-6:first-child p:last-child {
+  color: #808285;
+}
+.thirdSection .get-your-website-now {
+  background: #231f20;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-family: SFUIText-Regular;
+}
+.cstmCard:hover .ecommerceIcon img,
+.cstmHoverCard1:hover .ecommerceIcon img,
+.col-sm-6:hover .ecommerceIcon img,
+.col-sm-12:hover .ecommerceIcon img,
+.col-md-12:hover .ecommerceIcon img{
+  transform: scale(1.5);
+}
+.cstmCard:hover .ecommerceIcon img,
+.cstmHoverCard1 .ecommerceIcon img,
+.col-sm-6 .ecommerceIcon img,
+.col-sm-12 .ecommerceIcon img,
+.col-md-12 .ecommerceIcon img{
+  transition: 0.5s all ease-in-out;
+}
+.cstmHoverCard .cstmCard p:first-child {
+  color: #000;
+}
+.cstmHoverCard .cstmCard p:last-child {
+  color: #808285;
+}
+.thirdSection .row .col-6 {
+  border: 1px solid #000;
+  padding: 1rem;
+}
+.thirdSection .row .col-lg-6 p {
+  transition: 0.5s all ease-in-out;
+}
+.thirdSection .row .col-6:hover {
+  background: url(../../images/1x/header-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.thirdSection .row .col-6:hover p,
+.fiftSection .row .col-sm-4:hover p,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3:hover p,
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4:hover p {
+  color: #fff;
+  cursor: pointer;
+}
+.thirdSection .row .col-6 p:first-child,
+.fiftSection .row .col-sm-4 p:first-child,
+.fiftSection .row .col-md-7 p:first-child,
+.fiftSection .row .col-lg-3 p:first-child,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 p:first-child,
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4 p:last-child {
+  font-size: 1.5rem;
+  font-family: "SF-Bold";
+}
+/* fourth section */
+.fourthSection {
+  position: relative;
+  background: #15161b;
+  z-index: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fourthSection::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/ai2assets/1x/businesstradingsection4bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+.fourthSection .row:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fourthSection .row:first-child p,
+.ecommercefourthSection .row:first-child p {
+  text-align: center;
+  z-index: 1;
+  font-size: 2rem;
+  color: #fff;
+  font-family: SF-Reg;
+  width: 50%;
+}
+.fourthSection .row:first-child p span,
+.ecommercefourthSection .row:first-child p span {
+  font-family: "SF-Bold";
+}
+.para2{
+  font-family: "SFUIText-Regular"; 
+}
+.ecommercefourthSection .para2{
+   color: white;
+   font-size: 1.3rem;
+}
+.ecommercefiftSection .para2{
+  color: black;
+  font-size: 1.3rem;
+}
+.fourthSection .cstmCard,
+.ecommercefourthSection .cstmCard {
+  width: 30%;
+  background: linear-gradient(to right, #ffffff1c, #ffffffba);
+  padding: 4rem 2rem;
+  margin: 10px;
+  min-height: 480px;
+  z-index: 1;
+}
+.cstCardProp {
+  position: relative;
+  transition: 0.5s all ease-in-out;
+}
+.cstCardProp:hover {
+  transform: translateY(-10px);
+  transition: 0.5s all ease-in-out;
+}
+.cstCardProp::after {
+  content: "";
+  background: url(../../images/1x/slider-round-btn.png);
+  top: 10px;
+  left: 65%;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: cover;
+  filter: blur(7px);
+  -webkit-animation: rotation 2s infinite linear;
+}
+.fourthSection .cstmCard p,
+.ecommercefourthSection .cstmCard p {
+  color: #fff;
+}
+.fourthSection .cstmCard p:first-child,
+.ecommercefourthSection .cstmCard p:first-child {
+  font-family: SFUIText-Bold;
+  font-size: 1.5rem;
+  min-height: 70px;
+}
+.fourthSection .cstmCard p:last-child,
+.ecommercefourthSection .cstmCard p:last-child {
+  font-family: gilroy-light;
+}
+.heading {
+  font-size: 3rem;
+  color: #000;
+  text-align: center;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.fiftSection p:first-child span {
+  font-family: "SF-Bold";
+}
+.fiftSection .row .col-sm-4 .cstmHoverCard1,
+.fiftSection .row .col-md-7 .cstmHoverCard1,
+.fiftSection .row .col-lg-3 .cstmHoverCard1,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1 {
+  border: 1px solid #000;
+  min-height: 400px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.fiftSection .row .col-sm-4 .cstmHoverCard1:hover,
+.fiftSection .row .col-md-7 .cstmHoverCard1:hover,
+.fiftSection .row .col-lg-3 .cstmHoverCard1:hover,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1:hover,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover {
+  background: url(../../images/1x/header-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fiftSection .row .col-sm-4 .cstmHoverCard1:hover p,
+.fiftSection .row .col-md-7 .cstmHoverCard1:hover p,
+.fiftSection .row .col-lg-3 .cstmHoverCard1:hover p,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1:hover p,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  p {
+  color: #fff;
+}
+.fiftSection .row .col-sm-4 p:first-child,
+.fiftSection .row .col-md-7 p:first-child,
+.fiftSection .row .col-lg-3 p:first-child {
+  min-height: 100px;
+}
+
+/* about us page */
+.aboutuspage .banner {
+  height: 70vh;
+  background: url(../../images/ai2assets/1x/aboutusBanner.png);
+  background-position: center;
+}
+.aboutuspage .banner::before {
+  content: unset;
+}
+.aboutuspage .bannerText {
+  margin: 2rem 0;
+}
+.aboutuspage .bannerText p {
+  text-align: center;
+  width: 60%;
+  font-family: SFUIText-Regular;
+  color: #939598;
+  font-size: 1.2rem;
+}
+.aboutuspage .whoweareSection {
+  padding: 3rem;
+  background: url(../../images/1x/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whoWeProp {
+  height: 100%;
+  width: 100%;
+}
+.whoWeProp img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -webkit-animation: rotation 15s infinite linear;
+}
+.whoweareSection .row .col-lg-6:last-child {
+  margin-top: 4rem;
+}
+.whoweareSection .row .col-lg-6:last-child p {
+  font-family: SFUIText-Regular;
+  color: #fff;
+}
+.whoweareSection .row .col-lg-6:last-child p:first-child {
+  font-size: 3rem;
+  font-family: SFUIText-Bold;
+}
+.whoweareSection ul {
+  padding-left: 1rem;
+  color: #fff;
+}
+.weMesauresection {
+  margin: 2rem 0;
+}
+.weMesauresection p {
+  text-align: center;
+}
+.weMesauresection p:first-child {
+  color: #231f20;
+  font-size: 2rem;
+  width: 40%;
+}
+.weMesauresection p:last-child {
+  width: 60%;
+  color: #939598;
+}
+.weMesauresection p:first-child span {
+  font-family: SFUIText-Bold;
+}
+.projectsSection {
+  background: url(../../images/ai2assets/1x/projectsBg.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  padding: 2rem;
+}
+.projectsSection .row .col-sm-3 {
+  position: relative;
+}
+.projectsSection .row .col-sm-3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #ea8018;
+}
+.projectsSection .row .col-sm-3:last-child::after {
+  content: unset;
+}
+.projectsSection .row .col-sm-3 p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+.projectsSection .row .col-sm-3 p:first-child {
+  font-family: SF-Black;
+  font-size: 2rem;
+}
+.projectsSection .row .col-sm-3 p:last-child {
+  font-family: SFUIText-Regular;
+}
+/* ecommerce page */
+.eccomercePage .banner {
+  background: url(../../images/ai2assets/1x/ecommercebanner1.png);
+}
+.eccomercePage .banner::after {
+  background: url(../../images/1x/businessHeader2.png);
+  opacity: 0.9;
+}
+.eccomercePage .banner p,
+.contentWritePage .banner p {
+  font-family: SFUIText-Regular;
+  color: #fff;
+  z-index: 10;
+  font-size: 1.5rem;
+}
+.eccomercePage .secondSection,
+.contentWritePage .secondSection {
+  position: relative;
+  background: url(../../images/ai2assets/1x/ecommerceSecondSectionbg.png);
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  z-index: 0;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.eccomercePage .secondSection::after,
+.contentWritePage .secondSection::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #000000ba;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.eccomercePage .secondSection p,
+.contentWritePage .secondSection p {
+  color: #fff;
+  z-index: 10;
+  text-align: center;
+  font-family: SFUIText-Regular;
+  width: 60%;
+}
+.eccomercePage .secondSection p:first-child span,
+.contentWritePage .secondSection p:first-child span {
+  font-family: SFUIText-Bold;
+}
+.eccomercePage .secondSection p:first-child,
+.contentWritePage .secondSection p:first-child {
+  font-size: 3rem;
+}
+.eccomercePage .secondSection p:nth-child(3),
+.contentWritePage .secondSection p:nth-child(3) {
+  font-family: SFUIText-Bold;
+  font-size: 2rem;
+}
+.eccomercePage .ecommercethirdSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.eccomercePage .ecommercethirdSection .col-6:first-child p {
+  color: #414042;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:first-child p:first-child,
+.eccomercePage .ecommercethirdSection .col-lg-6:first-child p:nth-child(3) {
+  font-size: 2rem;
+  color: #000;
+  font-family: "SF-Bold";
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:first-child button {
+  border-color: #231f20;
+  color: #231f20;
+}
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .container
+  .row
+  .col-sm-6
+  p {
+  color: #000;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12 {
+  position: relative;
+  border: 1px solid #231f20;
+  padding: 3rem 1rem;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6:hover,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12:hover {
+  background: url(../../images/1x/businessHeader2.png);
+  background-size: cover;
+  background-position: center;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6:hover p,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12:hover p {
+  color: #fff !important;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6::after,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12::after {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  border-radius: 100%;
+}
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-6
+  p:first-child,
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-12
+  p:first-child {
+  font-size: 1.3rem;
+  font-family: "SF-Bold";
+  color: #000;
+}
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-6
+  p:nth-child(2),
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-12
+  p:nth-child(2) {
+  min-height: 65px;
+  font-size: 1.3rem;
+  font-family: "SF-Bold";
+}
+.eccomercePage .ecommerceIcon {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+.eccomercePage .ecommerceIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.eccomercePage .ecommercefourthSection {
+  background: url(../../images/ai2assets/1x/ecommercefourthSectionbanner.png);
+  position: relative;
+  padding: 3rem 1rem;
+}
+.eccomercePage .ecommercefourthSection::after,
+.contentWritePage .ecommercefourthSection::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.eccomercePage .ecommercefourthSection .cstmCard {
+  position: relative;
+}
+.eccomercePage .ecommercefourthSection .cstmCard::before,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  border-radius: 100%;
+}
+.eccomercePage .ecommercefourthSection .ecommerceIcon {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+.eccomercePage .ecommercefourthSection .ecommerceIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 p:first-child,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  p:first-child {
+  min-height: auto;
+  margin-top: 1rem;
+}
+.ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm3
+  .cstmHoverCard1
+  .contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1 {
+  position: relative;
+  min-height: 310px;
+  padding: 1rem;
+}
+.eccomercePage .ecommercefiftSection .ecommerceIcon {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+.eccomercePage .ecommercefiftSection .ecommerceIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ecommercefiftSection .cstmRowFifth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 {
+  width: calc(99% / 4);
+  position: relative;
+}
+.ecommercesixthsection {
+  background: #000;
+}
+.ecommercesixthsection p:first-child {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.ecommercesixthsection p:first-child span,
+.contentWritePage .secondSection p:nth-child(3) span {
+  font-family: "SF-Bold";
+}
+.ecommercesixthsection .sliderImage {
+  max-width: 500px;
+  height: 100%;
+}
+/* content write page */
+.contentWritePage .banner {
+  background: url(../../images/ai2assets/1x/contentWriteBanner.png);
+}
+.contentWritePage .banner::before {
+  content: unset;
+}
+.contentWritePage .banner::after {
+  background: #000000ba;
+}
+.contentWritePage .banner h1 span {
+  font-family: SF-Black;
+}
+.contentWritePage .secondSection {
+  background: url(../../images/ai2assets/1x/contentwritesecondsecbanner.png);
+}
+.contentWritePage .secondSection p:nth-child(3) {
+  font-family: SFUIText-Regular;
+}
+.contentWritePage .secondSection p:first-child {
+  font-size: 2rem;
+  width: 80%;
+}
+.contentWritePage .ecommercefourthSection {
+  background: url(../../images/ai2assets/1x/contentwriteThirdsecbanner.png);
+  position: relative;
+  padding: 3rem 1rem;
+}
+.contentWritePage .ecommercefourthSection::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000000ba;
+}
+.contentWritePage .ecommercefourthSection .cstmCard {
+  min-height: 450px;
+  background: linear-gradient(to right, #ffffff1a, #ffffff6b);
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1::before {
+  content: unset;
+}
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4 {
+  width: calc(99% / 3);
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  p:first-child {
+  text-align: center;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1 {
+  min-height: 200px;
+  padding: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1
+  svg {
+  width: 50px;
+  height: 50px;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  .cls-1,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  svg {
+  fill: #fff;
+}
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4:hover p {
+  color: #000;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  p {
+  color: #fff;
+}
+.android-dev .banner h1 {
+  width: 90%;
+}
+.contentWritePage.android-dev .banner {
+  background: url(../../images/ai2assets/1x/android-dev-banner.png);
+}
+.contentWritePage.android-dev .secondSection p:nth-child(3) {
+  font-family: unset;
+  font-size: unset;
+}
+.contentWritePage.android-dev .secondSection {
+  padding: 5rem 0;
+  background: url(../../images/ai2assets/1x/android-dev-sec2banner.png);
+  background-position: top !important;
+}
+.contentWritePage.android-dev .secondSection.thirdsecondSection {
+  background: url(../../images/ai2assets/1x/android-dev-sec3-banner.png);
+}
+.contentWritePage.android-dev .fiftSection .cstmHoverCard1 {
+  min-height: 450px;
+}
+.contentWritePage.android-dev .fiftSection .col-sm-4 .cstmHoverCard1:hover p {
+  color: #fff;
+}
+.contentWritePage.android-dev .secondSection.fourthsecondSection {
+  background: url(../../images/ai2assets/1x/android-fourth-sec-banner.png);
+}
+.contentWritePage.android-dev .secondSection.fourthsecondSection p span {
+  font-family: SFUIText-Bold;
+  font-size: 2rem;
+}
+.contentWritePage.android-dev .ecommercefourthSection p:nth-child(2),
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .fourrem {
+  color: #fff;
+}
+.contentWritePage.android-dev .secondfifthsection .heading {
+  margin-bottom: 1rem;
+}
+.contentWritePage.android-dev .secondfifthsection .get-started {
+  color: #231f20;
+  border-color: #231f20;
+  margin: 0 auto;
+}
+.contentWritePage.android-dev .secondfifthsection .row .col-sm-3 p:first-child {
+  min-height: 120px;
+}
+.contentWritePage.android-dev .secondfifthsection .cstmHoverCard1 {
+  min-height: 450px;
+}
+.faqSection .col-lg-12 p:first-child,
+.react-dev .secondSection .fourrem {
+  font-family: SFUIText-Bold;
+  color: #000;
+  text-align: center;
+}
+.faqSection .accordion-button:hover,
+.faqSection .accordion-button:active {
+  font-family: unset;
+  color: unset;
+  font-size: 1rem;
+  background: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+.faqSection .accordion-item {
+  border: 0 !important;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+  -webkit-box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+}
+.faqSection .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.faqSection .accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+.react-dev .banner {
+  background: url(../../images/ai2assets/1x/react-app-banner.png);
+}
+.react-dev .secondSection {
+  background: url(../../images/ai2assets/1x/react-dev-banner-2.png);
+}
+.react-dev .secondSection .fourrem {
+  color: #fff;
+  width: 80%;
+}
+.contentWritePage.react-dev .secondSection p:nth-child(3) {
+  font-family: SFUIText-Bold;
+}
+.contentWritePage.react-dev .fourthSection .row:first-child p {
+  text-align: left;
+  font-size: 1.5rem;
+  width: 100%;
+}
+.contentWritePage.react-dev .fourthSection .cstmCard {
+  min-height: 780px;
+}
+.fourthSection .row:first-child .cstmCard p:last-child {
+  font-size: 1rem;
+}
+.contentWritePage.react-dev .fourthSection .cstmCard {
+  min-height: 480px;
+}
+.contentWritePage.react-dev .fourthSection .row:first-child {
+  flex-direction: row;
+}
+.contentWritePage.react-dev
+  .fourthSection
+  .row:first-child
+  .cstmCard:last-child,
+.contentWritePage.react-dev.cross-dev.desktop
+  .fourthSection
+  .row:first-child
+  .cstmCard:last-child {
+  width: 50%;
+  min-height: auto;
+}
+
+.contentWritePage.react-dev .fourthSection .row .col-lg-12:last-child p,
+.contentWritePage.react-dev .react-fifth-section p {
+  font-family: SFUIText-Bold;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+}
+/* react fifth section */
+.contentWritePage.react-dev .react-fifth-section {
+  position: relative;
+  padding: 3rem 0;
+}
+.contentWritePage.react-dev .react-fifth-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url(../../images/ai2assets/1x/react-last-sec-banner_1.png);
+  z-index: -9;
+}
+.contentWritePage.react-dev .react-fifth-section p {
+  color: #000;
+  text-align: left;
+}
+.contentWritePage.react-dev .react-fifth-section p:nth-child(2) {
+  font-size: unset;
+  font-family: unset;
+}
+.contentWritePage.react-dev .fourthSection .get-started {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentWritePage.react-dev .react-fifth-section .get-started {
+  color: #231f20;
+  border-color: #231f20;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentWritePage.react-dev .fourthSection::after {
+  background: url(../../images/ai2assets/1x/reactdev-digitalSol.png);
+}
+/* cross platform page */
+.contentWritePage.cross-dev .banner {
+  background: url(../../images/ai2assets/1x/cross-dev.png);
+}
+.cross-dev .crossdevSecondSec {
+  padding: 3rem 0;
+}
+.cross-dev .crossdevSecondSec p {
+  color: #000;
+  text-align: center;
+}
+.cross-dev .crossdevSecondSec p:first-child,
+.cross-dev .secondSection .fourrem,
+.cross-dev .crossdevSecondSec p.fourrem,
+.contentWritePage.react-dev.cross-dev .fourthSection .fourrem,
+.contentWritePage.react-dev.cross-dev .seventhSection.secondSection p.subHead,
+.contentWritePage.desktop .secondSection .fourrem,
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .fourrem {
+  font-family: SFUIText-Bold;
+}
+.contentWritePage.react-dev.cross-dev
+  .fourthSection
+  .row:first-child
+  .cstmCard:last-child,
+.contentWritePage.react-dev.cross-dev .fourthSection .cstmCard {
+  width: 30%;
+  min-height: 485px;
+}
+.contentWritePage.react-dev.cross-dev .fourthSection .cstmCard p:first-child,
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-md-7
+  .cstmHoverCard1,
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-md-7
+  .cstmHoverCard1
+  p:first-child {
+  min-height: auto;
+}
+.contentWritePage.react-dev.cross-dev .fourthSection {
+  background: url(../../images/ai2assets/1x/cross-dev-expertisesec.png);
+}
+.contentWritePage.react-dev.cross-dev .fourthSection::after {
+  background: #000000c9;
+}
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-sm-4
+  .cstmHoverCard1 {
+  min-height: 400px;
+}
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-sm-4
+  p:first-child {
+  min-height: 120px;
+}
+.contentWritePage.react-dev.cross-dev .seventhSection.secondSection p {
+  width: 100%;
+}
+.contentWritePage.react-dev.cross-dev .secondSection p:nth-child(3) {
+  font-family: unset;
+  font-size: unset;
+}
+.contentWritePage.react-dev.cross-dev .seventhSection.secondSection p.subHead {
+  font-size: 2rem;
+}
+.contentWritePage.desktop .banner h1 {
+  width: 80%;
+}
+.contentWritePage.desktop .banner {
+  background: url(../../images/ai2assets/1x/desktopbanner.png);
+}
+.contentWritePage.desktop .secondSection {
+  background: url(../../images/ai2assets/1x/desktop-secondbanner.png);
+}
+.contentWritePage.desktop .crossdevSecondSec .get-started {
+  background: #231f20;
+  color: #fff;
+}
+
+.contentWritePage.react-dev.cross-dev.desktop .fourthSection {
+  background: url(../../images/ai2assets/1x/desktop-fourthsecBg.png);
+}
+.contentWritePage.react-dev.cross-dev.desktop
+  .fourthSection
+  .row:first-child
+  .cstmCard {
+  min-height: 370px;
+}
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec {
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background: url(../../images/ai2assets/1x/teamExpertBg.png);
+  width: 100%;
+  padding: 3rem;
+  position: relative;
+  z-index: 1;
+}
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000000c9;
+}
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .imgBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.fourrem {
+  font-size: 4rem !important;
+}
+.main-transparnet {
+  margin-bottom: 1rem;
+}
+.extramargin{
+  margin-bottom: 2rem;
+}
+
+.thirdSection .row .col-6 p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.thirdSection .row .col-6 span.para2{
+  min-height:25px;
+  display: block;
+}
+
+
+/* media queries */
+@media only screen and (min-width: 2560px) {
+  .contentWritePage.react-dev .react-fifth-section::before{
+    width: 10%;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    right: 25%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .thirdSection .row .col-6 p:first-child {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .fourthSection .cstmCard,
+  .ecommercefourthSection .cstmCard {
+    padding: 4rem 1rem;
+  }
+  .fiftSection .row .col-sm-4 .cstmHoverCard1,
+  .fiftSection .row .col-md-7 .cstmHoverCard1,
+  .fiftSection .row .col-lg-3 .cstmHoverCard1,
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1 {
+    min-height: 400px;
+  }
+  .fiftSection .row .col-sm-4 p:first-child,
+  .fiftSection .row .col-md-7 p:first-child,
+  .fiftSection .row .col-lg-3 p:first-child {
+    min-height: 150px;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 p:first-child {
+    min-height: auto;
+  }
+  .fiftSection .row .col-lg-3 .cstmHoverCard1 {
+    min-height: 500px;
+  }
+  .nine-section {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fourrem {
+    font-size: 2rem !important;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .secondbanner p:last-child,
+  .secondbanner p:first-child,
+  .banner h1 {
+    width: 90%;
+  }
+  .fourthSection .row:first-child p {
+    width: 100%;
+  }
+  .thirdSection .col-lg-6:first-child p,
+  .thirdSection .col-lg-6:first-child button {
+    margin-left: 0;
+  }
+  .thirdSection .row .col-lg-6 .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thirdSection .row .col-lg-6:last-child {
+    margin-top: 2rem;
+  }
+  .fourthSection .cstmCard,
+  .ecommercefourthSection .cstmCard {
+    padding: 3rem 1rem;
+    width: 45%;
+    min-height: 420px;
+  }
+  .whoWeProp {
+    width: 70%;
+    margin-top: 0rem;
+  }
+  .whoweareSection .row .col-lg-6:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weMesauresection p:first-child {
+    width: 90%;
+  }
+  .weMesauresection p:last-child {
+    width: 95%;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 {
+    width: 50%;
+    margin-top: 1rem;
+    margin-right: -1rem;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1 {
+    min-height: 300px;
+  }
+  .ecommercesixthsection p:first-child {
+    width: 90%;
+  }
+  .ecommercesixthsection .swiper-main-div .swiper-button-next {
+    right: 0;
+  }
+  .ecommercesixthsection .swiper-main-div .swiper-button-prev {
+    left: 0;
+  }
+  .contentWritePage .ecommercefourthSection .row:first-child p,
+  .contentWritePage .secondSection p,
+  .contentWritePage .secondSection p:first-child {
+    width: 100%;
+  }
+  .contentWritePage.android-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: 710px;
+  }
+  .fiftSection .row .col-lg-3 p:first-child,
+  .fiftSection .row .col-lg-3 .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .contentWritePage.react-dev .fourthSection .cstmCard,
+  .contentWritePage.react-dev
+    .fourthSection
+    .row:first-child
+    .cstmCard:last-child {
+    min-height: auto;
+    width: 100%;
+  }
+  .react-dev .secondSection,
+  .contentWritePage.react-dev.cross-dev.desktop .teamExpertSec {
+    padding: 10px;
+  }
+  .contentWritePage.react-dev.cross-dev
+    .fourthSection
+    .row:first-child
+    .cstmCard:last-child,
+    .fiftSection .row .col-sm-4 p:first-child,
+  .contentWritePage.react-dev.cross-dev .fourthSection .cstmCard,
+  .contentWritePage.react-dev.cross-dev.desktop .fourthSection .row:first-child .cstmCard:last-child,
+  .contentWritePage.react-dev.cross-dev.desktop .fourthSection .row:first-child .cstmCard {
+    width: 100%;
+    min-height: auto;
+  }
+  .contentWritePage.react-dev.cross-dev .secondSection {
+    padding: 3rem;
+  }
+  
+    .fiftSection .row .col-sm-4 .cstmHoverCard1{
+      min-height: 380px;
+    }
+  .nine-section {
+    padding: 0;
+  }
+  .range-name-about,
+  .range{
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .secondbanner p:first-child {
+    font-size: 2rem;
+  }
+  .secondbanner p:last-child,
+  .secondbanner p:first-child,
+  .banner h1 {
+    width: 95%;
+  }
+  .fourthSection .cstmCard,
+  .ecommercefourthSection .cstmCard {
+    width: 95%;
+    min-height: 400px;
+  }
+  .whoweareSection .row .col-lg-6:last-child {
+    margin-top: 0rem;
+    padding: 2rem;
+  }
+  .projectsSection .row .col-sm-3::after {
+    content: unset;
+  }
+  .projectsSection .row .col-sm-3 p:last-child {
+    margin-bottom: 2rem;
+  }
+  .projectsSection .row .col-sm-3:last-child p:last-child {
+    margin-bottom: 0;
+  }
+  .eccomercePage .secondSection p:first-child {
+    font-size: 2rem;
+  }
+  .eccomercePage .secondSection p {
+    width: 100%;
+  }
+  .eccomercePage .ecommercethirdSection .col-lg-6 {
+    text-align: center;
+  }
+  .eccomercePage
+    .ecommercethirdSection
+    .col-lg-6:last-child
+    .col-sm-6
+    p:nth-child(2),
+  .eccomercePage
+    .ecommercethirdSection
+    .col-lg-6:last-child
+    .col-sm-12
+    p:nth-child(2),
+    .fiftSection .row .col-sm-4 p:first-child,
+    .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .ecommercethirdSection .row .col-lg-6:last-child {
+    margin-top: 3rem;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 {
+    width: 100%;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1 {
+    min-height: 250px;
+  }
+  .contentWritePage .ecommercefourthSection .cstmCard {
+    min-height: 300px;
+  }
+  .ecommercesixthsection .sliderImage {
+    max-width: 250px;
+  }
+  .contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4 {
+    width: 100%;
+  }
+  .contentWritePage.android-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .contentWritePage.android-dev .fiftSection .row .col-sm-4 p:first-child,
+  .contentWritePage.react-dev.cross-dev .fiftSection .row .col-sm-4 p:first-child,
+  .contentWritePage.react-dev.cross-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .contentWritePage.android-dev .secondSection.fourthsecondSection,
+  .contentWritePage.android-dev .secondSection,
+  .react-dev .secondSection,
+  .contentWritePage.react-dev.cross-dev .secondSection {
+    padding: 1rem;
+  }
+  .contentWritePage.react-dev .react-fifth-section::before {
+    width: 100%;
+  }
+  .react-dev .secondSection .fourrem {
+    width: 100%;
+  }
+  .nine-section,
+  .aboutuspage .whoweareSection {
+    padding: 0;
+  }
+}
+/* commons */
+.fiftSection .col-sm-4:hover .cstmHoverCard1 p {
+  color: #000;
+}
+body {
+  overflow: auto;
+}
+.navigation {
+  z-index: 100000;
+}
+@font-face {
+  font-family: gilroy-light;
+  src: url("assets/fonts/Gilroy-Light.ttf");
+}
+
+@font-face {
+  font-family: SFUIText-Bold;
+  src: url("assets/fonts/sf-ui-display-fonts/SFUIText-Bold.ttf");
+}
+
+@font-face {
+  font-family: SFUIText-Regular;
+  src: url("assets/fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
+}
+@font-face {
+  font-family: Piersob;
+  src: url("./assets/fonts/piersob/piersob.ttf");
+}
+
+@font-face {
+  font-family: SF-Black;
+  src: url("./assets/fonts/sfu_i/SF-UI-Display-Black.ttf");
+}
+
+@font-face {
+  font-family: SF-Reg;
+  src: url("./assets/fonts/sfu_i/SF-UI-Display-Regular.ttf");
+}
+
+@font-face {
+  font-family: SF-Bold;
+  src: url("./assets/fonts/sfu_i/sfuidisplay-bold.ttf");
+}
+@font-face {
+  font-family: SFUIText-Light;
+  src: url("./assets/fonts/sf-ui-display-fonts/SFUIText-Light.ttf");
+}
+
+/* business trading page */
+/* banner */
+.secondbanner.banner {
+  background: url(../../images/ai2assets/1x/secondsectionbanner.png);
+}
+.secondbanner.banner::after {
+  content: unset;
+}
+.secondbanner.banner::before {
+  content: unset;
+}
+.secondbanner p:first-child {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  font-family: "SF-Bold";
+  z-index: 100;
+  width: 60%;
+}
+.secondbanner p:last-child {
+  color: #fff;
+  text-align: center;
+  width: 60%;
+}
+/* third section */
+.thirdSection {
+  padding: 3rem 0;
+}
+.thirdSection .col-lg-6:first-child p,
+.thirdSection .col-lg-6:first-child button {
+  margin-left: 6rem;
+}
+.thirdSection .col-lg-6:first-child p:first-child {
+  font-size: 3rem;
+  color: #000;
+  font-family: "SF-Bold";
+}
+.thirdSection .col-lg-6:first-child p:last-child {
+  color: #808285;
+}
+.thirdSection .get-your-website-now {
+  background: #231f20;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-family: SFUIText-Regular;
+}
+.cstmCard:hover .ecommerceIcon img,
+.cstmHoverCard1:hover .ecommerceIcon img,
+.col-sm-6:hover .ecommerceIcon img,
+.col-sm-12:hover .ecommerceIcon img,
+.col-md-12:hover .ecommerceIcon img {
+  transform: scale(1.5);
+}
+.cstmCard:hover .ecommerceIcon img,
+.cstmHoverCard1 .ecommerceIcon img,
+.col-sm-6 .ecommerceIcon img,
+.col-sm-12 .ecommerceIcon img,
+.col-md-12 .ecommerceIcon img {
+  transition: 0.5s all ease-in-out;
+}
+.cstmHoverCard .cstmCard p:first-child {
+  color: #000;
+}
+.cstmHoverCard .cstmCard p:last-child {
+  color: #808285;
+}
+.thirdSection .row .col-6 {
+  border: 1px solid #000;
+  padding: 1rem;
+}
+.thirdSection .row .col-lg-6 p {
+  transition: 0.5s all ease-in-out;
+}
+.thirdSection .row .col-6:hover {
+  background: url(../../images/1x/header-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.thirdSection .row .col-6:hover p,
+.fiftSection .row .col-sm-4:hover p,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3:hover p,
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4:hover p {
+  color: #fff;
+  cursor: pointer;
+}
+.thirdSection .row .col-6 p:first-child,
+.fiftSection .row .col-sm-4 p:first-child,
+.fiftSection .row .col-md-7 p:first-child,
+.fiftSection .row .col-lg-3 p:first-child,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 p:first-child,
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4 p:last-child {
+  font-size: 1.5rem;
+  font-family: "SF-Bold";
+}
+/* fourth section */
+.fourthSection {
+  position: relative;
+  background: #15161b;
+  z-index: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fourthSection::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/ai2assets/1x/businesstradingsection4bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+.fourthSection .row:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fourthSection .row:first-child p,
+.ecommercefourthSection .row:first-child p {
+  text-align: center;
+  z-index: 1;
+  font-size: 2rem;
+  color: #fff;
+  font-family: SF-Reg;
+  width: 50%;
+}
+.fourthSection .row:first-child p span,
+.ecommercefourthSection .row:first-child p span {
+  font-family: "SF-Bold";
+}
+.fourthSection .cstmCard,
+.ecommercefourthSection .cstmCard {
+  width: 30%;
+  background: linear-gradient(to right, #ffffff1c, #ffffffba);
+  padding: 4rem 2rem;
+  margin: 10px;
+  min-height: 480px;
+  z-index: 1;
+}
+.cstCardProp {
+  position: relative;
+  transition: 0.5s all ease-in-out;
+}
+.cstCardProp:hover {
+  transform: translateY(-10px);
+  transition: 0.5s all ease-in-out;
+}
+.cstCardProp::after {
+  content: "";
+  background: url(../../images/1x/slider-round-btn.png);
+  top: 10px;
+  left: 65%;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: cover;
+  filter: blur(7px);
+  -webkit-animation: rotation 2s infinite linear;
+}
+.fourthSection .cstmCard p,
+.ecommercefourthSection .cstmCard p {
+  color: #fff;
+}
+.fourthSection .cstmCard p:first-child,
+.ecommercefourthSection .cstmCard p:first-child {
+  font-family: SFUIText-Bold;
+  font-size: 1.5rem;
+  min-height: 70px;
+}
+.fourthSection .cstmCard p:last-child,
+.ecommercefourthSection .cstmCard p:last-child {
+  font-family: gilroy-light;
+}
+.heading {
+  font-size: 3rem;
+  color: #000;
+  text-align: center;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.fiftSection p:first-child span {
+  font-family: "SF-Bold";
+}
+.fiftSection .row .col-sm-4 .cstmHoverCard1,
+.fiftSection .row .col-md-7 .cstmHoverCard1,
+.fiftSection .row .col-lg-3 .cstmHoverCard1,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1 {
+  border: 1px solid #000;
+  min-height: 400px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.fiftSection .row .col-sm-4 .cstmHoverCard1:hover,
+.fiftSection .row .col-md-7 .cstmHoverCard1:hover,
+.fiftSection .row .col-lg-3 .cstmHoverCard1:hover,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1:hover,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover {
+  background: url(../../images/1x/header-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fiftSection .row .col-sm-4 .cstmHoverCard1:hover p,
+.fiftSection .row .col-md-7 .cstmHoverCard1:hover p,
+.fiftSection .row .col-lg-3 .cstmHoverCard1:hover p,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1:hover p,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  p {
+  color: #fff;
+}
+.fiftSection .row .col-sm-4 p:first-child,
+.fiftSection .row .col-md-7 p:first-child,
+.fiftSection .row .col-lg-3 p:first-child {
+  min-height: 100px;
+}
+
+/* about us page */
+.aboutuspage .banner {
+  height: 70vh;
+  background: url(../../images/ai2assets/1x/aboutusBanner.png);
+  background-position: center;
+}
+.aboutuspage .banner::before {
+  content: unset;
+}
+.aboutuspage .bannerText {
+  margin: 2rem 0;
+}
+
+.aboutuspage .bannerText p {
+  text-align: center;
+  width: 60%;
+  font-family: SFUIText-Regular;
+  color: #939598;
+  font-size: 1.2rem;
+}
+.aboutuspage .whoweareSection {
+  padding: 3rem;
+  background: url(../../images/1x/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.solutions {
+  background-color: #ffffff;
+  min-height: 400px;
+}
+.para-2 {
+  font-family: "SFUIText-Regular";
+  color: #000000;
+  z-index: 30;
+  font-size: 1.3rem;
+}
+.head-1 {
+  z-index: 100;
+  color: rgb(0, 0, 0);
+  font-family: "SFUIText-Light";
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+}
+
+.bold-head1 {
+  font-family: "SFUIText-Bold";
+  font-size: 2.3rem;
+}
+.solutions .flag1,
+.solutions .flag2,
+.solutions .flag3 {
+  width: 327px;
+  height: 50px;
+}
+.solutions .flag1{
+  margin-right: 10px;
+}
+.solutions .flag1 img,
+.solutions .flag2 img,
+.solutions .flag3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* <!-- ================================== RANGE SLIDER  =============================== --> */
+.h-1 {
+  font-size: 3rem;
+  font-family: "SFUIText-Bold";
+  font-weight: 600;
+  z-index: 100;
+  color: rgb(255, 255, 255);
+}
+.aboutus-range-slider{
+  background-color: #000;
+  min-height: 600px;
+}
+.r-slider1{
+  margin-top: 1rem;
+}
+.range {
+  display: table;
+  position: relative;
+  height: 10px;
+  width: 80%;
+  margin-top: 10px;
+  background: rgb(149,149,149);
+  background: linear-gradient(90deg, rgba(149,149,149,1) 0%, rgba(20,20,20,1) 0%, rgba(122,119,119,1) 37%);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.range input[type="range"] {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -ms-appearance: none !important;
+  -o-appearance: none !important;
+  appearance: none !important;
+
+  display: table-cell;
+  width: 100%;
+  background-color: transparent;
+  height: 10px;
+  cursor: pointer;
+}
+.range input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -ms-appearance: none !important;
+  -o-appearance: none !important;
+  appearance: none !important;
+
+  width: 15px;
+  height: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.range input[type="range"]::-moz-slider-thumb {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -ms-appearance: none !important;
+  -o-appearance: none !important;
+  appearance: none !important;
+  
+  width: 15px;
+  height: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0px;
+  background-color: rgb(153, 153, 153);
+}
+
+.range output {
+  display: table-cell;
+  padding: 3px 5px 2px;
+  min-width: 40px;
+  color: rgb(255, 255, 255);
+  background-color:  rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+.range input[type="range"] {
+  outline: none;
+}
+.h-5 {
+  /* background-color: rgb(29, 67, 235); */
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-family: "SFUIText-Bold";
+}
+.range-name-about{
+  width: 80%;
+}
+.whoWeProp {
+  height: 100%;
+  width: 100%;
+}
+.whoWeProp img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -webkit-animation: rotation 15s infinite linear;
+}
+.whoweareSection .row .col-lg-6:last-child {
+  margin-top: 4rem;
+}
+.whoweareSection .row .col-lg-6:last-child p {
+  font-family: SFUIText-Regular;
+  color: #fff;
+}
+.whoweareSection .row .col-lg-6:last-child p:first-child {
+  font-size: 3rem;
+  font-family: SFUIText-Bold;
+}
+.whoweareSection ul {
+  padding-left: 1rem;
+  color: #fff;
+}
+.weMesauresection {
+  margin: 2rem 0;
+}
+.weMesauresection p {
+  text-align: center;
+}
+.weMesauresection p:first-child {
+  color: #231f20;
+  font-size: 2rem;
+  width: 40%;
+}
+.weMesauresection p:last-child {
+  width: 60%;
+  color: #939598;
+}
+.weMesauresection p:first-child span {
+  font-family: SFUIText-Bold;
+}
+.projectsSection {
+  background: url(../../images/ai2assets/1x/projectsBg.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  padding: 2rem;
+}
+.projectsSection .row .col-sm-3 {
+  position: relative;
+}
+.projectsSection .row .col-sm-3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #ea8018;
+}
+.projectsSection .row .col-sm-3:last-child::after {
+  content: unset;
+}
+.projectsSection .row .col-sm-3 p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+.projectsSection .row .col-sm-3 p:first-child {
+  font-family: SF-Black;
+  font-size: 2rem;
+}
+.projectsSection .row .col-sm-3 p:last-child {
+  font-family: SFUIText-Regular;
+}
+/* ecommerce page */
+.eccomercePage .banner {
+  background: url(../../images/ai2assets/1x/ecommercebanner1.png);
+}
+.eccomercePage .banner::after {
+  background: url(../../images/1x/businessHeader2.png);
+  opacity: 0.9;
+}
+.eccomercePage .banner p,
+.contentWritePage .banner p {
+  font-family: SFUIText-Regular;
+  color: #fff;
+  z-index: 10;
+  font-size: 1.5rem;
+}
+.eccomercePage .secondSection,
+.contentWritePage .secondSection {
+  position: relative;
+  background: url(../../images/ai2assets/1x/ecommerceSecondSectionbg.png);
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  z-index: 0;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.eccomercePage .secondSection::after,
+.contentWritePage .secondSection::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #000000ba;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.eccomercePage .secondSection p,
+.contentWritePage .secondSection p {
+  color: #fff;
+  z-index: 10;
+  text-align: center;
+  font-family: SFUIText-Regular;
+  width: 60%;
+}
+.eccomercePage .secondSection p:first-child span,
+.contentWritePage .secondSection p:first-child span {
+  font-family: SFUIText-Bold;
+}
+.eccomercePage .secondSection p:first-child,
+.contentWritePage .secondSection p:first-child {
+  font-size: 3rem;
+}
+.eccomercePage .secondSection p:nth-child(3),
+.contentWritePage .secondSection p:nth-child(3) {
+  font-family: SFUIText-Bold;
+  font-size: 2rem;
+}
+.eccomercePage .ecommercethirdSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.eccomercePage .ecommercethirdSection .col-6:first-child p {
+  color: #414042;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:first-child p:first-child,
+.eccomercePage .ecommercethirdSection .col-lg-6:first-child p:nth-child(3) {
+  font-size: 2rem;
+  color: #000;
+  font-family: "SF-Bold";
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:first-child button {
+  border-color: #231f20;
+  color: #231f20;
+}
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .container
+  .row
+  .col-sm-6
+  p {
+  color: #000;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12 {
+  position: relative;
+  border: 1px solid #231f20;
+  padding: 3rem 1rem;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6:hover,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12:hover {
+  background: url(../../images/1x/businessHeader2.png);
+  background-size: cover;
+  background-position: center;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6:hover p,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12:hover p {
+  color: #fff !important;
+}
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-6::after,
+.eccomercePage .ecommercethirdSection .col-lg-6:last-child .col-sm-12::after {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  border-radius: 100%;
+}
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-6
+  p:first-child,
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-12
+  p:first-child {
+  font-size: 1.3rem;
+  font-family: "SF-Bold";
+  color: #000;
+}
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-6
+  p:nth-child(2),
+.eccomercePage
+  .ecommercethirdSection
+  .col-lg-6:last-child
+  .col-sm-12
+  p:nth-child(2) {
+  min-height: 65px;
+  font-size: 1.3rem;
+  font-family: "SF-Bold";
+}
+.eccomercePage .ecommerceIcon {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+.eccomercePage .ecommerceIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.eccomercePage .ecommercefourthSection {
+  background: url(../../images/ai2assets/1x/ecommercefourthSectionbanner.png);
+  position: relative;
+  padding: 3rem 1rem;
+}
+.eccomercePage .ecommercefourthSection::after,
+.contentWritePage .ecommercefourthSection::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.eccomercePage .ecommercefourthSection .cstmCard {
+  position: relative;
+}
+.eccomercePage .ecommercefourthSection .cstmCard::before,
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 2px 2px 30px -1px rgba(0, 0, 0, 0.66);
+  border-radius: 100%;
+}
+.eccomercePage .ecommercefourthSection .ecommerceIcon {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+.eccomercePage .ecommercefourthSection .ecommerceIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 p:first-child,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  p:first-child {
+  min-height: auto;
+  margin-top: 1rem;
+}
+.ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm3
+  .cstmHoverCard1
+  .contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1 {
+  position: relative;
+  min-height: 310px;
+  padding: 1rem;
+}
+.eccomercePage .ecommercefiftSection .ecommerceIcon {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+.eccomercePage .ecommercefiftSection .ecommerceIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ecommercefiftSection .cstmRowFifth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ecommercefiftSection .cstmRowFifth .cstmColsm3 {
+  width: calc(99% / 4);
+  position: relative;
+}
+.ecommercesixthsection {
+  background: #000;
+}
+.ecommercesixthsection p:first-child {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.ecommercesixthsection p:first-child span,
+.contentWritePage .secondSection p:nth-child(3) span {
+  font-family: "SF-Bold";
+}
+.ecommercesixthsection .sliderImage {
+  max-width: 500px;
+  height: 100%;
+}
+/* content write page */
+.contentWritePage .banner {
+  background: url(../../images/ai2assets/1x/contentWriteBanner.png);
+}
+.contentWritePage .banner::before {
+  content: unset;
+}
+.contentWritePage .banner::after {
+  background: #000000ba;
+}
+.contentWritePage .banner h1 span {
+  font-family: SF-Black;
+}
+.contentWritePage .secondSection {
+  background: url(../../images/ai2assets/1x/contentwritesecondsecbanner.png);
+}
+.contentWritePage .secondSection p:nth-child(3) {
+  font-family: SFUIText-Regular;
+}
+.contentWritePage .secondSection p:first-child {
+  font-size: 2rem;
+  width: 80%;
+}
+.contentWritePage .ecommercefourthSection {
+  background: url(../../images/ai2assets/1x/contentwriteThirdsecbanner.png);
+  position: relative;
+  padding: 3rem 1rem;
+}
+.contentWritePage .ecommercefourthSection::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000000ba;
+}
+.contentWritePage .ecommercefourthSection .cstmCard {
+  min-height: 450px;
+  background: linear-gradient(to right, #ffffff1a, #ffffff6b);
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1::before {
+  content: unset;
+}
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4 {
+  width: calc(99% / 3);
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  p:first-child {
+  text-align: center;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1 {
+  min-height: 200px;
+  padding: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1
+  svg {
+  width: 50px;
+  height: 50px;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  .cls-1,
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  svg {
+  fill: #fff;
+}
+.contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4:hover p {
+  color: #000;
+}
+.contentWritePage
+  .ecommercefiftSection
+  .cstmRowFifth
+  .cstmColsm4
+  .cstmHoverCard1:hover
+  p {
+  color: #fff;
+}
+.android-dev .banner h1 {
+  width: 90%;
+}
+.contentWritePage.android-dev .banner {
+  background: url(../../images/ai2assets/1x/android-dev-banner.png);
+}
+.contentWritePage.android-dev .secondSection p:nth-child(3) {
+  font-family: unset;
+  font-size: unset;
+}
+.contentWritePage.android-dev .secondSection {
+  padding: 5rem 0;
+  background: url(../../images/ai2assets/1x/android-dev-sec2banner.png);
+  background-position: top !important;
+}
+.contentWritePage.android-dev .secondSection.thirdsecondSection {
+  background: url(../../images/ai2assets/1x/android-dev-sec3-banner.png);
+}
+.contentWritePage.android-dev .fiftSection .cstmHoverCard1 {
+  min-height: 450px;
+}
+.contentWritePage.android-dev .fiftSection .col-sm-4 .cstmHoverCard1:hover p {
+  color: #fff;
+}
+.contentWritePage.android-dev .secondSection.fourthsecondSection {
+  background: url(../../images/ai2assets/1x/android-fourth-sec-banner.png);
+}
+.contentWritePage.android-dev .secondSection.fourthsecondSection p span {
+  font-family: SFUIText-Bold;
+  font-size: 2rem;
+}
+.contentWritePage.android-dev .ecommercefourthSection p:nth-child(2),
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .fourrem {
+  color: #fff;
+}
+.contentWritePage.android-dev .secondfifthsection .heading {
+  margin-bottom: 1rem;
+}
+.contentWritePage.android-dev .secondfifthsection .get-started {
+  color: #231f20;
+  border-color: #231f20;
+  margin: 0 auto;
+}
+.contentWritePage.android-dev .secondfifthsection .row .col-sm-3 p:first-child {
+  min-height: 120px;
+}
+.contentWritePage.android-dev .secondfifthsection .cstmHoverCard1 {
+  min-height: 450px;
+}
+.faqSection .col-lg-12 p:first-child,
+.react-dev .secondSection .fourrem {
+  font-family: SFUIText-Bold;
+  color: #000;
+  text-align: center;
+}
+.faqSection .accordion-button:hover,
+.faqSection .accordion-button:active {
+  font-family: unset;
+  color: unset;
+  font-size: 1rem;
+  background: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+.faqSection .accordion-item {
+  border: 0 !important;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+  -webkit-box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 75%);
+}
+.faqSection .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.faqSection .accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+.react-dev .banner {
+  background: url(../../images/ai2assets/1x/react-app-banner.png);
+}
+.react-dev .secondSection {
+  background: url(../../images/ai2assets/1x/react-dev-banner-2.png);
+}
+.react-dev .secondSection .fourrem {
+  color: #fff;
+  width: 80%;
+}
+.contentWritePage.react-dev .secondSection p:nth-child(3) {
+  font-family: SFUIText-Bold;
+}
+.contentWritePage.react-dev .fourthSection .row:first-child p {
+  text-align: left;
+  font-size: 1.5rem;
+  width: 100%;
+}
+.contentWritePage.react-dev .fourthSection .cstmCard {
+  min-height: 780px;
+}
+.fourthSection .row:first-child .cstmCard p:last-child {
+  font-size: 1rem;
+}
+.contentWritePage.react-dev .fourthSection .cstmCard {
+  min-height: 480px;
+}
+.contentWritePage.react-dev .fourthSection .row:first-child {
+  flex-direction: row;
+}
+.contentWritePage.react-dev
+  .fourthSection
+  .row:first-child
+  .cstmCard:last-child,
+.contentWritePage.react-dev.cross-dev.desktop
+  .fourthSection
+  .row:first-child
+  .cstmCard:last-child {
+  width: 50%;
+  min-height: auto;
+}
+
+.contentWritePage.react-dev .fourthSection .row .col-lg-12:last-child p,
+.contentWritePage.react-dev .react-fifth-section p {
+  font-family: SFUIText-Bold;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+}
+/* react fifth section */
+.contentWritePage.react-dev .react-fifth-section {
+  position: relative;
+  padding: 3rem 0;
+}
+.contentWritePage.react-dev .react-fifth-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background: url(../../images/ai2assets/1x/react-last-sec-banner_1.png);
+  z-index: -9;
+}
+.contentWritePage.react-dev .react-fifth-section p {
+  color: #000;
+  text-align: left;
+}
+.contentWritePage.react-dev .react-fifth-section p:nth-child(2) {
+  font-size: unset;
+  font-family: unset;
+}
+.contentWritePage.react-dev .fourthSection .get-started {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentWritePage.react-dev .react-fifth-section .get-started {
+  color: #231f20;
+  border-color: #231f20;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentWritePage.react-dev .fourthSection::after {
+  background: url(../../images/ai2assets/1x/reactdev-digitalSol.png);
+}
+/* cross platform page */
+.contentWritePage.cross-dev .banner {
+  background: url(../../images/ai2assets/1x/cross-dev.png);
+}
+.cross-dev .crossdevSecondSec {
+  padding: 3rem 0;
+}
+.cross-dev .crossdevSecondSec p {
+  color: #000;
+  text-align: center;
+}
+.cross-dev .crossdevSecondSec p:first-child,
+.cross-dev .secondSection .fourrem,
+.cross-dev .crossdevSecondSec p.fourrem,
+.contentWritePage.react-dev.cross-dev .fourthSection .fourrem,
+.contentWritePage.react-dev.cross-dev .seventhSection.secondSection p.subHead,
+.contentWritePage.desktop .secondSection .fourrem,
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .fourrem {
+  font-family: SFUIText-Bold;
+}
+.contentWritePage.react-dev.cross-dev
+  .fourthSection
+  .row:first-child
+  .cstmCard:last-child,
+.contentWritePage.react-dev.cross-dev .fourthSection .cstmCard {
+  width: 30%;
+  min-height: 485px;
+}
+.contentWritePage.react-dev.cross-dev .fourthSection .cstmCard p:first-child,
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-md-7
+  .cstmHoverCard1,
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-md-7
+  .cstmHoverCard1
+  p:first-child {
+  min-height: auto;
+}
+.contentWritePage.react-dev.cross-dev .fourthSection {
+  background: url(../../images/ai2assets/1x/cross-dev-expertisesec.png);
+}
+.contentWritePage.react-dev.cross-dev .fourthSection::after {
+  background: #000000c9;
+}
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-sm-4
+  .cstmHoverCard1 {
+  min-height: 400px;
+}
+.contentWritePage.react-dev.cross-dev
+  .fiftSection
+  .row
+  .col-sm-4
+  p:first-child {
+  min-height: 120px;
+}
+.contentWritePage.react-dev.cross-dev .seventhSection.secondSection p {
+  width: 100%;
+}
+.contentWritePage.react-dev.cross-dev .secondSection p:nth-child(3) {
+  font-family: unset;
+  font-size: unset;
+}
+.contentWritePage.react-dev.cross-dev .seventhSection.secondSection p.subHead {
+  font-size: 2rem;
+}
+.contentWritePage.desktop .banner h1 {
+  width: 80%;
+}
+.contentWritePage.desktop .banner {
+  background: url(../../images/ai2assets/1x/desktopbanner.png);
+}
+.contentWritePage.desktop .secondSection {
+  background: url(../../images/ai2assets/1x/desktop-secondbanner.png);
+}
+.contentWritePage.desktop .crossdevSecondSec .get-started {
+  background: #231f20;
+  color: #fff;
+}
+
+.contentWritePage.react-dev.cross-dev.desktop .fourthSection {
+  background: url(../../images/ai2assets/1x/desktop-fourthsecBg.png);
+}
+.contentWritePage.react-dev.cross-dev.desktop
+  .fourthSection
+  .row:first-child
+  .cstmCard {
+  min-height: 370px;
+}
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec {
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background: url(../../images/ai2assets/1x/teamExpertBg.png);
+  width: 100%;
+  padding: 3rem;
+  position: relative;
+  z-index: 1;
+}
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000000c9;
+}
+.contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .imgBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.fourrem {
+  font-size: 4rem !important;
+}
+.main-transparnet {
+  margin-bottom: 1rem;
+}
+/* media queries */
+@media only screen and (min-width: 2560px) {
+  .contentWritePage.react-dev .react-fifth-section::before {
+    width: 10%;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    right: 25%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .thirdSection .row .col-6 p:first-child {
+    font-size: 1.5rem;
+  }
+  .fourthSection .cstmCard,
+  .ecommercefourthSection .cstmCard {
+    padding: 4rem 1rem;
+  }
+  .fiftSection .row .col-sm-4 .cstmHoverCard1, .fiftSection .row .col-md-7 .cstmHoverCard1, .fiftSection .row .col-lg-3 .cstmHoverCard1, .ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1 {
+    min-height: 445px;
+}
+  /* .fiftSection .row .col-sm-4 p:first-child,
+  .fiftSection .row .col-md-7 p:first-child,
+  .fiftSection .row .col-lg-3 p:first-child {
+    min-height: 150px;
+  } */
+  .fiftSection .row .col-sm-4 .cstmHoverCard1, .fiftSection .row .col-md-7 .cstmHoverCard1, .fiftSection .row .col-lg-3 .cstmHoverCard1, .ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1 {
+    min-height: 515px;
+}
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 p:first-child {
+    min-height: auto;
+  }
+  .fiftSection .row .col-lg-3 .cstmHoverCard1 {
+    min-height: 500px;
+  }
+  .nine-section {
+    padding: 0;
+  }
+  .contentWritePage.react-dev.cross-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: 439px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .fourrem {
+    font-size: 2rem !important;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .secondbanner p:last-child,
+  .secondbanner p:first-child,
+  .banner h1 {
+    width: 90%;
+  }
+  .fourthSection .row:first-child p {
+    width: 100%;
+  }
+  .thirdSection .col-lg-6:first-child p,
+  .thirdSection .col-lg-6:first-child button {
+    margin-left: 0;
+  }
+  .thirdSection .row .col-lg-6 .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thirdSection .row .col-lg-6:last-child {
+    margin-top: 2rem;
+  }
+  .fourthSection .cstmCard,
+  .ecommercefourthSection .cstmCard {
+    padding: 3rem 1rem;
+    width: 45%;
+    min-height: 420px;
+  }
+  .whoWeProp {
+    width: 70%;
+    margin-top: 0rem;
+  }
+  .whoweareSection .row .col-lg-6:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weMesauresection p:first-child {
+    width: 90%;
+  }
+  .weMesauresection p:last-child {
+    width: 95%;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 {
+    width: 50%;
+    margin-top: 1rem;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1 {
+    min-height: 325px;
+} 
+  .ecommercesixthsection p:first-child {
+    width: 90%;
+  }
+  .ecommercesixthsection .swiper-main-div .swiper-button-next {
+    right: 0;
+  }
+  .ecommercesixthsection .swiper-main-div .swiper-button-prev {
+    left: 0;
+  }
+  .contentWritePage .ecommercefourthSection .row:first-child p,
+  .contentWritePage .secondSection p,
+  .contentWritePage .secondSection p:first-child {
+    width: 100%;
+  }
+  .contentWritePage.android-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: 710px;
+  }
+  .fiftSection .row .col-lg-3 p:first-child,
+  .fiftSection .row .col-lg-3 .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .contentWritePage.react-dev .fourthSection .cstmCard,
+  .contentWritePage.react-dev
+    .fourthSection
+    .row:first-child
+    .cstmCard:last-child {
+    min-height: auto;
+    width: 100%;
+  }
+  .react-dev .secondSection,
+  .contentWritePage.react-dev.cross-dev.desktop .teamExpertSec {
+    padding: 10px;
+  }
+  .contentWritePage.react-dev.cross-dev
+    .fourthSection
+    .row:first-child
+    .cstmCard:last-child,
+  .fiftSection .row .col-sm-4 p:first-child,
+  .contentWritePage.react-dev.cross-dev .fourthSection .cstmCard,
+  .contentWritePage.react-dev.cross-dev.desktop
+    .fourthSection
+    .row:first-child
+    .cstmCard:last-child,
+  .contentWritePage.react-dev.cross-dev.desktop
+    .fourthSection
+    .row:first-child
+    .cstmCard {
+    width: 100%;
+    min-height: auto;
+  }
+  .contentWritePage.react-dev.cross-dev .secondSection {
+    padding: 3rem;
+  }
+
+  .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: 380px;
+  }
+  .nine-section {
+    padding: 0;
+  }
+  .extramargin{
+    margin-bottom: 0;
+  }
+  .aboutus-range-slider .row{
+    flex-direction: column-reverse;
+  }
+  .contentWritePage.react-dev.cross-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: 584px;
+}
+}
+@media only screen and (max-width: 414px) {
+  .secondbanner p:first-child {
+    font-size: 2rem;
+  }
+  .secondbanner p:last-child,
+  .secondbanner p:first-child,
+  .banner h1 {
+    width: 95%;
+  }
+  .fourthSection .cstmCard,
+  .ecommercefourthSection .cstmCard {
+    width: 95%;
+    min-height: 400px;
+  }
+  .whoweareSection .row .col-lg-6:last-child {
+    margin-top: 0rem;
+    padding: 2rem;
+  }
+  .projectsSection .row .col-sm-3::after {
+    content: unset;
+  }
+  .projectsSection .row .col-sm-3 p:last-child {
+    margin-bottom: 2rem;
+  }
+  .projectsSection .row .col-sm-3:last-child p:last-child {
+    margin-bottom: 0;
+  }
+  .eccomercePage .secondSection p:first-child {
+    font-size: 2rem;
+  }
+  .eccomercePage .secondSection p {
+    width: 100%;
+  }
+  .eccomercePage .ecommercethirdSection .col-lg-6 {
+    text-align: center;
+  }
+  .eccomercePage
+    .ecommercethirdSection
+    .col-lg-6:last-child
+    .col-sm-6
+    p:nth-child(2),
+  .eccomercePage
+    .ecommercethirdSection
+    .col-lg-6:last-child
+    .col-sm-12
+    p:nth-child(2),
+  .fiftSection .row .col-sm-4 p:first-child,
+  .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .ecommercethirdSection .row .col-lg-6:last-child {
+    margin-top: 3rem;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 {
+    width: 100%;
+  }
+  .ecommercefiftSection .cstmRowFifth .cstmColsm3 .cstmHoverCard1 {
+    min-height: 250px;
+  }
+  .contentWritePage .ecommercefourthSection .cstmCard {
+    min-height: 300px;
+  }
+  .ecommercesixthsection .sliderImage {
+    max-width: 250px;
+  }
+  .contentWritePage .ecommercefiftSection .cstmRowFifth .cstmColsm4 {
+    width: 100%;
+  }
+  .contentWritePage.android-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .contentWritePage.android-dev .fiftSection .row .col-sm-4 p:first-child,
+  .contentWritePage.react-dev.cross-dev
+    .fiftSection
+    .row
+    .col-sm-4
+    p:first-child,
+  .contentWritePage.react-dev.cross-dev
+    .fiftSection
+    .row
+    .col-sm-4
+    .cstmHoverCard1 {
+    min-height: auto;
+  }
+  .contentWritePage.android-dev .secondSection.fourthsecondSection,
+  .contentWritePage.android-dev .secondSection,
+  .react-dev .secondSection,
+  .contentWritePage.react-dev.cross-dev .secondSection {
+    padding: 1rem;
+  }
+  .contentWritePage.react-dev .react-fifth-section::before {
+    width: 100%;
+  }
+  .react-dev .secondSection .fourrem {
+    width: 100%;
+  }
+  .nine-section,
+  .aboutuspage .whoweareSection {
+    padding: 0;
+  }
+  .solutions .flag1,
+  .solutions .flag2,
+  .solutions .flag3,
+  .w-100Cstm {
+    width: 100%;
+    height: auto;
+  }
+}
+/* commons */
+.fiftSection .col-sm-4:hover .cstmHoverCard1 p {
+  color: #000;
+}
