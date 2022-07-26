@@ -333,9 +333,10 @@ body {
 /*logo-design  */
 .banner-logo {
   background: url("../../images/1x/logo-design.png");
-
 }
-
+.banner-logo.banner::before{
+  content: unset;
+}
 .forth-logo {
   background: #000;
 
