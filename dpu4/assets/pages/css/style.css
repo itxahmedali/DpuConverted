@@ -354,6 +354,7 @@ body {
   color: #000;
   text-align: center;
   font-size: 1rem;
+  
 }
 
 .dpu-flutter .button-strong {
@@ -382,6 +383,7 @@ body {
   color: #000;
   border: 0 !important;
   border-radius: 20px 20px 20px 20px !important;
+  
 }
 
 .dpu-flutter .accordion-button::after {
@@ -409,7 +411,9 @@ body {
   border: none;
   border-radius: 20px;
 }
-
+.dpu-flutter .faqSection .col-lg-12 p:first-child {
+  padding-bottom: 0rem!important;
+}
 /* ================= BANNER NATIVE =============== */
 .banner.banner-native {
   background-image: url("../../images/1x/bg-native.png");

@@ -1119,6 +1119,7 @@ body {
 
 }
 @media only screen and (max-width: 1024px) {
+
   .thirdSection .row .col-6 p:first-child {
     font-size: 1.5rem;
     font-weight: 600;
@@ -1269,6 +1270,9 @@ body {
   }
 }
 @media only screen and (max-width: 414px) {
+  .contentWritePage.react-dev .react-fifth-section::before {
+    opacity: 0.5;
+  }
   .secondbanner p:first-child {
     font-size: 2rem;
   }
@@ -2408,6 +2412,7 @@ body {
 .contentWritePage.react-dev .fourthSection .cstmCard {
   min-height: 480px;
 }
+
 .contentWritePage.react-dev .fourthSection .row:first-child {
   flex-direction: row;
 }
@@ -2608,6 +2613,9 @@ body {
   }
 }
 @media only screen and (max-width: 1024px) {
+  .contentWritePage.react-dev .react-fourth-sec .cstmCard {
+    min-height: 529px;
+  }
   .thirdSection .row .col-6 p:first-child {
     font-size: 1.5rem;
   }
