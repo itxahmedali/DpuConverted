@@ -1882,7 +1882,12 @@ body {
 .cntctPg .cntctPg .nine-section.img-div {
   height: unset !important;
 }
-
+.mediaPage .banner h1{
+  width: 100% !important;
+}
+.mediaPage .banner::before{
+  content: unset !important;
+}
 /*======================= Media Queries  =====================*/
 /* ================= Min Media Queries============================= */
 @media only screen and (min-width: 1600px) {
