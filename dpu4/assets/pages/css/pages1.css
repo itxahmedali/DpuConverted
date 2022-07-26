@@ -1095,8 +1095,13 @@ body {
   min-height:25px;
   display: block;
 }
-
-
+.businessTreading .banner{
+  background-size: cover !important;
+  background: url(../../images/ai2assets/1x/businessHeader3.png) !important;
+}
+.businessTreading .banner::after{
+  content: unset !important;
+}
 /* media queries */
 @media only screen and (min-width: 2560px) {
   .contentWritePage.react-dev .react-fifth-section::before{
@@ -1397,7 +1402,7 @@ body {
 /* business trading page */
 /* banner */
 .secondbanner.banner {
-  background: url(../../images/ai2assets/1x/secondsectionbanner.png);
+  background: url(../../images/ai2assets/1x/secondsectionbanner.png) !important;
 }
 .secondbanner.banner::after {
   content: unset;
@@ -1440,6 +1445,12 @@ body {
   padding: 10px 20px;
   border: none;
   font-family: SFUIText-Regular;
+}
+.thirdSection.buss-trading .row .col-6 .cstmHoverCard1{
+  border: unset !important;
+    padding: unset !important;
+     min-height: unset !important;
+     width: unset !important; 
 }
 .cstmCard:hover .ecommerceIcon img,
 .cstmHoverCard1:hover .ecommerceIcon img,
