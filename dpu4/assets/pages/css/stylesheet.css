@@ -57,6 +57,9 @@ body {
 .Cstm-graphics::after {
   opacity: 0.8;
 }
+.Cstm-graphics.banner::before{
+  content: unset !important;
+}
 /* first-section */
 .r-first-section {
   background: url('../../images/1x/media-bg-1.png');
