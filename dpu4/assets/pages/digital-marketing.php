@@ -90,11 +90,11 @@
                     </div>
                     <div class="col-lg-6 col-sm-12 pb-5">
                         <div class="row">
-                            <div class="col-6 wow fadeInDown hover" data-wow-delay="0.3s" data-wow-duration="1.5s">
+                            <div class="col-lg-6 wow fadeInDown hover" data-wow-delay="0.3s" data-wow-duration="1.5s">
                                 <div class="cstmHoverCard2">
                                     <div clas="cstmCard">
                                         <!-- <p>Plan</p> -->
-                                        <div class="d-flex flex-row bd-highlight mb-3">
+                                        <div class="d-flex flex-row bd-highlight mb-3 align-items-center">
                                             <div class=" bd-highlight icons-imgs">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.36 35.96">
                                                     <defs>
@@ -124,11 +124,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6 wow  fadeInRight hover" data-wow-delay="0.3s" data-wow-duration="1.5s">
+                            <div class="col-lg-6 wow  fadeInRight hover" data-wow-delay="0.3s" data-wow-duration="1.5s">
                                 <div class="cstmHoverCard2">
                                     <div clas="cstmCard">
                                         <!-- <p>Strategy</p> -->
-                                        <div class="d-flex flex-row bd-highlight mb-3">
+                                        <div class="d-flex flex-row bd-highlight mb-3 align-items-center">
                                             <div class=" bd-highlight icons-imgs">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.21 38.17">
                                                     <defs>
@@ -177,7 +177,7 @@
                                 <div class="cstmHoverCard3">
                                     <div clas="cstmCard">
                                         <!-- <p class="result-p">Results</p> -->
-                                        <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+                                        <div class="d-flex flex-row bd-highlight mb-3 align-items-center justify-content-center">
                                             <div class=" bd-highlight icons-imgs">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.94 34.93">
                                                     <defs>

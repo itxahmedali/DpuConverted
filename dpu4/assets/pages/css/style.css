@@ -2184,7 +2184,7 @@ body {
   }
 
   .mvp-feedback .mvp-col-2 {
-    width: 85%;
+    width: 100%;
   }
 
   .buss-one::before {
@@ -2230,6 +2230,15 @@ body {
 .choose-flutter .h-3 {
   width: 50%;
   padding-left: 0px;
+}
+.crm-dev-serv .mvp-col-2{
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.mvp-col-1 .wrap1{
+  align-items: center;
 }
 }
 
@@ -2661,7 +2670,7 @@ body {
   }
 
   .buss-one::before {
-    width: 50%;
+    width: 40%;
     height: 80%;
     background-size: contain;
     left: 15px;
