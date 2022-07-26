@@ -993,7 +993,7 @@ video {
 
 .protfolio-text {
   padding-top: 0;
-  background: url(./assets/images/1x/protfolio-text-img.png);
+  background: url(../../images/1x/protfolio-text-img.png);
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -1055,7 +1055,7 @@ video {
 }
 
 .group-button button:hover {
-  background-image: url(./assets/images/1x/button-hover.png);
+  background-image: url(../../images/1x/button-hover.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1456,7 +1456,7 @@ video {
 /* footer css start*/
 .last-footer {
   color: #fff;
-  background: url(./assets/images/1x/footer-background.png);
+  background: url(../../images/1x/footer-background.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1655,7 +1655,7 @@ video {
   bottom: 0;
   z-index: 1;
   background-repeat: no-repeat;
-  background-image: url("../../assets/images/circle.png");
+  background-image: url("../.../../images/circle.png");
 }
 .core-services .accordion-item {
   border-bottom: 0;
@@ -1799,7 +1799,7 @@ video {
   /* border: 1px solid black; */
   margin: 0 auto;
   /* background-color: rgb(255, 196, 0); */
-  background-image: url("./assets/images/1x/app-mockup.png");
+  background-image: url("../../images/1x/app-mockup.png");
   background-size: cover;
   background-position: center;
   transition-delay: 2ms;
@@ -1892,7 +1892,7 @@ video {
   padding: 0.6rem;
 }
 .service-img {
-  background-image: url("./assets/images/1x/third-sec-img.png");
+  background-image: url("../../images/1x/third-sec-img.png");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -2025,7 +2025,7 @@ video {
     rgba(101, 15, 16, 1) 92%
   );
   color: #ffffff; */
-  background-image: url(./assets/images/1x/button-hover.png);
+  background-image: url(../../images/1x/button-hover.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2080,7 +2080,7 @@ video {
   background-size: cover;
 }
 .filter-gallery .gallery_product.screen3 {
-  background: url("./assets/images/1x/ui3.png");
+  background: url("../../images/1x/ui3.png");
   background-size: cover;
 }
 .filter-gallery .gallery_product:hover {
@@ -2099,7 +2099,7 @@ video {
 
 /* <!-- ================================== SALES =============================== --> */
 .sales {
-  /* background-image: url("../../assets/images/bg3.png"); */
+  /* background-image: url("../.../../images/bg3.png"); */
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -3028,7 +3028,7 @@ footer .ball {
   background-position: center;
   background-size:cover !important;
   background-repeat: no-repeat;
-  background: url(./assets/images/ai2assets/1x/businessHeader3.png);
+  background: url(../../images/ai2assets/1x/businessHeader3.png);
   width: 100%;  
   position: relative;
   display: flex;
@@ -3056,7 +3056,7 @@ footer .ball {
   background-position: center;
   background-size:cover !important;
   background-repeat: no-repeat;
-  background: url(./assets/images/ai2assets/1x/businessHeader1.png);
+  background: url(../../images/ai2assets/1x/businessHeader1.png);
 }
 .banner::before{
   content: '';
@@ -3069,7 +3069,7 @@ footer .ball {
   background-position: center;
   background-size:cover !important;
   background-repeat: no-repeat;
-  background: url(./assets/images/ai2assets/1x/businessHeader2.png);
+  background: url(../../images/ai2assets/1x/businessHeader2.png);
   opacity: 0.1;
 }
 .get-started{

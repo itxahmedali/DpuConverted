@@ -6,36 +6,36 @@ body {
 }
 @font-face {
   font-family: gilroy-light;
-  src: url("assets/fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
+  src: url("../../fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
 }
 
 @font-face {
   font-family: SFUIText-Bold;
-  src: url("assets/fonts/sf-ui-display-fonts/SFUIText-Bold.ttf");
+  src: url("../../fonts/sf-ui-display-fonts/SFUIText-Bold.ttf");
 }
 
 @font-face {
   font-family: SFUIText-Regular;
-  src: url("assets/fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
+  src: url("../../fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
 }
 @font-face {
   font-family: Piersob;
-  src: url("./assets/fonts/piersob/piersob.ttf");
+  src: url("../../fonts/piersob/piersob.ttf");
 }
 
 @font-face {
   font-family: SF-Black;
-  src: url("./assets/fonts/sfu_i/SF-UI-Display-Black.ttf");
+  src: url("../../fonts/sfu_i/SF-UI-Display-Black.ttf");
 }
 
 @font-face {
   font-family: SF-Reg;
-  src: url("./assets/fonts/sfu_i/SF-UI-Display-Regular.ttf");
+  src: url("../../fonts/sfu_i/SF-UI-Display-Regular.ttf");
 }
 
 @font-face {
   font-family: SF-Bold;
-  src: url("./assets/fonts/sfu_i/sfuidisplay-bold.ttf");
+  src: url("../../fonts/sfu_i/sfuidisplay-bold.ttf");
 }
 
 /* business trading page */
@@ -295,11 +295,19 @@ body {
 /* about us page */
 .aboutuspage .banner {
   height: 70vh;
-  background: url(../../images/ai2assets/1x/aboutusBanner.png);
+  background: url(../../images/ai2assets/1x/aboutusBanner.png) !important;
   background-position: center;
+  background-size:cover !important;
+
 }
 .aboutuspage .banner::before {
   content: unset;
+}
+.aboutuspage .banner::after{
+  background-position: center;
+  background-size:cover !important;
+  background-repeat: no-repeat;
+  background: url(../../images/ai2assets/1x/businessHeader1.png);
 }
 .aboutuspage .bannerText {
   margin: 2rem 0;
@@ -1345,40 +1353,40 @@ body {
 }
 @font-face {
   font-family: gilroy-light;
-  src: url("assets/fonts/Gilroy-Light.ttf");
+  src: url("../../fonts/Gilroy-Light.ttf");
 }
 
 @font-face {
   font-family: SFUIText-Bold;
-  src: url("assets/fonts/sf-ui-display-fonts/SFUIText-Bold.ttf");
+  src: url("../../fonts/sf-ui-display-fonts/SFUIText-Bold.ttf");
 }
 
 @font-face {
   font-family: SFUIText-Regular;
-  src: url("assets/fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
+  src: url("../../fonts/sf-ui-display-fonts/FontsFree-Net-SF-UI-Display-Regular-1.ttf");
 }
 @font-face {
   font-family: Piersob;
-  src: url("./assets/fonts/piersob/piersob.ttf");
+  src: url("../../fonts/piersob/piersob.ttf");
 }
 
 @font-face {
   font-family: SF-Black;
-  src: url("./assets/fonts/sfu_i/SF-UI-Display-Black.ttf");
+  src: url("../../fonts/sfu_i/SF-UI-Display-Black.ttf");
 }
 
 @font-face {
   font-family: SF-Reg;
-  src: url("./assets/fonts/sfu_i/SF-UI-Display-Regular.ttf");
+  src: url("../../fonts/sfu_i/SF-UI-Display-Regular.ttf");
 }
 
 @font-face {
   font-family: SF-Bold;
-  src: url("./assets/fonts/sfu_i/sfuidisplay-bold.ttf");
+  src: url("../../fonts/sfu_i/sfuidisplay-bold.ttf");
 }
 @font-face {
   font-family: SFUIText-Light;
-  src: url("./assets/fonts/sf-ui-display-fonts/SFUIText-Light.ttf");
+  src: url("../../fonts/sf-ui-display-fonts/SFUIText-Light.ttf");
 }
 
 /* business trading page */
