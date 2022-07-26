@@ -1248,9 +1248,11 @@ body {
 /* <!-- =============== CRM DEV PAGE ================================== --> */
 /* ****************************************************************** */
 .crm-banner1 {
-  background-image: url("../../images/1x/crm-banner1.png");
+  background-image: url("../../images/1x/crm-banner1.png") !important;
 }
-
+.crm-banner1.banner::after{
+  content: unset !important;
+}
 /* <!-- =============== Custom CRM Development Company  ================================== --> */
 .crm-buss .mvp-col-2 {
   background-image: url("../../images/1x/crm-ring.png");
@@ -1264,6 +1266,7 @@ body {
 .crm-buss .h-1 {
   padding-left: 0px;
   width: 700px;
+  color: #000 !important;
 }
 
 .crm-buss .para-2 {
@@ -1309,7 +1312,7 @@ body {
 
 .crm-dev-serv .h-1,
 .crm-dev-serv .para-2 {
-  color: #231f20;
+  color: #231f20 !important;
 }
 
 .crm-dev-serv .mvp-col-2 {
