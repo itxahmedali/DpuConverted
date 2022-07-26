@@ -1386,10 +1386,12 @@ body {
 
 /* ===================== SEO AGENCY  PAGE ============================= */
 /* **************************************************************** */
-.seo-agency-banner {
+.seo-agency-banner.banner {
   background-image: url("../../images/1x/seo-banner1.png");
 }
-
+.seo-agency-banner.banner::after{
+  content: unset !important;
+}
 .seo-agency-banner .head-1 {
   width: 40%;
 }
