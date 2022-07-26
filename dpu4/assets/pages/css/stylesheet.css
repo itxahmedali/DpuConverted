@@ -981,6 +981,9 @@ body {
   background:url("../../images/1x/market-bg.png");
   background-position: center;
 }
+.digital-marketing.banner h1{
+  width: 100% !important;
+}
 .digital-marketing::before{
   background: url("../../images/1x/header-background.png");
   opacity: 0.8;
