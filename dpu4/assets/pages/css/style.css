@@ -411,15 +411,17 @@ body {
 }
 
 /* ================= BANNER NATIVE =============== */
-.banner-native {
+.banner.banner-native {
   background-image: url("../../images/1x/bg-native.png");
   background-position: center;
 }
 
-.banner-native::after {
+.banner.banner-native::after {
   content: unset;
 }
-
+.banner.banner-native h1{
+  width: 80% !important;
+}
 .banner::before {
   background: url(../../images/1x/businessHeader2.png);
   opacity: 0.8;
@@ -444,22 +446,19 @@ body {
 
 .offer-native .h-1 {
   width: 80%;
-  color: #000000;
+  color: #000 !important;
 }
 
 /* <!-- =============== BANNER 3 ================================== --> */
-.banner3 {
+.banner3.banner {
   background: url("../../../assets/images/1x/bg-native2.png");
   height: 546px;
 }
 
-.banner3::after {
-  content: "";
+.banner3.banner::after {
+  content: unset;
 }
 
-.banner3::before {
-  opacity: 0.5;
-}
 
 .banner3 .h-1 {
   color: #ffffff;
@@ -513,7 +512,7 @@ body {
 
 .choose-native .h-5 {
   z-index: 30;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0) !important;
   width: 70%;
 }
 
@@ -589,9 +588,6 @@ body {
   background-color: #ffffff;
 }
 
-.idea-sec .h-1 {
-  color: #000;
-}
 
 /* <!-- =============== WEB-APP BANNER ================================== --> */
 .web-app-banner1 {
@@ -1907,12 +1903,16 @@ body {
 .flutterPage .choose-flutter .h-1,
 .flutterPage .choose-flutter .h-5,
 .flutterPage .dpu-flutter .h-1,
-.flutterPage .dpu-flutter .h-5{
+.flutterPage .dpu-flutter .h-5,
+.idea-sec .h-1{
   color: #000 !important;
 }
 .flutterPage .choose-flutter .h-5,
 .flutterPage .dpu-flutter .h-5{
   font-size: 1.5rem !important;
+}
+.choose-native .h-5{
+  font-size: 1.8rem !important;
 }
 /*======================= Media Queries  =====================*/
 /* ================= Min Media Queries============================= */
