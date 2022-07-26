@@ -2603,7 +2603,20 @@ body {
   margin-bottom: 1rem;
 }
 /* media queries */
+@media only screen and (min-width: 1920px) {
+  .contentWritePage.react-dev.cross-dev.desktop .banner h1,
+  .contentWritePage .secondSection p:first-child {
+    width: 60% !important;
+}
+}
 @media only screen and (min-width: 2560px) {
+.contentWritePage .secondSection p{
+  width: 45%;
+  }
+  .contentWritePage.react-dev.cross-dev.desktop .banner h1,
+  .contentWritePage .secondSection p:first-child {
+    width: 50% !important;
+}
   .contentWritePage.react-dev .react-fifth-section::before {
     width: 10%;
     height: 100%;
@@ -2613,6 +2626,11 @@ body {
   }
 }
 @media only screen and (max-width: 1024px) {
+  .contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .imgBox {
+    width: 100%;
+    height: 80%;
+  
+}
   .contentWritePage.react-dev .react-fourth-sec .cstmCard {
     min-height: 529px;
   }

@@ -399,6 +399,7 @@ body {
   font-family: "SFUIText-Light";
   background-color: #d6d7d8;
   border-radius: 0px 0px 20px 20px !important;
+  padding: 1rem 2rem!important;
 }
 
 .dpu-flutter .accordion-button:not(.collapsed) {

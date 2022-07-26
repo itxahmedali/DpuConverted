@@ -44,7 +44,7 @@
           At Design pros USA, we create phenomenal custom android applications
           with unparalleled end-to-end execution combined with hi
           interactive/engaging interfaces; something necessary when it comes to
-          creating a high user experiencet
+          creating a high user experience.
         </p>
       </div>
       <!-- third section -->
