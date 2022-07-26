@@ -72,7 +72,7 @@
           </p>
         </div>
         <!-- fourth section -->
-        <div class="fourthSection">
+        <div class="fourthSection react-fourth-sec">
           <div class="container d-flex justify-content-center flex-column">
             <div
               class="row justify-content-center align-items-center wow bounceInUp"
