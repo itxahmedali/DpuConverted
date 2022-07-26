@@ -3080,13 +3080,13 @@ footer .ball {
   margin-top: 1rem;
   font-family:SFUIText-Regular;
   z-index: 100;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
   border-radius: 0px;
   }
   .get-started button{
     background: transparent;
     border: none;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
     color: #fff;
     }
     .get-started button:focus{
