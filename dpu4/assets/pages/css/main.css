@@ -654,6 +654,11 @@ ul.addDevMenu2 li a:hover{
     50%{background-position:91% 100%}
     100%{background-position:10% 0%}
 } */
+/* logo-design-page-css */
+.banner.banner-logo .h-1 {
+  width: 100% !important;
+}
+/* logo-design-page-css--ends here */
 
 .logo-content {
   display: flex;
