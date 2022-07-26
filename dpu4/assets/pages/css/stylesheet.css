@@ -2010,6 +2010,9 @@ text-align: center;
     padding-top: 5rem;
   }
 
+  .react-dev .secondSection .fourrem {
+    width: 50%;
+  }
   .last-cstmHoverCard1 {
     min-height: 280px;
     width: 856px;

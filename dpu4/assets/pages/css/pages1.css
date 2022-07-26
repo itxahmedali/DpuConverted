@@ -823,6 +823,7 @@ body {
 .contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .fourrem {
   color: #fff;
 }
+
 .contentWritePage.react-dev.cross-dev.desktop .banner h1{
   width: 80% !important;
 }
@@ -881,6 +882,7 @@ body {
   color: #fff;
   width: 80%;
 }
+
 .contentWritePage.react-dev .secondSection p:nth-child(3) {
   font-family: SFUIText-Bold;
 }
@@ -1111,6 +1113,7 @@ body {
     background-size: contain !important;
     right: 25%;
   }
+
 }
 @media only screen and (max-width: 1024px) {
   .thirdSection .row .col-6 p:first-child {
