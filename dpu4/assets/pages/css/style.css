@@ -1683,9 +1683,12 @@ body {
 /* <!-- ================================== PORTFOLIO PAGE =============================== --> */
 /* *************************************************** */
 .portfolio-banner1 {
-  background-image: url("../../images/1x/portfolio-bg1.png");
+  background-image: url("../../images/1x/portfolio-bg1.png") !important;
 }
-
+.portfolio-banner1.banner::after{
+  content: unset !important;
+  background: unset !important;
+}
 .portfolio-gallery {
   background-color: #000;
   min-height: 900px;
@@ -1706,9 +1709,14 @@ body {
 /* <!-- ================================== TESTIMONIALS PAGE =============================== --> */
 /* *************************************************** */
 .testimonial-banner1 {
-  background-image: url('../../images/1x/testimonials-banner1.png');
+  background-image: url('../../images/1x/testimonials-banner1.png') !important;
 }
-
+.testimonial-banner1::before{
+  /* content: unset !important; */
+}
+.testimonial-banner1::after{
+  content: unset !important;
+}
 /* <!-- =============== testimonial-gallery ================================== --> */
 .testimonial-gallery {
   background-color: #000;
@@ -1722,9 +1730,11 @@ body {
 /* <!-- ========================= BLOGS ================================== --> */
 /* *********************************************************************** */
 .blogs-banner1 {
-  background-image: url('../../images/1x/blogs-banner1.png');
+  background-image: url('../../images/1x/blogs-banner1.png') !important;
 }
-
+.blogs-banner1::after{
+  content: unset !important;
+}
 .blogs-banner1 .para-2 {
   text-align: center;
 }
@@ -1805,11 +1815,11 @@ body {
 /* ===================== CONTACT US =========================== */
 /* ************************************************************ */
 .cntctPg .contactUsPage .banner {
-  background: url('./assets/images/1x/ContactBg.png');
+  background: url('../../images/ai2assets/1x/businessHeader3.png') !important;
 }
 
 .cntctPg .contactUsPage .banner::before {
-  content: unset;
+  background: url(../../images/ai2assets/1x/businessHeader1.png) !important;
 }
 
 .cntctPg .contactUsPage .banner::after {
