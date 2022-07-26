@@ -985,10 +985,12 @@ body {
 
 /* ************************* MVP-DEVELOPMENT PAGE ************************** */
 /* ===================================================================== */
-.mvp-banner1 {
+.mvp-banner1.banner {
   background-image: url("../../../assets/images/1x/mvp-dev-banner1.png");
 }
-
+.mvp-banner1.banner::after{
+  content: unset !important;
+}
 .mvp-banner1::before {
   opacity: 0.5;
 }
@@ -1024,6 +1026,7 @@ body {
 .mvp-feedback .h-1 {
   font-size: 2.5rem;
   padding-left: 90px;
+  color: #000 !important;
 }
 
 .mvp-feedback .para-2 {
