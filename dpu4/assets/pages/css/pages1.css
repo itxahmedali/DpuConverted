@@ -823,6 +823,9 @@ body {
 .contentWritePage.react-dev.cross-dev.desktop .teamExpertSec .fourrem {
   color: #fff;
 }
+.contentWritePage.react-dev.cross-dev.desktop .banner h1{
+  width: 80% !important;
+}
 .contentWritePage.android-dev .secondfifthsection .heading {
   margin-bottom: 1rem;
 }
