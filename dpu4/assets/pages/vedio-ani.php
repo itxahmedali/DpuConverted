@@ -7,7 +7,7 @@
 <body>
 <?php include '../Commons/Navbar.php' ?>
 
-    <div id="butter">
+    <div id="butter" class="videoAni">
     <!--================================================BANNER================================= -->
     <div class="banner vedio-animation wow fadeIn" data-wow-delay="0.1s" data-wow-duration="0.5s">
         <h1 class="h-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.5s">

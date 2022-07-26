@@ -135,11 +135,14 @@ body {
   width: 100%;
   position: relative;
 }
-.Graphic-Design::before {
+.Graphic-Design.banner::before {
   content: unset;
 }
-.Graphic-Design::after {
+.Graphic-Design.banner::after {
   opacity: 0.1;
+}
+.Graphic-Design.banner h1{
+  width: 80% !important;
 }
 .r-second-section::after {
   content: "";
@@ -472,7 +475,10 @@ body {
   z-index: 1;
   border: 1px solid #fff;
 }
+.videoAni .ecommercefourthSection .cstmCard{
+  border: 1px solid #fff !important;
 
+}
 .ecommercefourthSection .cstmCard-last {
   width: 50%;
   background: linear-gradient(to right, #ffffff1c, #ffffffba);
@@ -850,9 +856,13 @@ body {
 /* vedio-animation */
 .vedio-animation {
   background: url("../../images/1x/vedio-bg.png");
-
 }
-
+.vedio-animation.banner::before{
+  content: unset;
+}
+.vedio-animation.banner h1{
+  width: 80% !important;
+}
 .r-vedio-animation-first-sec {
   background: url("../../images/1x/vedio-ani-img-1.png");
 }
@@ -1698,6 +1708,9 @@ text-align: center;
 /* Animated-Videos  */
 .Animated-Videos {
   background: url("../../images/1x/animated-bg.png");
+}
+.Animated-Videos.banner::before{
+  content: unset;
 }
 .animated-vedio-div{
   padding: 10px;
