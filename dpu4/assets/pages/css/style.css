@@ -1895,6 +1895,25 @@ body {
 .mediaPage .banner::before{
   content: unset !important;
 }
+.flutterPage .banner{
+  background: url(../../images/1x/bg-1.png) !important;
+}
+.flutterPage .banner::after{
+  content: unset !important;
+}
+.flutterPage .banner2 .h-5{
+  font-size: 1.8rem !important;
+}
+.flutterPage .choose-flutter .h-1,
+.flutterPage .choose-flutter .h-5,
+.flutterPage .dpu-flutter .h-1,
+.flutterPage .dpu-flutter .h-5{
+  color: #000 !important;
+}
+.flutterPage .choose-flutter .h-5,
+.flutterPage .dpu-flutter .h-5{
+  font-size: 1.5rem !important;
+}
 /*======================= Media Queries  =====================*/
 /* ================= Min Media Queries============================= */
 @media only screen and (min-width: 1600px) {

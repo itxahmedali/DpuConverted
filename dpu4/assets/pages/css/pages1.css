@@ -957,9 +957,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.contentWritePage.react-dev .fourthSection::after {
-  background: url(../../images/ai2assets/1x/reactdev-digitalSol.png);
-}
 /* cross platform page */
 .contentWritePage.cross-dev .banner {
   background: url(../../images/ai2assets/1x/cross-dev.png);
@@ -2462,6 +2459,7 @@ body {
 }
 .contentWritePage.react-dev .fourthSection::after {
   background: url(../../images/ai2assets/1x/reactdev-digitalSol.png);
+  background-size: cover;
 }
 /* cross platform page */
 .contentWritePage.cross-dev .banner {

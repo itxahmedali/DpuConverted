@@ -7,7 +7,7 @@
 <body>
 <?php include '../Commons/Navbar.php' ?>
 
-  <div id="butter">
+  <div id="butter" class="flutterPage">
     <!-- =============== BANNER 1 ================================== -->
     <div class="banner wow fadeIn" data-wow-delay="0.1s" data-wow-duration="0.5s">
       <!-- <h5 class="wow bounceInDown" data-wow-delay="0.5s" data-wow-duration="1.5s">Flutter App Development</h5> -->
