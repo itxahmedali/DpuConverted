@@ -126,6 +126,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  min-height: 780px;
 }
 
 .banner2::before {

@@ -863,6 +863,16 @@ body {
   width: 600px;
 }
 
+
+.cross-dev .cross-dev-btn button{
+  width: 100%;
+  color: #000;
+  border: 2px solid black;
+  font-family: "SF-Reg";
+  text-transform: capitalize!important;
+  border-radius: 0px;
+
+}
 /*  */
 /* vedio-animation */
 .vedio-animation {
@@ -2041,7 +2051,7 @@ text-align: center;
 /* media queries */
 @media only screen and (max-width: 1366px) {
   .first-pullez-text {
-    transform: translate(-89px, 58px);
+    transform: translate(-96px, 58px);
     margin: 0 auto;
 }
   .cstmHoverCard1 {
@@ -2165,6 +2175,9 @@ text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
+  .first-pullez-text {
+    transform: translate(-76px, 63px);
+}
   .fourthSection .cstmCard, .ecommercefourthSection .cstmCard {
     min-height: 523px;
 }

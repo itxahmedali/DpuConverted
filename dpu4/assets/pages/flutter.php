@@ -365,7 +365,7 @@
 
           <div class="text1 pt-5 d-flex justify-content-center text-center wow bounceInDown" data-wow-delay="0.5s"
             data-wow-duration="1.5s">
-            <span class="h-1">Frequently Asked Questions About The IOS app
+            <span class="h-1 pb-5">Frequently Asked Questions About The IOS app
             </span>
           </div>
 

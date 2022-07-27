@@ -116,7 +116,7 @@
               </p>
             </div>
           </div>
-          <button class="get-started wow bounceInUp" data-wow-delay="0.5s" data-wow-duration="1.5s">Get Your App
+          <button type="button" class="get-started wow bounceInUp" data-wow-delay="0.5s" data-wow-duration="1.5s">Get Your App
             Now</button>
         </div>
       </div>
@@ -181,8 +181,13 @@
                 </div>
               </div>
             </div>
-            <button class="get-started wow bounceInDown" data-wow-delay="0.5s" data-wow-duration="1.5s">Book A Free
+            <div class="d-flex justify-content-center cross-dev-btn mb-3">
+            <a href="javascript:void(0);">
+            <button type="button" class="get-started wow bounceInDown" data-wow-delay="0.5s" data-wow-duration="1.5s">Book A Free
               Consultation</button>
+            </a>
+            </div>
+           
           </div>
         </div>
       </div>
