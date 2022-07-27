@@ -44,13 +44,13 @@
       <!-- fourth section -->
       <div class="ecommercefourthSection">
         <div class="container">
-          <div class="row justify-content-center mb-5">
+          <div class="row justify-content-center mb-5 mx-auto">
             <p class="wow bounceInDown" data-wow-delay="0.5s" data-wow-duration="1.5s">
               <span>Content Development Services</span> In The Usa: We Curate
               Content That Connects With Your Targeted Audiences
             </p>
           </div>
-          <div class="row justify-content-center mb-5 text-center">
+          <div class="row justify-content-center mb-5 text-center mx-auto">
             <p class="wow bounceInDown para2" data-wow-delay="0.5s" data-wow-duration="1.5s">
               In the era of information overload, it’s more important than ever to engage with your customer. We help
               you reach a targeted audience by focusing on delivering content relevant to them.

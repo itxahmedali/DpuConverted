@@ -39,6 +39,11 @@ body {
   /* font-family: ''; */
 }
 
+.ecommercesixthsection .p12{
+  width: 70%;
+  text-align: center;
+}
+
 .get-started {
   /* margin-top: 5rem; */
   text-transform: capitalize;
@@ -2160,6 +2165,9 @@ text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
+  .fourthSection .cstmCard, .ecommercefourthSection .cstmCard {
+    min-height: 523px;
+}
   .cstmHoverCard1 {
     min-height: 472px;
     width: 315px;

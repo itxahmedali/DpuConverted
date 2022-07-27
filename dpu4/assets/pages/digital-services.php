@@ -82,6 +82,13 @@
                 CONTACT US
               </button>
             </div>
+
+            <div class="r-second-section-text d-flex justify-content-center text-center">
+            <h2 class="wow bounceInDown" data-wow-delay="0.1s" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.1s; animation-name: bounceInDown;">Design Pros USA,
+            Prototype Your Product Before Spending Time
+and Money on the Actual Development </h2>
+            </div>
+
             <div class="r-second-section-text d-flex justify-content-center text-center">
               <p class="wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.5s">Before actually
                 going for the development phase it is best to create a prototype that will help you make

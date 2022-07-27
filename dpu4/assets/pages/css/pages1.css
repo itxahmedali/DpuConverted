@@ -187,6 +187,7 @@ body {
 .ecommercefourthSection .para2{
    color: white;
    font-size: 1.3rem;
+   width: 70%;
 }
 .ecommercefiftSection .para2{
   color: black;
@@ -303,6 +304,9 @@ body {
   background-position: center;
   background-size:cover !important;
 
+}
+.aboutuspage .h-1.nomovo{
+  color: #68676738 !important;
 }
 .aboutuspage .banner::before {
   content: unset;
@@ -1120,6 +1124,7 @@ body {
 }
 @media only screen and (max-width: 1024px) {
 
+
   .thirdSection .row .col-6 p:first-child {
     font-size: 1.5rem;
     font-weight: 600;
@@ -1155,6 +1160,7 @@ body {
   }
 }
 @media only screen and (max-width: 768px) {
+ 
   .fourrem {
     font-size: 2rem !important;
   }
@@ -2236,7 +2242,7 @@ body {
   background: #000000ba;
 }
 .contentWritePage .ecommercefourthSection .cstmCard {
-  min-height: 450px;
+  min-height: 285px;
   background: linear-gradient(to right, #ffffff1a, #ffffff6b);
   border: none !important;
 }
@@ -2723,6 +2729,9 @@ body {
   .ecommercesixthsection p:first-child {
     width: 90%;
   }
+  .ecommercesixthsection .p12{
+    width: 70%;
+  }
   .ecommercesixthsection .swiper-main-div .swiper-button-next {
     right: 0;
   }
@@ -2732,7 +2741,8 @@ body {
   .contentWritePage .ecommercefourthSection .row:first-child p,
   .contentWritePage .secondSection p,
   .contentWritePage .secondSection p:first-child {
-    width: 100%;
+    width: 70%;
+
   }
   .contentWritePage.android-dev .fiftSection .row .col-sm-4 .cstmHoverCard1 {
     min-height: 710px;
