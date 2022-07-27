@@ -1111,6 +1111,16 @@ body {
 .businessTreading .banner::after{
   content: unset !important;
 }
+
+/* Terms and Conditions */
+.terms .bannerText .h-1{
+  color: black!important;
+  font-size: 2.5rem!important;
+}
+.terms .bannerText p{
+  width: 100%!important;
+  text-align: left!important;
+}
 /* media queries */
 @media only screen and (min-width: 2560px) {
   .contentWritePage.react-dev .react-fifth-section::before{
@@ -1123,7 +1133,6 @@ body {
 
 }
 @media only screen and (max-width: 1024px) {
-
 
   .thirdSection .row .col-6 p:first-child {
     font-size: 1.5rem;
