@@ -1459,7 +1459,7 @@ video {
 } */
 
 /* footer css start*/
-.footer .footer-bottom .footer-span a.term-link{
+.term-link{
   text-decoration: none;
   color: #808285!important;
 }

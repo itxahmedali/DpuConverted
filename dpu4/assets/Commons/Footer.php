@@ -103,13 +103,13 @@
         <div class="footer-bottom copyright">
           <div class="container">
             <div class="row">
-              <div class="col-lg-12 text-center">
+              <div class="col-lg-12 text-center d-flex justify-content-center">
                 <a href="javascript:void(0);" target="_blank">
-                  <span class="for-theme-link pt-3">
+                  <span class="for-theme-link ">
                     @2022 82 digital LLC DBA Design Pros USA | All rights
                     resvered.
                     <span class="footer-span"
-                      >&nbsp; <a href="../pages/termsAndCond.php" class="term-link">Terms and Conditions</a>  | Privacy Policy</span
+                      >&nbsp; <a href="../pages/termsAndCond.php" class="term-link">Terms and Conditions</a>  |<a href="../pages/privacy-policy.php" class="term-link"> Privacy Policy</a></span
                     >
                   </span>
                 </a>
