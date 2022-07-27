@@ -103,7 +103,7 @@
         <div class="footer-bottom copyright">
           <div class="container">
             <div class="row">
-              <div class="col-lg-12 text-center d-flex justify-content-center">
+              <div class="col-lg-12 text-center d-flex justify-content-center footer-span-link">
                 <a href="javascript:void(0);" target="_blank">
                   <span class="for-theme-link ">
                     @2022 82 digital LLC DBA Design Pros USA | All rights
