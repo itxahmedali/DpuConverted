@@ -109,7 +109,7 @@
                     @2022 82 digital LLC DBA Design Pros USA | All rights
                     resvered.
                     <span class="footer-span"
-                      >&nbsp; Terms and Conditions | Privacy Policy</span
+                      >&nbsp; <a href="../pages/termsAndCond.php" class="term-link">Terms and Conditions</a>  | Privacy Policy</span
                     >
                   </span>
                 </a>
