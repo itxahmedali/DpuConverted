@@ -14,68 +14,102 @@
                 </h1>
             </div>
             <div class="container bannerText mx-auto wow bounceInUp" data-wow-delay="0.5s" data-wow-duration="1.0s">
-                <p class="pt-5">
-                    By using Design Pros USA website, the user hereby agrees to fully comply with this stated set of use of website terms and conditions. If in any case the user does not solely agree and oblige with the stated terms and conditions then one may not use Design Pros USA in any of the ways.
 
-                    This statement of terms and conditions hereby ratifies that Design Pros USA, has complete rights and autonomy to revise, change, update or edit this statement of terms and conditions and being a user of Design Pros USA it is mandatory to fully comply with these terms of use as the basic set of mutual understanding and consent to use Design Pros USA.
 
-                    For all the stated terms and conditions Design Pros USA have a zero level tolerance and both the parties Design Pros USA and the User are required to follow and fully comply with these stated terms and conditions respectively. All the activities are carried out by Design Pros USA on the mutual understanding that the user has entirely agreed with the use of Design Pros USA website terms and conditions.
-
-                    The logo, Name and Graphics of Design Pros USA and its products and services are the trademarks of Design Pros USA. All other company names, brand names, trademarks and logos mentioned on the website are the property of their respective owners and do not constitute or imply endorsement, sponsorship or recommendation thereof by Design Pros USA and do not constitute or imply endorsement, sponsorship or recommendation of Design Pros USA at all by the respective trademark owners.
-                </p>
-
-                <span class="h-1">INDEMNITY</span>
+                <span class="h-1 pt-5">Purpose</span>
                 <p>
-                    Being a user of this website You agree to defend, indemnify and hold harmless Design Pros USA and the directors, officers, managers, employees and representatives of each of them, for any type of loss, damages or costs, including reasonable lawyers’ fees, resulting from any third party claim, action, or demand related to your name or the use thereof.
-
-                    For any third party integrations (Plugins/APIs), Design Pros USA will be reponsible for integration of those softwares. You will not be holding Design Pros USA for payments (if any) for those softwares. You will be purchasing any third party APIs/Plugins and give access to Design Pros USA for integration.
-
-                    For Design Pros USA, if a user shares one’s website in regard of project proposal or works activity, all the elements on your website is considered a publication of yours and Design Pros USA is not considered to be held responsible for anything you present on the web through your domain at all.
-
-                    All of your logos, Names, Graphics, Design Theme, Brand Names, Trademarks, the Content, Words, Pictures, Images, Ideas, Visuals and Illustrations are all your assets and Design Pros USA will not claim the ownership in any way.
+                    The core purpose of this statement of privacy policy is to comprehensively describe why Design Pros USA collect and store users’ and customers’ information and under what scenarios and circumstances Design Pros USA share this information with third parties. In addition to the purpose of this statement of privacy policy, it also reflects Design Pros USA collect unique information from users and customers, for which purpose and how it is used.
 
 
                 </p>
-                <span class="h-1">REFUSAL</span>
+
                 <p>
-                    Design Pros USA shall be the sole arbitrator of what is and is not a violation of these acceptable use terms and conditions. Design Pros USA reserves complete rights to update or revise this statement anytime. Design Pros USA reserves the right to refuse, cancel, or suspend service at our sole discretion as well.
-
-                    In cases that any provision of this Agreement of use of website terms and conditions is deemed invalid, such invalidity shall not affect the remainder of this Agreement on terms and conditions by any means. Design Pros USA have complete rights and autonomy that it may amend or replace such invalid provision with one that is completely valid and which achieves, to the extent possible, the original objectives and intent of Design Pros USA as reflected in the respective original provision.
-
-                    Design Pros USA reserves absolute right to change the use of website terms and conditions without any prior notice or warning. Design Pros USA highly recommend its users to review and read this statement of use of website terms and conditions in a timely manner in order to stay up to date with the amendments if made.
-
-                    This statement of agreement supersedes and governs all prior proposals, agreements, or other communications made to the users of Design Pros USA’ website.
+                    Design Pros USA respects the privacy of its online users and for that maintaining your privacy and confidentiality is considered as a primary concern. This statement of Design Pros USA’ privacy policy reflects the basic concern of gathering users’ information and the measures taken to completely ensure users’ with ultimate security and confidentiality.
                 </p>
-                <span class="h-1">COPYRIGHTS AND TRADEMARKS</span>
+
                 <p>
-                    By supplying logos, names, graphics, design theme, brand names, trademarks, content, words, pictures, images, ideas, visuals, illustrations, and other data to Design Pros USA for inclusion in the customer’s website or other medium, the customer hereby fully declares that such material holds the appropriate copyright and/or trademark permissions. The ownership of such materials will remain with the customer.
+                    For Design Pros USA, the basic reason for gathering and storing users’ information is to improvise the quality and overall users’ web experience when they are on Design Pros USA. The design and development team is always in the quest of providing users’ with the best look and feel and web experience and keeps the website fully up to date with users’ latest user interface requirements absolutely based on the vital information gathered and stored from the users.
+                </p>
 
-                    Any creative work or artwork, images, or content supplied and/or designed by Design Pros USA on behalf of the customer, will remain the property of the customer.
 
-                    The users agree to fully indemnify and hold Design Pros USA free from all types of harm in any and all claims resulting from the customer in first not having obtained all the required copyright, and/or any other necessary permissions or grants.
+                <p>
+                    With this statement of privacy policy, Design Pros USA hereby ensures to maintain the users and specially customers’ highly confidential and private information with the utmost security and privacy. Through this statement of privacy policy, Design Pros USA also ensure that it does and will never and has no intention to share or sell the users’ and customers’ confidential information by any means to anyone and in any way. In order to learn more and explore in detail about Design Pros USA third-party information sharing, exchange and interaction you may visit the section of “Third Party Sharing” stated below with detail in this statement of privacy policy.
 
                 </p>
 
-                <span class="h-1">CANCELLATION
+                <span class="h-1">Gathering Personal Information
+                </span>
+
+                <p>
+                    Design Pros USA collect a range of important information and data for different purposes from its users and valued customers. The breakdown of all the types of information Design Pros USA collects from its users and customers is as follows;
+                </p>
+
+                <span class="h-1">General Queries and Comments
+                </span>
+
+                <p>
+                <ul>
+                    <li>Name
+                    </li>
+
+                    <li>Email
+                    </li>
+
+                    <li>Phone/Cell Number
+                    </li>
+
+                    <li>Address</li>
+                    <li>City</li>
+                    <li>Country</li>
+                </ul>
+                </p>
+                <span class="h-1">Use of Collected Information
                 </span>
                 <p>
-                    After design approval from the client,the signed contracts cannot be terminated since the client has given their consent on the digital assets.
+                As stated above in this statement of privacy policy, the sole purpose of this statement is to comprehensively describe and share the uses of gathering information and data from users’ and customers’, this section reflects the various uses adopted by Design Pros USA for improving the overall web experience of the website. At Design Pros USA the design, development and quality assurance departments are always engaged in monitoring and maintaining the website user interface and several other elements of performance for which the users, customers, vendors, business associates and job hunters may receive some sorts of updates in regard of the website monitoring, maintenance or technological updates and in some relevant cases Design Pros USA share some information with the associates in order to maintain the optimum performance of the website and might use the gathered information in any given time.
+            <br/>
+            Through this statement of privacy policy, Design Pros USA also state that the unique and useful information gathered from the job hunters is solely used for the purpose of evaluating their expertise, skills, qualification, work experience and the overall eligibility for the respective applied position at Design Pros USA. In this regard, the collected information may be shared with the most relevant managers, departments and personals of Design Pros USA for ensuring the hiring process is fully efficient and the best candidate is being hired by the management while primarily respecting the basic concern of confidentiality, security and privacy of the individuals.    
+            </p>
+            <span class="h-1">Third-Party Sharing
+                </span>
+            <p>
+            Likewise all the basic information, Design Pros USA primarily focuses and puts great significance to sharing the gathered information with third parties just in case of maintaining and enhancing the website users’ experience, promotional needs and requirements and for maintain better communication with the valued customers and business associates.
+            </p>
 
+            <p>
+            Any information shared with third parties is entirely done on contract basis between Design Pros USA and the respective third parties and none of the third parties are allowed and authorized to share the information further with anyone, in any way and for any concern.
+            </p>
+            <span class="h-1">Security of Personal Information
+                </span>
+            <p>
+            Design Pros USA have made certain absolute and definitive measures for the only purpose of maintaining a maximum level of security and confidentiality of the gathered information from users and the valued customers in the first instance.
+<br/>
+Maintaining users’ and customers’ information security and confidentiality has the prime importance for Design Pros USA and for that the website of Design Pros USA is well protected against any sort of unauthorized interruptions and accesses. The website has its own strongly built HTML5 based eCommerce infrastructure ensuring complete security and confidentiality while maintaining up to date Secure Sockets Layer (SSL) Certification technology that ultimately encrypts all the users’, vendors, businesses associates and valued customers’ submitted information and helps us with absolutely safe and secure data and information storage.
 
-                    In case of project cancellation after the project commencement from the client before design approval. A total of 30% of the total project budget will be deducted and the remaining shall be refunded to the client after due process.
+            </p>
 
+            <span class="h-1">The Use of Cookies
+                </span>
 
-                    Customer will pay Design Pros USA the Recurring Monthly Fees (if applicable) as specified in the contract signed OR order placed with Design Pros USA. The customer shall provide a minimum 30 days or greater written notice prior to the end of the Term of such services, Design Pros USA may charge any fees payable under this Agreement.
-
+                <p>
+                Design Pros USA makes the use of Cookies in order to gather additional required data and information such as but not limited to (1) Users’ demographics, (2) Users’ website use context, (3) Users’ likeliness and interests in regard of the website’s overall look and feel, (4) Users’ data and network usage in regard of the website, etc. all together embracing towards bringing in a better and much more obliged users’ web experience.
                 </p>
-
+                <p>
+                Cookies are the alphanumeric identifiers, transferred to the physical drives of the users’ computers or the accessing device directly through the web browser in use. Design Pros USA use cookies to enable the systems that recognize the type of browsers through which users’ are online to access the website and remember their movements during prior visits in order to serve better.
+                </p>
+                <p>
+                In addition to the use of cookies Design Pros USA recommends exploring the help tool given in the web browser’s toolbar in order to explore and discover comprehensive details and options for using cookies, allowing them on the web browser, notification for newly received cookie and disabling the use of cookies. However we also recommend to allow the use of cookies to users and customers who trust Design Pros USA as the a significant portion of the users’ entire web experience depends upon the effective use of cookies which entails and helps a lot in taking full advantage of the top features of the website users’ experience and interface.
+                </p>
+                <p>
+                In case you have any query or concern in regard of this privacy policy, please feel free to contact us at: <span><a href="javascript:void(0);" class="text-decoration-none text-danger">support@designprosusa.com</a> </span>
+                </p>
             </div>
 
 
 
-   
 
-     
+
+
         </div>
         <!-- contact page -->
         <section class="nine-section img-div nomove6 position-relative">
