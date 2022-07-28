@@ -1152,7 +1152,7 @@ text-align: center;
   .cstmHoverCard2 {
     border: 1px solid #000;
     padding: 2rem;
-    min-height: 318px;
+    min-height: 330px;
     width: 319px;
 }
 .cstmHoverCard3 {
@@ -1165,6 +1165,15 @@ text-align: center;
   font-size: 3rem;
   color: #000;
   font-family: "SF-Bold";
+}
+.thirdSections .result-p{
+  font-size: 1.5rem!important;
+}
+.thirdSections .cstmHoverCard2:hover{
+  color: white!important;
+}
+.thirdSections p.result-p:hover{
+  color: white!important;
 }
 .thirdSections .row .col-lg-6 .row {
   width: 100%;

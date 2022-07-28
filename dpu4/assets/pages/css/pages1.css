@@ -893,6 +893,7 @@ body {
 .contentWritePage.react-dev .secondSection p:nth-child(3) {
   font-family: SFUIText-Bold;
 }
+ 
 .contentWritePage.react-dev .fourthSection .row:first-child p {
   text-align: left;
   font-size: 1.5rem;
@@ -2251,7 +2252,7 @@ body {
   background: #000000ba;
 }
 .contentWritePage .ecommercefourthSection .cstmCard {
-  min-height: 285px;
+  /* min-height: 285px; */
   background: linear-gradient(to right, #ffffff1a, #ffffff6b);
   border: none !important;
 }
