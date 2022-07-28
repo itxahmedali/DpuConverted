@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,9 +14,7 @@
     <link rel="stylesheet" href="text-effect.css">
     <script src="./assets/CDN/jquerry.js"></script>
     <!-- Font Awesome 6 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         section.parallax-background-section {
             position: relative;
@@ -27,7 +24,7 @@
 
         .nine-section.img-div.nomove6.position-relative {
             height: 110vh;
-            }
+        }
 
         .img-div-size {
             height: 100vh;
@@ -86,9 +83,7 @@
                             </div>
                         </div>
                     </a>
-                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fa fa-bars nav-fonts" aria-hidden="true"></i></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -125,6 +120,8 @@
                                             <li><a class="dropdown-item" href="./assets/pages/Cstm-g-design.php">Custom Graphic Design</a></li>
                                             <li><a class="dropdown-item" href="./assets/pages/logo-design.php">Logo Design</a></li>
                                             <li><a class="dropdown-item" href="./assets/pages/vedio-ani.php">Video Animation</a></li>
+                                            <li><a class="dropdown-item" href="./assets/pages/animated-video.php">Animated Video</a></li>
+                                            <li><a class="dropdown-item" href="./assets/pages/graphic-design.php">Graphic Design</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -147,131 +144,80 @@
             </nav>
         </div>
         <!-- Side navbar START -->
-      <!-- ================================== SIDE NAVBAR ON MOBILE SCREENS =============================== -->
-      <header class="mobile-screen-nav fixed-top">
-        <div id="main-content"></div>
-        <div id="btn">
-          <div id="top"></div>
-          <div id="middle"></div>
-          <div id="bottom"></div>
-        </div>
-        <div id="box">
-          <div id="logo-container mx-auto">
-            <a class="navbar-brand" href="./index.php">
-                <img src="./assets/images/1x/Logo.png" alt="logo-image">
-            </a>
-          </div>
-  
-          <div id="items">
-            <div class="item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="../../index.php"
-                >Home</a
-              >
+        <!-- ================================== SIDE NAVBAR ON MOBILE SCREENS =============================== -->
+        <header class="mobile-screen-nav fixed-top">
+            <div id="main-content"></div>
+            <div id="btn">
+                <div id="top"></div>
+                <div id="middle"></div>
+                <div id="bottom"></div>
             </div>
-            <div class="item">
-              <a class="nav-link" href="./assets/pages/aboutus.php">About Us</a>
-            </div>
-            <!-- <div class="dropdown"> -->
-              <button class="dropbtn dropbtn1  paddLi">Services &raquo;</button>
-              <div id="myDropdown" class="dropdown-content dropdown-content1 dopMenupadd">
-                <a href="./assets/pages/content-write.php" class="link-dark rounded"
-                  >Content Writing</a
-                >
-                <a href="./assets/pages/ecommerce.php" class="link-dark rounded">Ecommerce</a>
-                <a href="./assets/pages/businessTrading.php" class="link-dark rounded"
-                  >Business Trading</a
-                >
-                <a class="link-dark rounded" href="./assets/pages/crm-dev.php"
-                  >CRM Development</a
-                >
-                <a class="link-dark rounded" href="./assets/pages/digital-marketing.php"
-                  >Digital Marketing</a
-                >
-                <a class="link-dark rounded" href="./assets/pages/digital-services.php"
-                  >Digital Services</a
-                >
-                <a class="link-dark rounded" href="./assets/pages/media.php"
-                  >Social Media Marketing</a
-                >
-                <a class="link-dark rounded" href="./assets/pages/social-media.php"
-                  >Social Media Management</a
-                >
-                <a class="link-dark rounded" href="./assets/pages/seo-agency.php"
-                  >SEO Agency</a
-                >
-                <a class="link-dark rounded" href="./assets/pages/mvp-dev.php"
-                  >MVP Development</a
-                >
-                <!-- ---Apps--- -->
-                <button class="dropbtn dropbtn2">
-                  App Development &raquo;
-                </button>
-                <div id="myDropdown" class="dropdown-content dropdown-content2">
-                  <a
-                    class="link-dark rounded"
-                    href="./assets/pages/app-development-android.php"
-                    >Android Application</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/app-development-cross.php"
-                    >Cross Platform Application</a
-                  >
-                  <a
-                    class="link-dark rounded"
-                    href="./assets/pages/app-development-desktop.php"
-                    >Desktop Application</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/app-development-react.php"
-                    >React Application</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/flutter.php"
-                    >Flutter Application</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/native.php"
-                    >Native Application</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/web-app.php"
-                    >Web Application</a
-                  >
+            <div id="box">
+                <div id="logo-container mx-auto">
+                    <a class="navbar-brand" href="./index.php">
+                        <img src="./assets/images/1x/Logo.png" alt="logo-image">
+                    </a>
                 </div>
-                <button class="dropbtn dropbtn3">Animations and Designs &raquo;
-                </button>
-                <div id="myDropdown" class="dropdown-content dropdown-content3">
-                  <a class="link-dark rounded" href="./assets/pages/Cstm-g-design.php"
-                    >Custom Graphic Design</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/logo-design.php"
-                    >Logo Design</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/vedio-ani.php"
-                    >Video Animation</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/animated-video.php"
-                    >Animated Video</a
-                  >
-                  <a class="link-dark rounded" href="./assets/pages/graphic-design.php"
-                    >Graphic Design</a
-                  >
+
+                <div id="items">
+                    <div class="item">
+                        <a class="nav-link active" aria-current="page" href="../../index.php">Home</a>
+                    </div>
+                    <div class="item">
+                        <a class="nav-link" href="./assets/pages/aboutus.php">About Us</a>
+                    </div>
+                    <!-- <div class="dropdown"> -->
+                    <button class="dropbtn dropbtn1  paddLi">Services &raquo;</button>
+                    <div id="myDropdown" class="dropdown-content dropdown-content1 dopMenupadd">
+                        <a href="./assets/pages/content-write.php" class="link-dark rounded">Content Writing</a>
+                        <a href="./assets/pages/ecommerce.php" class="link-dark rounded">Ecommerce</a>
+                        <a href="./assets/pages/businessTrading.php" class="link-dark rounded">Business Trading</a>
+                        <a class="link-dark rounded" href="./assets/pages/crm-dev.php">CRM Development</a>
+                        <a class="link-dark rounded" href="./assets/pages/digital-marketing.php">Digital Marketing</a>
+                        <a class="link-dark rounded" href="./assets/pages/digital-services.php">Digital Services</a>
+                        <a class="link-dark rounded" href="./assets/pages/media.php">Social Media Marketing</a>
+                        <a class="link-dark rounded" href="./assets/pages/social-media.php">Social Media Management</a>
+                        <a class="link-dark rounded" href="./assets/pages/seo-agency.php">SEO Agency</a>
+                        <a class="link-dark rounded" href="./assets/pages/mvp-dev.php">MVP Development</a>
+                        <!-- ---Apps--- -->
+                        <button class="dropbtn dropbtn2">
+                            App Development &raquo;
+                        </button>
+                        <div id="myDropdown" class="dropdown-content dropdown-content2">
+                            <a class="link-dark rounded" href="./assets/pages/app-development-android.php">Android Application</a>
+                            <a class="link-dark rounded" href="./assets/pages/app-development-cross.php">Cross Platform Application</a>
+                            <a class="link-dark rounded" href="./assets/pages/app-development-desktop.php">Desktop Application</a>
+                            <a class="link-dark rounded" href="./assets/pages/app-development-react.php">React Application</a>
+                            <a class="link-dark rounded" href="./assets/pages/flutter.php">Flutter Application</a>
+                            <a class="link-dark rounded" href="./assets/pages/native.php">Native Application</a>
+                            <a class="link-dark rounded" href="./assets/pages/web-app.php">Web Application</a>
+                        </div>
+                        <button class="dropbtn dropbtn3">Animations and Designs &raquo;
+                        </button>
+                        <div id="myDropdown" class="dropdown-content dropdown-content3">
+                            <a class="link-dark rounded" href="./assets/pages/Cstm-g-design.php">Custom Graphic Design</a>
+                            <a class="link-dark rounded" href="./assets/pages/logo-design.php">Logo Design</a>
+                            <a class="link-dark rounded" href="./assets/pages/vedio-ani.php">Video Animation</a>
+                            <a class="link-dark rounded" href="./assets/pages/animated-video.php">Animated Video</a>
+                            <a class="link-dark rounded" href="./assets/pages/graphic-design.php">Graphic Design</a>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                    <div class="item">
+                        <a class="nav-link" href="./assets/pages/portfolio.php">Portfolio</a>
+                    </div>
+                    <div class="item">
+                        <a class="nav-link" href="./assets/pages/testimonials.php">Testimonials</a>
+                    </div>
+                    <div class="item">
+                        <a class="nav-link" href="./assets/pages/blogs.php">Blogs</a>
+                    </div>
+                    <div class="item">
+                        <a class="nav-link" href="./assets/pages/contactUs.php">Contact Us</a>
+                    </div>
                 </div>
-              </div>
-            <!-- </div> -->
-            <div class="item">
-              <a class="nav-link" href="./assets/pages/portfolio.php">Portfolio</a>
             </div>
-            <div class="item">
-              <a class="nav-link" href="./assets/pages/testimonials.php">Testimonials</a>
-            </div>
-            <div class="item">
-              <a class="nav-link" href="./assets/pages/blogs.php">Blogs</a>
-            </div>
-            <div class="item">
-              <a class="nav-link" href="./assets/pages/contactUs.php">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </header>
+        </header>
     </div>
 
     <!-- Side navbar END -->
@@ -338,8 +284,7 @@
                                 <div class="tabs-div mt3">
                                     <div class="tabs-div">
                                         <div class="tab">
-                                            <button id="activeHover" class="tablinks tabs-content btns"
-                                                onmouseover="openCity(event, 'London');toggleVisibility('Menu1');">
+                                            <button id="activeHover" class="tablinks tabs-content btns" onmouseover="openCity(event, 'London');toggleVisibility('Menu1');">
                                                 <h2 id="firstActive">Website Development</h2>
                                             </button>
                                         </div>
@@ -365,8 +310,7 @@
                                     </div>
                                     <div class="tabs-div">
                                         <div class="tab">
-                                            <button class="tablinks tabs-content btns2"
-                                                onmouseover="openCity(event, 'Paris');toggleVisibility('Menu2')">
+                                            <button class="tablinks tabs-content btns2" onmouseover="openCity(event, 'Paris');toggleVisibility('Menu2')">
                                                 <h2>App Development</h2>
                                             </button>
 
@@ -411,8 +355,7 @@
                                     </div>
                                     <div class="tabs-div">
                                         <div class="tab">
-                                            <button class="tablinks tabs-content btns3"
-                                                onmouseover="openCity(event, 'Tokyo');toggleVisibility('Menu3');">
+                                            <button class="tablinks tabs-content btns3" onmouseover="openCity(event, 'Tokyo');toggleVisibility('Menu3');">
                                                 <h2>Animation and Designing</h2>
                                             </button>
                                         </div>
@@ -444,9 +387,7 @@
                                     </div>
                                     <div class="tabs-div">
                                         <div class="tab">
-                                            <button class="tablinks tabs-content btns4"
-                                                onmouseover="openCity(event, 'india');toggleVisibility('Menu4');"
-                                                onclick="">
+                                            <button class="tablinks tabs-content btns4" onmouseover="openCity(event, 'india');toggleVisibility('Menu4');" onclick="">
                                                 <h2>Digital Marketing</h2>
                                             </button>
                                         </div>
@@ -527,7 +468,7 @@
                     </div>
                     <!-- Swiper -->
                     <div class="swiper mySwiper s2 position-relative" data-id="s2">
-    
+
                         <div id='testiSwiper' class="swiper-wrapper">
                             <div class="swiper-slide slide1">
                                 <div class="container">
@@ -562,7 +503,7 @@
                                                 </p>
                                             </div>
                                         </div>
-    
+
                                     </div>
                                 </div>
                             </div>
@@ -649,7 +590,7 @@
                                                 <div class="spotlight"></div>
                                             </div>
                                             <div class="ball-img">
-                                             </div>
+                                            </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="ball-section-content">
@@ -673,7 +614,7 @@
                                         </div>
                                     </div>
                                 </div>
-    
+
                             </div>
                             <div class="swiper-slide slide5">
                                 <div class="container">
@@ -746,16 +687,16 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                         </div>
                         <!-- navigation buttons -->
                         <div id="nextBut" class="swiper-button-next"></div>
                         <div id="prevBut" class="swiper-button-prev"></div>
                     </div>
-    
+
                 </div>
             </div>
-           
+
 
         </section>
         <section>
@@ -818,16 +759,12 @@
                                 <div class="gall-btns mt-5">
                                     <div align="center">
 
-                                        <button class="btn btn-default filter-button active"
-                                            data-filter="all">All</button>
-                                        <button class="btn btn-default filter-button"
-                                            data-filter="hdpe">Branding</button>
+                                        <button class="btn btn-default filter-button active" data-filter="all">All</button>
+                                        <button class="btn btn-default filter-button" data-filter="hdpe">Branding</button>
                                         <button class="btn btn-default filter-button" data-filter="sprinkle">Web &
                                             Development</button>
-                                        <button class="btn btn-default filter-button"
-                                            data-filter="spray">Animation</button>
-                                        <button class="btn btn-default filter-button"
-                                            data-filter="irrigation">Logo</button>
+                                        <button class="btn btn-default filter-button" data-filter="spray">Animation</button>
+                                        <button class="btn btn-default filter-button" data-filter="irrigation">Logo</button>
                                     </div>
                                     <br />
                                 </div>
@@ -838,8 +775,7 @@
                                         </div>
                                     </div>
                                     <div class="show-more pb-4 from-left">
-                                        <a class="btn type3" data-bs-toggle="collapse" href="#collapseExample"
-                                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <a class="btn type3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                             LOAD MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -888,8 +824,7 @@
                                         </div>
                                         <!-- load more button -->
                                         <div class="  show-more2 show-more pb-4">
-                                            <a class="btn" data-bs-toggle="collapse" href="#collapseExample"
-                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                                 LOAD MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                             </a>
                                         </div>
@@ -928,8 +863,7 @@
                                         </div>
                                         <!-- load more button -->
                                         <div class="show-more pb-4 show-more2">
-                                            <a class="btn" data-bs-toggle="collapse" href="#collapseExample"
-                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                                 LOAD MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                             </a>
                                         </div>
@@ -970,8 +904,7 @@
                 <div class="container">
                     <div class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">
                         <div class="our-clients">
-                            <div
-                                class="container nomovo position-relative our-clients d-flex flex-wrap justify-content-evenly">
+                            <div class="container nomovo position-relative our-clients d-flex flex-wrap justify-content-evenly">
                                 <!-- Swiper -->
                                 <div class="swiper mySwiper s1">
                                     <div class="swiper-wrapper">
@@ -980,12 +913,9 @@
                                             <div class="card text-center mt-3">
                                                 <!-- <h5 class="card-title py-3">John Smith</h5> -->
                                                 <div class="video-box-width">
-                                                    <a href="javascript:void(0)" id="video1" class="popup-btn"
-                                                        data-video="./assets/video/file2.mp4" data-bs-toggle="modal"
-                                                        data-bs-target="#videoModal2">
+                                                    <a href="javascript:void(0)" id="video1" class="popup-btn" data-video="./assets/video/file2.mp4" data-bs-toggle="modal" data-bs-target="#videoModal2">
                                                         <div class="video-box">
-                                                            <video id="background-video"
-                                                                class="position-relative myvideos" loop muted>
+                                                            <video id="background-video" class="position-relative myvideos" loop muted>
                                                                 <source src="./assets/video/file2.mp4" type="video/mp4">
                                                             </video>
                                                             <div class="overlay">
@@ -1014,12 +944,9 @@
                                             <div class="card text-center mt-3">
                                                 <!-- <h5 class="card-title py-3">John Smith</h5> -->
                                                 <div class="video-box-width">
-                                                    <a href="javascript:void(0)" id="video1" class="popup-btn"
-                                                        data-video="./assets/video/file.mp4" data-bs-toggle="modal"
-                                                        data-bs-target="#videoModal">
+                                                    <a href="javascript:void(0)" id="video1" class="popup-btn" data-video="./assets/video/file.mp4" data-bs-toggle="modal" data-bs-target="#videoModal">
                                                         <div class="video-box">
-                                                            <video id="background-video"
-                                                                class="position-relative myvideos" loop muted>
+                                                            <video id="background-video" class="position-relative myvideos" loop muted>
                                                                 <source src="./assets/video/file.mp4" type="video/mp4">
                                                             </video>
                                                             <div class="overlay">
@@ -1048,13 +975,9 @@
                                             <div class="card text-center mt-3">
                                                 <!-- <h5 class="card-title py-3">John Smith</h5> -->
                                                 <div class="video-box-width">
-                                                    <a href="javascript:void(0)" id="video1"
-                                                        class="popup-btn containers"
-                                                        data-video="./assets/file2.mp4" data-bs-toggle="modal"
-                                                        data-bs-target="#videoModal3">
+                                                    <a href="javascript:void(0)" id="video1" class="popup-btn containers" data-video="./assets/file2.mp4" data-bs-toggle="modal" data-bs-target="#videoModal3">
                                                         <div class="video-box">
-                                                            <video id="background-video"
-                                                                class="position-relative myvideos" loop muted>
+                                                            <video id="background-video" class="position-relative myvideos" loop muted>
                                                                 <source src="./assets/video/file2.mp4" type="video/mp4">
                                                             </video>
                                                             <div class="overlay">
@@ -1082,12 +1005,9 @@
                                             <div class="card text-center mt-3">
                                                 <!-- <h5 class="card-title py-3">John Smith</h5> -->
                                                 <div class="video-box-width">
-                                                    <a href="javascript:void(0)" id="video1" class="popup-btn"
-                                                        data-video="./assets/video/file2.mp4" data-bs-toggle="modal"
-                                                        data-bs-target="#videoModal2">
+                                                    <a href="javascript:void(0)" id="video1" class="popup-btn" data-video="./assets/video/file2.mp4" data-bs-toggle="modal" data-bs-target="#videoModal2">
                                                         <div class="video-box">
-                                                            <video id="background-video"
-                                                                class="position-relative myvideos" loop muted>
+                                                            <video id="background-video" class="position-relative myvideos" loop muted>
                                                                 <source src="./assets/video/file2.mp4" type="video/mp4">
                                                             </video>
                                                             <div class="overlay">
@@ -1115,12 +1035,9 @@
                                         <div class="swiper-slide">
                                             <div class="card text-center mt-3">
                                                 <div class="video-box-width">
-                                                    <a href="javascript:void(0)" id="video1" class="popup-btn"
-                                                        data-video="./assets/video/file.mp4" data-bs-toggle="modal"
-                                                        data-bs-target="#videoModal">
+                                                    <a href="javascript:void(0)" id="video1" class="popup-btn" data-video="./assets/video/file.mp4" data-bs-toggle="modal" data-bs-target="#videoModal">
                                                         <div class="video-box">
-                                                            <video id="background-video"
-                                                                class="position-relative myvideos" loop muted>
+                                                            <video id="background-video" class="position-relative myvideos" loop muted>
                                                                 <source src="./assets/video/file.mp4" type="video/mp4">
                                                             </video>
                                                             <div class="overlay">
@@ -1148,15 +1065,10 @@
                                         <div class="swiper-slide">
                                             <div class="card text-center mt-3">
                                                 <div class="video-box-width">
-                                                    <a href="javascript:void(0)" id="video1"
-                                                        class="popup-btn containers"
-                                                        data-video="./assets/file2.mp4" data-bs-toggle="modal"
-                                                        data-bs-target="#videoModal3">
+                                                    <a href="javascript:void(0)" id="video1" class="popup-btn containers" data-video="./assets/file2.mp4" data-bs-toggle="modal" data-bs-target="#videoModal3">
                                                         <div class="video-box">
-                                                            <video id="background-video"
-                                                                class="position-relative myvideos" loop muted>
-                                                                <source src="./assets/video/file2.mp4"
-                                                                    type="video/mp4">
+                                                            <video id="background-video" class="position-relative myvideos" loop muted>
+                                                                <source src="./assets/video/file2.mp4" type="video/mp4">
                                                             </video>
                                                             <div class="overlay">
                                                                 <div class="play-font">
@@ -1262,8 +1174,7 @@
                         </div>
                         <div class="d-flex justify-content-start footer-link">
                             <div class="p-2"><i class="fa-regular fa-envelope"></i></div>
-                            <div class="p-2 "><a href="https://designprosusa.com/" class="text-lowercase"
-                                    target="_blank">sales@designprosusa.com</a>
+                            <div class="p-2 "><a href="https://designprosusa.com/" class="text-lowercase" target="_blank">sales@designprosusa.com</a>
                             </div>
                         </div>
                         <div class="d-flex justify-content-start footer-link">
@@ -1278,8 +1189,7 @@
                         </div>
                         <div class="d-flex justify-content-start footer-link">
                             <div class="p-2"></div>
-                            <div class="p-2"><a href="https://g.page/363-North-Belt-3662?share" target="_blank"><img
-                                        src="./assets/images/1x/location-pin.png" alt=""></a></div>
+                            <div class="p-2"><a href="https://g.page/363-North-Belt-3662?share" target="_blank"><img src="./assets/images/1x/location-pin.png" alt=""></a></div>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -1335,11 +1245,16 @@
             <div class="footer-bottom copyright">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 text-center ">
+                        <div class="col-lg-12 text-center d-lg-flex justify-content-lg-center footer-span-link">
                             <a href="javascript:void(0);" target="_blank">
-                                <span class="for-theme-link pt-3">
-                                    @2022 82 digital LLC DBA Design Pros USA | All rights resvered. <span
-                                        class="footer-span">&nbsp; Terms and Conditions | Privacy Policy</span>
+                                <span class="for-theme-link">
+                                    @2022 82 digital LLC DBA Design Pros USA | All rights resvered. 
+                                    <span class="footer-span d-sm-flex flex-sm-column">&nbsp; 
+                                    <a href="./assets/pages/termsAndCond.php" class="term-link">Terms and Conditions</a>
+                                    &nbsp; | &nbsp; 
+                                    <a href="./assets/pages/privacy-policy.php" class="term-link">Privacy Policy</a>
+
+                                    </span>
                                 </span>
                             </a>
                         </div>
@@ -1354,13 +1269,11 @@
     </div>
 
     <section class="video-inner-modal-section">
-        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg  position-relative">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div class="button-position"> <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                aria-label="Close"></button></div>
+                        <div class="button-position"> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
                         <video controls width="100%">
                             <source src="./assets/video/file.mp4" type="video/mp4">
                         </video>
@@ -1368,8 +1281,7 @@
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -1381,8 +1293,7 @@
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="videoModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="videoModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -1406,7 +1317,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/ScrollTrigger.js"></script>
     <script src="./assets/pages/js/tweenmax.js"></script>
     <script src="./assets/pages/js/smoothscrollbar.js"></script>
- 
+
     <script src="./assets/pages/js/scrollTrigger.js"></script>
     <!-- wavify -->
     <script src="https://rawgit.com/peacepostman/wavify/master/wavify.js"></script>
@@ -1440,21 +1351,20 @@
     <script src="./assets/pages/js/demo.js"></script>
 
     <script>
-        $(document).ready(function () {
-            $("#btn").on('click',()=>{
+        $(document).ready(function() {
+            $("#btn").on('click', () => {
                 if ($("#box").hasClass("active")) {
-                console.log("hello");
-                $(".scrollbar-container").addClass('disabledScroll')
-                setTimeout(() => {
-                    $('.disabledScroll').removeClass('scrollbar-container');
-                },500);
-            }
-            else{
-                $('.disabledScroll').addClass('scrollbar-container');
-                setTimeout(() => {
-                    $(".scrollbar-container").removeClass('disabledScroll')
-                }, 500);
-            }
+                    console.log("hello");
+                    $(".scrollbar-container").addClass('disabledScroll')
+                    setTimeout(() => {
+                        $('.disabledScroll').removeClass('scrollbar-container');
+                    }, 500);
+                } else {
+                    $('.disabledScroll').addClass('scrollbar-container');
+                    setTimeout(() => {
+                        $(".scrollbar-container").removeClass('disabledScroll')
+                    }, 500);
+                }
             })
             $(".Create1").show();
             $(".Create2").hide();
@@ -1462,32 +1372,32 @@
             $(".Create4").hide();
             $("#firstActive").addClass("activeTab")
         });
-        $("#activeHover").hover(function () {
+        $("#activeHover").hover(function() {
             $("#firstActive").removeClass("activeTab")
         })
-        $(document).ready(function () {
-            $("body").on("click", ".btns", function () {
+        $(document).ready(function() {
+            $("body").on("click", ".btns", function() {
                 $(".Create1").show();
             });
-            $("body").on("click", ".btns2", function () {
+            $("body").on("click", ".btns2", function() {
                 $(".Create2").show();
             });
-            $("body").on("click", ".btns3", function () {
+            $("body").on("click", ".btns3", function() {
                 $(".Create3").show();
             });
-            $("body").on("click", ".btns4", function () {
+            $("body").on("click", ".btns4", function() {
                 $(".Create4").show();
             });
         });
 
-        $(function () {
-            $(".video").click(function () {
+        $(function() {
+            $(".video").click(function() {
                 var theModal = $(this).data("target"),
                     videoSRC = $(this).attr("data-video"),
                     videoSRCauto = videoSRC + "";
                 $(theModal + ' source').attr('src', videoSRCauto);
                 $(theModal + ' video').load();
-                $(theModal + ' button.close').click(function () {
+                $(theModal + ' button.close').click(function() {
                     $(theModal + ' source').attr('src', videoSRC);
                 });
             });
