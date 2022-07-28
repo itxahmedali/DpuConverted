@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="col-lg-6 wow fadeInLeft col-sm-12" data-wow-delay="0.5s" data-wow-duration="1.5s">
                         <div class="thirdSections-p">
-                            <p>
+                            <p class="digi-p">
                                 How our Digital<br> Marketing Company<br> Works
                             </p>
                             <p>
@@ -113,7 +113,7 @@
                                                 </svg>
 
                                             </div>
-                                            <div class="pt-3 bd-highlight">
+                                            <div class="pt-3 bd-highlight result-plan">
                                                 <p class="result-p">Plan</p>
                                             </div>
                                         </div>

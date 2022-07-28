@@ -1161,7 +1161,7 @@ text-align: center;
   min-height: 240px;
   width: 637px;
 }
-.thirdSections .col-lg-6:first-child p:first-child {
+.thirdSections .col-lg-6:first-child p:first-child.digi-p {
   font-size: 3rem;
   color: #000;
   font-family: "SF-Bold";
@@ -1175,6 +1175,7 @@ text-align: center;
 .thirdSections p.result-p:hover{
   color: white!important;
 }
+
 .thirdSections .row .col-lg-6 .row {
   width: 100%;
   margin-left: auto;
