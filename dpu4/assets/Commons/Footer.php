@@ -76,22 +76,22 @@
                 <p class="footer-para">Social</p>
                 <div class="d-flex footer-icon socialIxon">
                   <div class="icons-div">
-                    <a href="javascript:void(0);">
+                    <a href="https://www.facebook.com/" target="_blank">
                       <i class="fab fa-facebook"></i>
                     </a>
                   </div>
                   <div class="icons-div">
-                    <a href="javascript:void(0);">
+                    <a href="https://www.instagram.com/" target="_blank">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </div>
                   <div class="icons-div">
-                    <a href="javascript:void(0);">
+                    <a href="https://www.twitter.com/" target="_blank">
                       <i class="fab fa-twitter"></i>
                     </a>
                   </div>
                   <div class="icons-div">
-                    <a href="javascript:void(0);">
+                    <a href="https://www.linkedin.com/" target="_blank">
                       <i class="fab fa-linkedin-in"></i>
                     </a>
                   </div>
