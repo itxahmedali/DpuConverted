@@ -756,7 +756,7 @@ body {
 
 .webdev-process .h-5 {
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 2.5rem!important;
 }
 
 .webdev-process .row .col-lg-6:first-child .tab-black:first-child {

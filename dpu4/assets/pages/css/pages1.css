@@ -1286,6 +1286,7 @@ body {
   }
 }
 @media only screen and (max-width: 414px) {
+
   .contentWritePage.react-dev .react-fifth-section::before {
     opacity: 0.5;
   }
@@ -2917,6 +2918,13 @@ body {
     width: 100%;
     height: auto;
   }
+  .contentWritePage .ecommercefourthSection .row:first-child p, .contentWritePage .secondSection p, .contentWritePage .secondSection p:first-child {
+    width: 100%;
+}
+.ecommercefourthSection .para2 {
+
+  width: 100%;
+}
 }
 /* commons */
 .fiftSection .col-sm-4:hover .cstmHoverCard1 p {
