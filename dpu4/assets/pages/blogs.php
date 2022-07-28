@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6 mx-sm-auto">
                             <div class="card my-3 wow fadeInRight" data-wow-delay="0.75s" data-wow-duration="1s"
                                 style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
                                 <div class="blog-post-img position-relative">
@@ -290,7 +290,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6 mx-sm-auto">
                             <div class="card my-3 wow fadeInRight" data-wow-delay="0.75s" data-wow-duration="1s"
                                 style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
                                 <div class="blog-post-img position-relative">
@@ -448,7 +448,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6  mx-sm-auto">
                             <div class="card my-3 wow fadeInRight" data-wow-delay="0.75s" data-wow-duration="1s"
                                 style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
                                 <div class="blog-post-img position-relative">

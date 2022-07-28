@@ -724,7 +724,7 @@ body {
 }
 .forth-pullez::before {
   content: "";
-  background: url("../../images/1x/Asset7_2.png");
+  background: url("../../images/1x/Asset6_1.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -769,7 +769,7 @@ body {
   background-color: #CF9455;
   height: 200px;
   width: 330px;
-  background: url("../../images/1x/works-1.png");
+  background: url("../../images/1x/Asset4.png");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -2518,6 +2518,14 @@ text-align: center;
 @media only screen and (max-width: 700px) {}
 
 @media only screen and (max-width: 414px) {
+  .r-para-3 {
+    font-size: 2.3rem;
+}
+  .Animated-Videos {
+    background: url(../../images/1x/animated-bg.png);
+    background-position: center;
+}
+
   .first-pullez-p {
     font-size: 1.3rem;
 }
