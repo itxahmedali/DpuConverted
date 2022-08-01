@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../CDN/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../CDN/animated.css" />
     <link rel="stylesheet" href="../CDN/swiper.css" />
+    <link rel="stylesheet" href="../pages/css/rangeSlider.css">
     <!-- Font Awesome 6 -->
     <link
       rel="stylesheet"

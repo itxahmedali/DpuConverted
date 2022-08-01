@@ -348,7 +348,49 @@
           <div class="container py-5">
             <div class="row">
               <div class="col-lg-6 text-white">
-                <div class="r-slider1">
+
+                <div class="range-slider">
+                  <span class="range-name h-5">ROI INCREASE</span>
+                  <br />
+                  <input class="range-slider__range" type="range" value="85" min="0" max="100">
+                  <div class="d-flex flex-row-reverse range-slider__value d-flex justify-content-end">0</div>
+                </div>
+
+                <div class="range-slider">
+                  <span class="range-name h-5">CONVERSION RATIO INCREASE</span>
+                  <br />
+                  <input class="range-slider__range" type="range" value="90" min="0" max="100">
+                  <div class="d-flex flex-row-reverse range-slider__value d-flex justify-content-end">0</div>
+                </div>
+
+                <div class="range-slider">
+                  <span class="range-name h-5">SATISFIED CLIENTS</span>
+                  <br />
+                  <input class="range-slider__range" type="range" value="70" min="0" max="100">
+                  <div class="d-flex flex-row-reverse range-slider__value d-flex justify-content-end">0</div>
+                </div>
+
+                <div class="range-slider">
+                  <span class="range-name h-5">RETURNING CUSTOMERS</span>
+                  <br />
+                  <input class="range-slider__range" type="range" value="50" min="0" max="100">
+                  <div class="d-flex flex-row-reverse range-slider__value d-flex justify-content-end">0</div>
+                </div>
+
+                <div class="range-slider">
+                  <span class="range-name h-5">UNIQUE CUSTOMERS</span>
+                  <br />
+                  <input class="range-slider__range" type="range" value="40" min="0" max="100">
+                  <div class="d-flex flex-row-reverse range-slider__value d-flex justify-content-end">0</div>
+                </div>
+
+                <div class="range-slider">
+                  <span class="range-name h-5">SATISFACTION GUARANTEE</span>
+                  <br />
+                  <input class="range-slider__range" type="range" value="30" min="0" max="100">
+                  <div class="d-flex flex-row-reverse range-slider__value d-flex justify-content-end">0</div>
+                </div>
+                <!-- <div class="r-slider1">
                   <div class="d-flex justify-content-between range-name-about">
                     <div class="range-name h-5">ROI INCREASE</div>
                     <div class="range-per">
@@ -401,6 +443,7 @@
                     <input type="range" class="sliderR" id="myRange" value="50" />
                   </div>
                 </div>
+                
                 <div class="r-slider1">
                   <div class="d-flex justify-content-between range-name-about">
                     <div class="range-name h-5">UNIQUE CUSTOMERS</div>
@@ -413,6 +456,7 @@
                     <input type="range" class="sliderR" id="myRange" value="40" />
                   </div>
                 </div>
+
                 <div class="r-slider1">
                   <div class="d-flex justify-content-between range-name-about">
                     <div class="range-name h-5">SATISFACTION GUARANTEE</div>
@@ -424,7 +468,7 @@
                   <div class="range">
                     <input type="range" class="sliderR" id="myRange"  value="30" />
                   </div>
-                </div>
+                </div> -->
               </div>
               <div class="col-lg-6">
                 <div class="h-1 extramargin">Let’s give your brand.</div>
@@ -540,14 +584,27 @@
   </section>
 
   <script>
-      // ====================== RANGE SLIDER ======================== //
-  var sliderR = document.getElementById("myRange");
-var output = document.getElementById("range1");
-output.innerHTML = sliderR.value;
+  
+    // ============== Range slider 2================= //
+    function rangeSlider() {
+      let slider = document.querySelectorAll(".range-slider");
+      let range = document.querySelectorAll(".range-slider__range");
+      let value = document.querySelectorAll(".range-slider__value");
 
-sliderR.onchange = function() {
-  output.innerHTML = this.value;
-}
+      slider.forEach((currentSlider) => {
+        value.forEach((currentValue) => {
+          let val = currentValue.previousElementSibling.getAttribute("value");
+          currentValue.innerText = val+"%";
+        });
+
+        range.forEach((elem) => {
+          elem.addEventListener("input", (eventArgs) => {
+            elem.nextElementSibling.innerText = eventArgs.target.value+"%";
+          });
+        });
+      });
+    }
+    rangeSlider();
   </script>
   <?php include '../Commons/Scripts.php' ?>
 </body>
